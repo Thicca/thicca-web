@@ -10,7 +10,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://thicca-web.com/">
     <meta property="og:description" content="イラストレーター「てぃっか」/ VTuber「夢毬てちか」の公式サイトです。イラストギャラリーや活動情報を掲載しています。">
-    <meta property="og:image" content="https://thicca-web.com/images/ogp.jpg">
+    <meta property="og:image" content="https://thicca-web.com/images/ogp.png">
     <meta property="og:site_name" content="thicca">
     <meta property="og:locale" content="ja_JP">
 
