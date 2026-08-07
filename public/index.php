@@ -39,29 +39,170 @@ require_once __DIR__ . '/../includes/config.php';
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header id="header">
+        <h1 class="logo">
+            <a href="index.php">
+                <img src="img/common/logo.svg" alt="Interior Design">
+            </a>
+        </h1>
 
-    <header>
-        <h1><?php echo SITE_NAME; ?></h1>
-        <p><?php echo FULL_TITLE; ?></p>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="navi">
+            <ul class="menu">
+                <li class="menu-first">
+                    <span>会社情報</span>
+                    <ul class="menu-second">
+                        <li><a href="company.html#philosophy">企業理念</a></li>
+                        <li><a href="company.html#service">事業紹介</a></li>
+                        <li><a href="company.html#overview">会社概要</a></li>
+                        <li><a href="company.html#access">アクセス</a></li>
+                    </ul>
+                </li>
+                <li><a href="products.html">商品一覧</a></li>
+                <li><a href="works.html">実績紹介</a></li>
+                <li><a href="faq.html">よくある質問</a></li>
+                <li class="menu-contact"><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+
+        <div class="mask"></div>
     </header>
 
-    <nav>
-        <a href="index.php">Home</a>
-        <a href="profile.php">Profile</a>
-        <a href="gallery.php">Gallery</a>
-        <a href="contact.php">Contact</a>
-    </nav>
-
     <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>イラストレーター・VTuberとして活動している「thicca」の公式サイトです。準備中のページもありますが、少しずつ更新していきます。</p>
+        <div class="mainvisual">
+            <ul class="fade-img">
+                <li><img src="img/top/mainvisual1.jpg" alt=""></li>
+                <li><img src="img/top/mainvisual2.jpg" alt=""></li>
+                <li><img src="img/top/mainvisual3.jpg" alt=""></li>
+            </ul>
+            <p class="catchphrase">空間デザインで<br>新たな価値を創造する</p>
+        </div>
+
+        <section class="company fadein">
+            <h2 class="section-title">COMPANY</h2>
+
+            <div class="flex">
+                <div class="img">
+                    <img src="img/top/company.jpg" alt="">
+                </div>
+
+                <div class="text">
+                    <p class="title">新たな価値を創造する</p>
+                    <p class="description">私たちはインテリアを通して住居や店舗の空間をデザインし、その空間の中に新たな価値を創造します。</p>
+                    <a class="btn" href="company.html">VIEW MORE</a>
+                </div>
+            </div>
         </section>
+
+        <section class="products fadein">
+            <div class="text">
+                <h2 class="section-title">PRODUCTS</h2>
+                <p class="description">私たちがデザインするインテリアをご紹介します。<br>
+                ソファやデスク、チェア、ダイニングまわりを中心にオリジナルのインテリアをご提案いたします。</p>
+            </div>
+
+            <div class="products-list-area">
+                <ul class="products-list">
+                    <li><img src="img/top/products1.jpg" alt=""></li>
+                    <li><img src="img/top/products2.jpg" alt=""></li>
+                    <li><img src="img/top/products3.jpg" alt=""></li>
+                    <li><img src="img/top/products4.jpg" alt=""></li>
+                    <li><img src="img/top/products5.jpg" alt=""></li>
+                    <li><img src="img/top/products6.jpg" alt=""></li>
+                </ul>
+                <ul class="products-list">
+                    <li><img src="img/top/products1.jpg" alt=""></li>
+                    <li><img src="img/top/products2.jpg" alt=""></li>
+                    <li><img src="img/top/products3.jpg" alt=""></li>
+                    <li><img src="img/top/products4.jpg" alt=""></li>
+                    <li><img src="img/top/products5.jpg" alt=""></li>
+                    <li><img src="img/top/products6.jpg" alt=""></li>
+                </ul>
+            </div>
+
+            <a class="btn" href="products.html">VIEW MORE</a>
+        </section>
+
+        <section class="works fadein">
+            <div class="text">
+                <h2 class="section-title">WORKS</h2>
+                <p class="description">住空間及び商業空間のデザインを行なっています。<br>
+                住む人やその空間を利用されるお客様が笑顔になるような空間創りを心掛けています。</p>
+                <p class="description">私たちがこれまでに手がけてきた住居と店舗デザインの一部をご紹介いたします。</p>
+                <a class="btn" href="works.html">VIEW MORE</a>
+            </div>
+
+            <ul class="works-list">
+                <li><img src="img/top/works1.jpg" alt=""></li>
+                <li><img src="img/top/works2.jpg" alt=""></li>
+                <li><img src="img/top/works3.jpg" alt=""></li>
+                <li><img src="img/top/works4.jpg" alt=""></li>
+            </ul>
+        </section>
+
+        <div class="faq-contact fadein">
+            <a class="item" href="faq.html">
+                <div class="img">
+                    <img src="img/top/faq.jpg" alt="">
+                </div>
+                <p class="title">
+                    <span class="en">FAQ</span>
+                    <span class="ja">よくある質問</span>
+                </p>
+                <div class="arrow">
+                    <img src="img/top/arrow.svg" alt="">
+                </div>
+            </a>
+
+            <a class="item" href="contact.html">
+                <div class="img">
+                    <img src="img/top/contact.jpg" alt="">
+                </div>
+                <p class="title">
+                    <span class="en">CONTACT</span>
+                    <span class="ja">お問い合わせ</span>
+                </p>
+                <div class="arrow">
+                    <img src="img/top/arrow.svg" alt="">
+                </div>
+            </a>
+        </div>
     </main>
 
-    <footer>
-        <p><?php echo COPYRIGHT; ?></p>
-    </footer>
+    <footer id="footer">
+        <div class="info-area">
+            <a class="logo" href="index.php">
+                <img src="img/common/logo-w.svg" alt="Interior Design">
+            </a>
+            <p class="copyright"><?php echo COPYRIGHT; ?></p>
+        </div>
 
+        <div class="menu-area">
+            <div class="menu-col">
+                <p class="menu-title"><a href="company.html">会社情報</a></p>
+                <ul class="menu-list">
+                    <li><a href="company.html#philosophy">企業理念</a></li>
+                    <li><a href="company.html#service">事業紹介</a></li>
+                    <li><a href="company.html#overview">会社概要</a></li>
+                    <li><a href="company.html#access">アクセス</a></li>
+                </ul>
+            </div>
+
+            <div class="menu-col">
+                <p class="menu-title"><a href="products.html">商品一覧</a></p>
+                <p class="menu-title"><a href="works.html">実績紹介</a></p>
+            </div>
+
+            <div class="menu-col">
+                <p class="menu-title"><a href="faq.html">よくある質問</a></p>
+                <p class="menu-title"><a href="contact.html">お問い合わせ</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
