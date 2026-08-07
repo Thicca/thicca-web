@@ -22,13 +22,27 @@ require_once __DIR__ . '/../includes/config.php';
     <meta name="twitter:site" content="<?php echo X_ID; ?>">
     <meta name="twitter:image" content="<?php echo OGP_IMAGE; ?>">
 
+    <!-- 表示系設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/common/favicon.ico">
+    <link rel="apple-touch-icon" href="img/common/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/top.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/main.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
         <h1><?php echo SITE_NAME; ?></h1>
-        <p>イラストレーター / VTuber「夢毬てちか」</p>
+        <p><?php echo FULL_TITLE; ?></p>
     </header>
 
     <nav>
@@ -46,7 +60,7 @@ require_once __DIR__ . '/../includes/config.php';
     </main>
 
     <footer>
-        <p>&copy; <?php echo date("Y"); ?> thicca</p>
+        <p><?php echo COPYRIGHT; ?></p>
     </footer>
 
 </body>
