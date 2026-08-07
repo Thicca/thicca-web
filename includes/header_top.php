@@ -1,0 +1,14 @@
+<?php
+/**
+ * ヘッダー用html
+ * index.phpのページから require_once で読み込んで使用する
+ */
+?>
+<header id="header">
+    <h1 class="logo">
+        <a href="index.php">
+            <img src="img/common/logo.svg" alt="Interior Design">
+        </a>
+    </h1>
+    <?php require_once __DIR__ . '/nav.php'; ?>
+</header>

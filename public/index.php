@@ -9,7 +9,7 @@ require_once __DIR__ . '/../includes/config.php';
     <title><?php echo SITE_NAME; ?></title>
 
     <!-- OGP設定 -->
-    <meta property="og:title" content="thicca | イラストレーター / VTuber 夢毬てちか">
+    <meta property="og:title" content="<?php echo CIRCLE_NAME; ?>">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo SITE_URL; ?>/">
     <meta property="og:description" content="<?php echo SITE_DESCRIPTION; ?>">
@@ -24,8 +24,8 @@ require_once __DIR__ . '/../includes/config.php';
 
     <!-- 表示系設定 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/common/favicon.ico">
-    <link rel="apple-touch-icon" href="img/common/apple-touch-icon.png">
+    <link rel="icon" href="images/common/favicon.ico">
+    <link rel="apple-touch-icon" href="images/common/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400&display=swap" rel="stylesheet">
@@ -35,52 +35,18 @@ require_once __DIR__ . '/../includes/config.php';
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/main.js"></script>
-
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header id="header">
-        <h1 class="logo">
-            <a href="index.php">
-                <img src="img/common/logo.svg" alt="Interior Design">
-            </a>
-        </h1>
-
-        <div class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <nav class="navi">
-            <ul class="menu">
-                <li class="menu-first">
-                    <span>会社情報</span>
-                    <ul class="menu-second">
-                        <li><a href="company.html#philosophy">企業理念</a></li>
-                        <li><a href="company.html#service">事業紹介</a></li>
-                        <li><a href="company.html#overview">会社概要</a></li>
-                        <li><a href="company.html#access">アクセス</a></li>
-                    </ul>
-                </li>
-                <li><a href="products.html">商品一覧</a></li>
-                <li><a href="works.html">実績紹介</a></li>
-                <li><a href="faq.html">よくある質問</a></li>
-                <li class="menu-contact"><a href="contact.html">お問い合わせ</a></li>
-            </ul>
-        </nav>
-
-        <div class="mask"></div>
-    </header>
+    <?php require_once __DIR__ . '/../includes/header_top.php'; ?>
 
     <main>
         <div class="mainvisual">
             <ul class="fade-img">
-                <li><img src="img/top/mainvisual1.jpg" alt=""></li>
-                <li><img src="img/top/mainvisual2.jpg" alt=""></li>
-                <li><img src="img/top/mainvisual3.jpg" alt=""></li>
+                <li><img src="images/top/mainvisual1.jpg" alt=""></li>
+                <li><img src="images/top/mainvisual2.jpg" alt=""></li>
+                <li><img src="images/top/mainvisual3.jpg" alt=""></li>
             </ul>
-            <p class="catchphrase">空間デザインで<br>新たな価値を創造する</p>
+            <p class="catchphrase"><?php echo CATCHPHRASE; ?></p>
         </div>
 
         <section class="company fadein">
@@ -88,7 +54,7 @@ require_once __DIR__ . '/../includes/config.php';
 
             <div class="flex">
                 <div class="img">
-                    <img src="img/top/company.jpg" alt="">
+                    <img src="images/top/company.jpg" alt="">
                 </div>
 
                 <div class="text">
@@ -108,20 +74,20 @@ require_once __DIR__ . '/../includes/config.php';
 
             <div class="products-list-area">
                 <ul class="products-list">
-                    <li><img src="img/top/products1.jpg" alt=""></li>
-                    <li><img src="img/top/products2.jpg" alt=""></li>
-                    <li><img src="img/top/products3.jpg" alt=""></li>
-                    <li><img src="img/top/products4.jpg" alt=""></li>
-                    <li><img src="img/top/products5.jpg" alt=""></li>
-                    <li><img src="img/top/products6.jpg" alt=""></li>
+                    <li><img src="images/top/products1.jpg" alt=""></li>
+                    <li><img src="images/top/products2.jpg" alt=""></li>
+                    <li><img src="images/top/products3.jpg" alt=""></li>
+                    <li><img src="images/top/products4.jpg" alt=""></li>
+                    <li><img src="images/top/products5.jpg" alt=""></li>
+                    <li><img src="images/top/products6.jpg" alt=""></li>
                 </ul>
                 <ul class="products-list">
-                    <li><img src="img/top/products1.jpg" alt=""></li>
-                    <li><img src="img/top/products2.jpg" alt=""></li>
-                    <li><img src="img/top/products3.jpg" alt=""></li>
-                    <li><img src="img/top/products4.jpg" alt=""></li>
-                    <li><img src="img/top/products5.jpg" alt=""></li>
-                    <li><img src="img/top/products6.jpg" alt=""></li>
+                    <li><img src="images/top/products1.jpg" alt=""></li>
+                    <li><img src="images/top/products2.jpg" alt=""></li>
+                    <li><img src="images/top/products3.jpg" alt=""></li>
+                    <li><img src="images/top/products4.jpg" alt=""></li>
+                    <li><img src="images/top/products5.jpg" alt=""></li>
+                    <li><img src="images/top/products6.jpg" alt=""></li>
                 </ul>
             </div>
 
@@ -138,71 +104,42 @@ require_once __DIR__ . '/../includes/config.php';
             </div>
 
             <ul class="works-list">
-                <li><img src="img/top/works1.jpg" alt=""></li>
-                <li><img src="img/top/works2.jpg" alt=""></li>
-                <li><img src="img/top/works3.jpg" alt=""></li>
-                <li><img src="img/top/works4.jpg" alt=""></li>
+                <li><img src="images/top/works1.jpg" alt=""></li>
+                <li><img src="images/top/works2.jpg" alt=""></li>
+                <li><img src="images/top/works3.jpg" alt=""></li>
+                <li><img src="images/top/works4.jpg" alt=""></li>
             </ul>
         </section>
 
         <div class="faq-contact fadein">
             <a class="item" href="faq.html">
                 <div class="img">
-                    <img src="img/top/faq.jpg" alt="">
+                    <img src="images/top/faq.jpg" alt="">
                 </div>
                 <p class="title">
                     <span class="en">FAQ</span>
                     <span class="ja">よくある質問</span>
                 </p>
                 <div class="arrow">
-                    <img src="img/top/arrow.svg" alt="">
+                    <img src="images/top/arrow.svg" alt="">
                 </div>
             </a>
 
             <a class="item" href="contact.html">
                 <div class="img">
-                    <img src="img/top/contact.jpg" alt="">
+                    <img src="images/top/contact.jpg" alt="">
                 </div>
                 <p class="title">
                     <span class="en">CONTACT</span>
                     <span class="ja">お問い合わせ</span>
                 </p>
                 <div class="arrow">
-                    <img src="img/top/arrow.svg" alt="">
+                    <img src="images/top/arrow.svg" alt="">
                 </div>
             </a>
         </div>
     </main>
 
-    <footer id="footer">
-        <div class="info-area">
-            <a class="logo" href="index.php">
-                <img src="img/common/logo-w.svg" alt="Interior Design">
-            </a>
-            <p class="copyright"><?php echo COPYRIGHT; ?></p>
-        </div>
-
-        <div class="menu-area">
-            <div class="menu-col">
-                <p class="menu-title"><a href="company.html">会社情報</a></p>
-                <ul class="menu-list">
-                    <li><a href="company.html#philosophy">企業理念</a></li>
-                    <li><a href="company.html#service">事業紹介</a></li>
-                    <li><a href="company.html#overview">会社概要</a></li>
-                    <li><a href="company.html#access">アクセス</a></li>
-                </ul>
-            </div>
-
-            <div class="menu-col">
-                <p class="menu-title"><a href="products.html">商品一覧</a></p>
-                <p class="menu-title"><a href="works.html">実績紹介</a></p>
-            </div>
-
-            <div class="menu-col">
-                <p class="menu-title"><a href="faq.html">よくある質問</a></p>
-                <p class="menu-title"><a href="contact.html">お問い合わせ</a></p>
-            </div>
-        </div>
-    </footer>
+    <?php require_once __DIR__ . '/../includes/footer.php'; ?>
 </body>
 </html>

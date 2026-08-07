@@ -10,7 +10,7 @@ if (!defined('IN_APP')) {
 }
 
 // サイト基本情報
-define('SITE_NAME', 'てぃっか(てちか)のホームページ');
+define('SITE_NAME', 'てぃっかのHP');
 define('SITE_URL', 'https://thicca-web.com');
 define('SITE_DESCRIPTION', 'イラストレーター「てぃっか」/VTuber「夢毬てちか」の公式サイト');
 
@@ -39,5 +39,5 @@ define('TECHIKA_TITLE', 'VTuber「' . TECHIKA_NAME . '」');
 define('FULL_TITLE', THICCA_TITLE . ' / ' . TECHIKA_TITLE);
 
 // フレーズ
-define('CATCHPHRASE', '自分の手で全て創る。');
+define('CATCHPHRASE', '自分の手で<br>全て創る。<br>');
 define('COPYRIGHT', '&copy; ' . date('Y') . ' ' . CIRCLE_NAME);
