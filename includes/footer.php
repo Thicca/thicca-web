@@ -7,7 +7,7 @@
 <footer id="footer">
     <div class="info-area">
         <a class="logo" href="index.php">
-            <img src="images/common/logo-w.svg" alt="Interior Design">
+            <img src="images/common/logo-w.svg" alt="<?php echo SITE_NAME; ?>">
         </a>
         <p class="copyright"><?php echo COPYRIGHT; ?></p>
     </div>

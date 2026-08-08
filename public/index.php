@@ -41,10 +41,10 @@ require_once __DIR__ . '/../includes/config.php';
 
     <main>
         <div class="mainvisual">
-            <ul class="fade-img">
-                <li><img src="images/top/mainvisual1.jpg" alt=""></li>
-                <li><img src="images/top/mainvisual2.jpg" alt=""></li>
-                <li><img src="images/top/mainvisual3.jpg" alt=""></li>
+            <ul class="fade-images">
+                <li><img src="images/top/playmat_techika1staniv_background.png" alt="メインビジュアル背景" class="fade-up img-1"></li>
+                <li><img src="images/top/playmat_techika1staniv_transparent_ver2.png" alt="メインビジュアルてちか" class="fade-up img-2"></li>
+                <li><img src="images/top/techika_name_logo.png" alt="メインビジュアルてちかロゴ" class="fade-up img-3"></li>
             </ul>
             <p class="catchphrase"><?php echo CATCHPHRASE; ?></p>
         </div>
@@ -54,7 +54,7 @@ require_once __DIR__ . '/../includes/config.php';
 
             <div class="flex">
                 <div class="img">
-                    <img src="images/top/company.jpg" alt="">
+                    <img src="images/top/about.png" alt="">
                 </div>
 
                 <div class="text">

@@ -115,3 +115,23 @@ Inview
     $(this).toggleClass("active");
   });
 });
+
+/*-------------------------------
+画像が画面内に入ってきたらis-visibleクラスを付与する処理(Intersection Observer)
+---------------------------------*/
+document.addEventListener('DOMContentLoaded', () => {
+    const targets = document.querySelectorAll('.fade-up');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target); // 一度表示したら監視終了
+            }
+        });
+    }, {
+        threshold: 0.1 // 画像が10%見えたら発火
+    });
+
+    targets.forEach((target) => observer.observe(target));
+});

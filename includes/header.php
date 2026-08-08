@@ -7,7 +7,7 @@
 <header id="header">
     <div class="logo">
         <a href="index.php">
-            <img src="img/common/logo.svg" alt="Interior Design">
+            <img src="img/common/logo.svg" alt="<?php echo SITE_NAME; ?>">
         </a>
     </div>
     <?php require_once __DIR__ . '/nav.php'; ?>
