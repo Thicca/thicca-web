@@ -14,7 +14,7 @@
 
     <div class="menu-area">
         <div class="menu-col">
-            <p class="menu-title"><a href="company.html">会社情報</a></p>
+            <p class="menu-title"><a href="company.html"><?php echo PROFILE; ?></a></p>
             <ul class="menu-list">
                 <li><a href="company.html#philosophy">企業理念</a></li>
                 <li><a href="company.html#service">事業紹介</a></li>

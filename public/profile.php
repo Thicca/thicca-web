@@ -18,39 +18,7 @@
   </head>
 
   <body>
-    <header id="header">
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/common/logo.svg" alt="Interior Design">
-        </a>
-      </div>
-
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
-      <nav class="navi">
-        <ul class="menu">
-          <li class="menu-first">
-            <span>会社情報</span>
-            <ul class="menu-second">
-              <li><a href="company.html#philosophy">企業理念</a></li>
-              <li><a href="company.html#service">事業紹介</a></li>
-              <li><a href="company.html#overview">会社概要</a></li>
-              <li><a href="company.html#access">アクセス</a></li>
-            </ul>
-          </li>
-          <li><a href="products.html">商品一覧</a></li>
-          <li><a href="works.html">実績紹介</a></li>
-          <li><a href="faq.html">よくある質問</a></li>
-          <li class="menu-contact"><a href="contact.html">お問い合わせ</a></li>
-        </ul>
-      </nav>
-      
-      <div class="mask"></div>
-    </header>
+    <?php require_once __DIR__ . '/../includes/header.php'; ?>
 
     <main>
       <div class="page-header">
@@ -59,8 +27,8 @@
         </div>
         <div class="page-title-area">
           <h1 class="page-title">
-            <span class="en">COMPANY</span>
-            <span class="ja">会社情報</span>
+            <span class="en">ABOUT</span>
+            <span class="ja"><?php echo PROFILE; ?></span>
           </h1>
         </div>
       </div>
@@ -167,7 +135,7 @@
 
       <div class="menu-area">
         <div class="menu-col">
-          <p class="menu-title"><a href="company.html">会社情報</a></p>
+          <p class="menu-title"><a href="profile.php">会社情報</a></p>
           <ul class="menu-list">
             <li><a href="#philosophy">企業理念</a></li>
             <li><a href="#service">事業紹介</a></li>

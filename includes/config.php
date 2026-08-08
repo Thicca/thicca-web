@@ -41,3 +41,6 @@ define('FULL_TITLE', THICCA_TITLE . ' / ' . TECHIKA_TITLE);
 // フレーズ
 define('CATCHPHRASE', '自分の手で<br>全て創る。<br>');
 define('COPYRIGHT', '&copy; ' . date('Y') . ' ' . CIRCLE_NAME);
+
+// section
+define('PROFILE', 'プロフィール');

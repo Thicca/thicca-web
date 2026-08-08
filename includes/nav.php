@@ -13,7 +13,7 @@
 <nav class="navi">
     <ul class="menu">
         <li class="menu-first">
-            <span>会社情報</span>
+            <span><?php echo PROFILE; ?></span>
             <ul class="menu-second">
                 <li><a href="company.html#philosophy">企業理念</a></li>
                 <li><a href="company.html#service">事業紹介</a></li>

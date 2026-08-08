@@ -50,7 +50,7 @@ require_once __DIR__ . '/../includes/config.php';
         </div>
 
         <section class="company fadein">
-            <h2 class="section-title">COMPANY</h2>
+            <h2 class="section-title">ABOUT</h2>
 
             <div class="flex">
                 <div class="img">
@@ -60,7 +60,7 @@ require_once __DIR__ . '/../includes/config.php';
                 <div class="text">
                     <p class="title">新たな価値を創造する</p>
                     <p class="description">私たちはインテリアを通して住居や店舗の空間をデザインし、その空間の中に新たな価値を創造します。</p>
-                    <a class="btn" href="company.html">VIEW MORE</a>
+                    <a class="btn" href="profile.php">VIEW MORE</a>
                 </div>
             </div>
         </section>

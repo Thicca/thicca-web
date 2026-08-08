@@ -36,10 +36,10 @@
           <li class="menu-first">
             <span>会社情報</span>
             <ul class="menu-second">
-              <li><a href="company.html#philosophy">企業理念</a></li>
-              <li><a href="company.html#service">事業紹介</a></li>
-              <li><a href="company.html#overview">会社概要</a></li>
-              <li><a href="company.html#access">アクセス</a></li>
+              <li><a href="profile.php#philosophy">企業理念</a></li>
+              <li><a href="profile.php#service">事業紹介</a></li>
+              <li><a href="profile.php#overview">会社概要</a></li>
+              <li><a href="profile.php#access">アクセス</a></li>
             </ul>
           </li>
           <li><a href="products.html">商品一覧</a></li>
@@ -195,12 +195,12 @@
 
       <div class="menu-area">
         <div class="menu-col">
-          <p class="menu-title"><a href="company.html">会社情報</a></p>
+          <p class="menu-title"><a href="profile.php">会社情報</a></p>
           <ul class="menu-list">
-            <li><a href="company.html#philosophy">企業理念</a></li>
-            <li><a href="company.html#service">事業紹介</a></li>
-            <li><a href="company.html#overview">会社概要</a></li>
-            <li><a href="company.html#access">アクセス</a></li>
+            <li><a href="profile.php#philosophy">企業理念</a></li>
+            <li><a href="profile.php#service">事業紹介</a></li>
+            <li><a href="profile.php#overview">会社概要</a></li>
+            <li><a href="profile.php#access">アクセス</a></li>
           </ul>
         </div>
 
