@@ -153,40 +153,40 @@ Mainvisual
 }
 
 /*-------------------------------------------
-Company
+Profile
 -------------------------------------------*/
-.company {
+.profile {
   margin-bottom: 120px;
 }
-.company .section-title {
+.profile .section-title {
   margin: 0 0 -5vw 4vw;
   position: relative;
   z-index: 10;
 }
-.company .flex {
+.profile .flex {
   display: flex;
   align-items: center;
 }
-.company .flex .img {
+.profile .flex .img {
   width: 65%;
 }
-.company .flex .img img {
+.profile .flex .img img {
   width: 100%;
   height: 500px;
   object-fit: cover;
 }
-.company .flex .text {
+.profile .flex .text {
   width: 35%;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 5% 0 5% 5%;
   margin-left: -8%;
 }
-.company .text .title {
+.profile .text .title {
   font-family: 'Zen Old Mincho', serif;
   font-size: 24px;
   margin-bottom: 40px;
 }
-.company .text .description {
+.profile .text .description {
   font-size: 15px;
   line-height: 1.8;
   margin-bottom: 40px;
@@ -373,34 +373,34 @@ Faq & Contact
   }
 
   /*-------------------------------------------
-  Company
+  Profile
   -------------------------------------------*/
-  .company {
+  .profile {
     margin-bottom: 60px;
   }
-  .company .section-title {
+  .profile .section-title {
     margin: 0 0 -7vw;
     text-align: center;
   }
-  .company .flex {
+  .profile .flex {
     flex-direction: column;
   }
-  .company .flex .img {
+  .profile .flex .img {
     width: 100%;
   }
-  .company .flex .img img {
+  .profile .flex .img img {
     height: 300px;
   }
-  .company .flex .text {
+  .profile .flex .text {
     width: 100%;
     margin-left: 0;
     padding: 20px 20px 0;
   }
-  .company .flex .text .title {
+  .profile .flex .text .title {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  .company .flex .text .description {
+  .profile .flex .text .description {
     margin-bottom: 20px;
   }
 

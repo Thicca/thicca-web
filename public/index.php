@@ -1,41 +1,13 @@
 <?php
 require_once __DIR__ . '/../includes/config.php';
+$pageTitle = SITE_NAME;
+$pageUrl = SITE_URL . '/';
+$pageDescription = SITE_DESCRIPTION;
+$cssFile = 'top';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo SITE_NAME; ?></title>
-
-    <!-- OGP設定 -->
-    <meta property="og:title" content="<?php echo CIRCLE_NAME; ?>">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="<?php echo SITE_URL; ?>/">
-    <meta property="og:description" content="<?php echo SITE_DESCRIPTION; ?>">
-    <meta property="og:image" content="<?php echo OGP_IMAGE; ?>">
-    <meta property="og:site_name" content="<?php echo SITE_NAME; ?>">
-    <meta property="og:locale" content="ja_JP">
-
-    <!-- X(Twitter)カード設定 -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="<?php echo X_ID; ?>">
-    <meta name="twitter:image" content="<?php echo OGP_IMAGE; ?>">
-
-    <!-- 表示系設定 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/common/favicon.ico">
-    <link rel="apple-touch-icon" href="images/common/apple-touch-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/top.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/main.js"></script>
-</head>
+<?php require_once __DIR__ . '/../includes/head.php'; ?>
 <body>
     <?php require_once __DIR__ . '/../includes/header_top.php'; ?>
 
@@ -49,7 +21,7 @@ require_once __DIR__ . '/../includes/config.php';
             <p class="catchphrase"><?php echo CATCHPHRASE; ?></p>
         </div>
 
-        <section class="company fadein">
+        <section class="profile fadein">
             <h2 class="section-title">ABOUT</h2>
 
             <div class="flex">
@@ -58,8 +30,8 @@ require_once __DIR__ . '/../includes/config.php';
                 </div>
 
                 <div class="text">
-                    <p class="title">新たな価値を創造する</p>
-                    <p class="description">私たちはインテリアを通して住居や店舗の空間をデザインし、その空間の中に新たな価値を創造します。</p>
+                    <p class="title"><?php echo ABOUT_TITLE; ?></p>
+                    <p class="description"><?php echo ABOUT_DESCRIPTION; ?></p>
                     <a class="btn" href="profile.php">VIEW MORE</a>
                 </div>
             </div>
@@ -91,7 +63,7 @@ require_once __DIR__ . '/../includes/config.php';
                 </ul>
             </div>
 
-            <a class="btn" href="products.html">VIEW MORE</a>
+            <a class="btn" href="products.php">VIEW MORE</a>
         </section>
 
         <section class="works fadein">
@@ -100,7 +72,7 @@ require_once __DIR__ . '/../includes/config.php';
                 <p class="description">住空間及び商業空間のデザインを行なっています。<br>
                 住む人やその空間を利用されるお客様が笑顔になるような空間創りを心掛けています。</p>
                 <p class="description">私たちがこれまでに手がけてきた住居と店舗デザインの一部をご紹介いたします。</p>
-                <a class="btn" href="works.html">VIEW MORE</a>
+                <a class="btn" href="works.php">VIEW MORE</a>
             </div>
 
             <ul class="works-list">
@@ -112,7 +84,7 @@ require_once __DIR__ . '/../includes/config.php';
         </section>
 
         <div class="faq-contact fadein">
-            <a class="item" href="faq.html">
+            <a class="item" href="faq.php">
                 <div class="img">
                     <img src="images/top/faq.jpg" alt="">
                 </div>
@@ -125,7 +97,7 @@ require_once __DIR__ . '/../includes/config.php';
                 </div>
             </a>
 
-            <a class="item" href="contact.html">
+            <a class="item" href="contact.php">
                 <div class="img">
                     <img src="images/top/contact.jpg" alt="">
                 </div>

@@ -1,21 +1,13 @@
+<?php
+require_once __DIR__ . '/../includes/config.php';
+$pageTitle = SITE_NAME;
+$pageUrl = SITE_URL . '/';
+$pageDescription = SITE_DESCRIPTION;
+$cssFile = 'profile';
+?>
 <!DOCTYPE html>
 <html lang="ja">
-  <head>  
-    <meta charset="utf-8">
-    <title>Company | Interior Design</title>
-    <meta name="description" content="Interior Designの会社情報ページです。私たちはインテリアを通して住居や店舗の空間をデザインし、その空間の中に新たな価値を創造します。">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/common/favicon.ico">
-    <link rel="apple-touch-icon" href="images/common/apple-touch-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/company.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-  </head>
+  <?php require_once __DIR__ . '/../includes/head.php'; ?>
 
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
@@ -23,7 +15,7 @@
     <main>
       <div class="page-header">
         <div class="img">
-          <img src="images/company/mainvisual.jpg" alt="">
+          <img src="images/profile/mainvisual.jpg" alt="">
         </div>
         <div class="page-title-area">
           <h1 class="page-title">
@@ -52,10 +44,10 @@
             </div>
           </div>
           <div class="img-top">
-            <img src="images/company/philosophy1.jpg" alt="">
+            <img src="images/profile/philosophy1.jpg" alt="">
           </div>
           <div class="img-bottom">
-            <img src="images/company/philosophy2.jpg" alt="">
+            <img src="images/profile/philosophy2.jpg" alt="">
           </div>
         </div>
       </section>
@@ -72,7 +64,7 @@
               <p class="view-more">VIEW MORE</p>
             </div>
             <div class="img">
-              <img src="images/company/products-interior.jpg" alt="">
+              <img src="images/profile/products-interior.jpg" alt="">
             </div>
           </a>
 
@@ -84,7 +76,7 @@
               <p class="view-more">VIEW MORE</p>
             </div>
             <div class="img">
-              <img src="images/company/products-store.jpg" alt="">
+              <img src="images/profile/products-store.jpg" alt="">
             </div>
           </a>
         </div>
@@ -121,39 +113,6 @@
       </section>
     </main>
 
-    <footer id="footer">
-      <div class="info-area">
-        <a class="logo" href="index.html">
-          <img src="images/common/logo-w.svg" alt="Interior Design">
-        </a>
-        <div class="info">
-          <p>〒999-9999<br>東京都○○○○○○○○○○○○○○</p>
-          <p>TEL: 03-9999-9999</p>
-        </div>
-        <p class="copyright">Copyright © Interior Design. All rights reserved.</p>
-      </div>
-
-      <div class="menu-area">
-        <div class="menu-col">
-          <p class="menu-title"><a href="profile.php">会社情報</a></p>
-          <ul class="menu-list">
-            <li><a href="#philosophy">企業理念</a></li>
-            <li><a href="#service">事業紹介</a></li>
-            <li><a href="#overview">会社概要</a></li>
-            <li><a href="#access">アクセス</a></li>
-          </ul>
-        </div>
-
-        <div class="menu-col">
-          <p class="menu-title"><a href="products.html">商品一覧</a></p>
-          <p class="menu-title"><a href="works.html">実績紹介</a></p>
-        </div>
-        
-        <div class="menu-col">
-          <p class="menu-title"><a href="faq.html">よくある質問</a></p>
-          <p class="menu-title"><a href="contact.html">お問い合わせ</a></p>
-        </div>
-      </div>
-    </footer>
+    <?php require_once __DIR__ . '/../includes/footer.php'; ?>
   </body>
 </html> 
