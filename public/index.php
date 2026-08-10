@@ -37,15 +37,15 @@ $cssFile = 'top';
             </div>
         </section>
 
-        <section class="products fadein">
+        <section class="gallery fadein">
             <div class="text">
-                <h2 class="section-title">PRODUCTS</h2>
+                <h2 class="section-title">gallery</h2>
                 <p class="description">私たちがデザインするインテリアをご紹介します。<br>
                 ソファやデスク、チェア、ダイニングまわりを中心にオリジナルのインテリアをご提案いたします。</p>
             </div>
 
-            <div class="products-list-area">
-                <ul class="products-list">
+            <div class="gallery-list-area">
+                <ul class="gallery-list">
                     <li><img src="images/top/products1.jpg" alt=""></li>
                     <li><img src="images/top/products2.jpg" alt=""></li>
                     <li><img src="images/top/products3.jpg" alt=""></li>
@@ -53,7 +53,7 @@ $cssFile = 'top';
                     <li><img src="images/top/products5.jpg" alt=""></li>
                     <li><img src="images/top/products6.jpg" alt=""></li>
                 </ul>
-                <ul class="products-list">
+                <ul class="gallery-list">
                     <li><img src="images/top/products1.jpg" alt=""></li>
                     <li><img src="images/top/products2.jpg" alt=""></li>
                     <li><img src="images/top/products3.jpg" alt=""></li>
@@ -63,7 +63,7 @@ $cssFile = 'top';
                 </ul>
             </div>
 
-            <a class="btn" href="products.php">VIEW MORE</a>
+            <a class="btn" href="gallery.php">VIEW MORE</a>
         </section>
 
         <section class="achievements fadein">

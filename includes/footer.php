@@ -24,7 +24,7 @@
         </div>
 
         <div class="menu-col">
-            <p class="menu-title"><a href="products.php">商品一覧</a></p>
+            <p class="menu-title"><a href="gallery.php">商品一覧</a></p>
             <p class="menu-title"><a href="achievements.php">実績紹介</a></p>
         </div>
 

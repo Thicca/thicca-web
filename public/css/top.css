@@ -193,13 +193,13 @@ Profile
 }
 
 /*-------------------------------------------
-Products
+Gallery
 -------------------------------------------*/
-.products {
+.gallery {
   margin-bottom: 120px;
   position: relative;
 }
-.products::after {
+.gallery::after {
   content: "";
   width: 70%;
   height: 300px;
@@ -210,32 +210,32 @@ Products
   right: 0;
   z-index: -10;
 }
-.products .text {
+.gallery .text {
   width: 70%;
   padding: 0 5%;
   margin-left: auto;
 }
-.products .text .section-title {
+.gallery .text .section-title {
   margin-bottom: 30px;
 }
-.products .text .description {
+.gallery .text .description {
   font-size: 15px;
   line-height: 1.8;
   margin-bottom: 60px;
 }
-.products .products-list-area {
+.gallery .gallery-list-area {
   display: flex;
   margin-bottom: 40px;
   overflow-x: hidden;
 }
-.products .products-list-area .products-list {
+.gallery .gallery-list-area .gallery-list {
   display: flex;
   animation: slide-left 60s infinite linear both;
 }
-.products .products-list-area .products-list li {
+.gallery .gallery-list-area .gallery-list li {
   width: calc(100vw / 3);
 }
-.products .products-list-area .products-list li img {
+.gallery .gallery-list-area .gallery-list li img {
   width: 100%;
 }
 @keyframes slide-left {
@@ -246,7 +246,7 @@ Products
     transform: translateX(-100%);
   }
 }
-.products .btn {
+.gallery .btn {
   margin: 0 auto;
 }
 
@@ -405,27 +405,27 @@ Faq & Contact
   }
 
   /*-------------------------------------------
-  Products
+  Gallery
   -------------------------------------------*/
-  .products {
+  .gallery {
     margin-bottom: 60px;
   }
-  .products::after {
+  .gallery::after {
     width: 100%;
     height: 250px;
     top: 10vw;
   }
-  .products .text {
+  .gallery .text {
     width: 100%;
     padding: 0 20px;
   }
-  .products .text .section-title {
+  .gallery .text .section-title {
     text-align: center;
   }
-  .products .text .description {
+  .gallery .text .description {
     margin-bottom: 20px;
   }
-  .products .products-list-area {
+  .gallery .gallery-list-area {
     margin-bottom: 20px;
   }
   

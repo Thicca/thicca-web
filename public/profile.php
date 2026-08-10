@@ -8,7 +8,6 @@ $cssFile = 'profile';
 <!DOCTYPE html>
 <html lang="ja">
   <?php require_once __DIR__ . '/../includes/head.php'; ?>
-
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
 
@@ -56,7 +55,7 @@ $cssFile = 'profile';
         <h2 class="section-title"><span>事業紹介</span></h2>
 
         <div class="wrapper">
-          <a class="item interior" href="products.php">
+          <a class="item interior" href="gallery.php">
             <div class="text">
               <p class="title-ja">インテリアデザイン</p>
               <p class="title-en">Thicca's HP</p>
