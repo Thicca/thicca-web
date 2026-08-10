@@ -15,7 +15,7 @@ $cssFile = 'profile';
     <main>
       <div class="page-header">
         <div class="img">
-          <img src="images/profile/mainvisual.jpg" alt="">
+          <img src="images/profile/techika_kfb.png" alt="">
         </div>
         <div class="page-title-area">
           <h1 class="page-title">

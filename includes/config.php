@@ -41,7 +41,7 @@ define('FULL_TITLE', THICCA_TITLE . ' / ' . TECHIKA_TITLE);
 // フレーズ
 define('CATCHPHRASE', '自分の手で、<br>全て創る。<br>');
 define('ABOUT_TITLE', '全て"自作"のマルチクリエイター');
-define('ABOUT_DESCRIPTION', '興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。');
+define('ABOUT_DESCRIPTION', '「てぃっか」の名前でインターネットにイラストを投稿する形で活動を開始。後にTwitchにて配信活動を開始。その活動の最中でイラストとLive2Dモデリングでバーチャルアバターを自作し、いわゆるVライバーになる。後にYouTubeでも配信活動を開始し、VTuber「夢毬てちか」を名乗って活動することになる。<br>興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。');
 define('COPYRIGHT', '&copy; ' . date('Y') . ' ' . CIRCLE_NAME);
 
 // section

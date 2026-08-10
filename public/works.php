@@ -55,7 +55,7 @@
     <main>
       <div class="page-header">
         <div class="img">
-          <img src="images/works/mainvisual.jpg" alt="">
+          <img src="images/works/techika_kfb.png" alt="">
         </div>
         <div class="page-title-area">
           <h1 class="page-title">
