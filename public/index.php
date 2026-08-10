@@ -22,7 +22,7 @@ $cssFile = 'top';
         </div>
 
         <section class="profile fadein">
-            <h2 class="section-title">ABOUT</h2>
+            <h2 class="section-title">ABOUT ME</h2>
 
             <div class="flex">
                 <div class="img">
@@ -66,16 +66,16 @@ $cssFile = 'top';
             <a class="btn" href="products.php">VIEW MORE</a>
         </section>
 
-        <section class="works fadein">
+        <section class="achievements fadein">
             <div class="text">
-                <h2 class="section-title">WORKS</h2>
+                <h2 class="section-title">achievements</h2>
                 <p class="description">住空間及び商業空間のデザインを行なっています。<br>
                 住む人やその空間を利用されるお客様が笑顔になるような空間創りを心掛けています。</p>
                 <p class="description">私たちがこれまでに手がけてきた住居と店舗デザインの一部をご紹介いたします。</p>
-                <a class="btn" href="works.php">VIEW MORE</a>
+                <a class="btn" href="achievements.php">VIEW MORE</a>
             </div>
 
-            <ul class="works-list">
+            <ul class="achievements-list">
                 <li><img src="images/top/works1.jpg" alt=""></li>
                 <li><img src="images/top/works2.jpg" alt=""></li>
                 <li><img src="images/top/works3.jpg" alt=""></li>

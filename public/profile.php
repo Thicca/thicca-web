@@ -59,7 +59,7 @@ $cssFile = 'profile';
           <a class="item interior" href="products.html">
             <div class="text">
               <p class="title-ja">インテリアデザイン</p>
-              <p class="title-en">Interior Design</p>
+              <p class="title-en">Thicca's HP</p>
               <p class="description">ソファ、デスク、チェア、ダイニングを中心に、オリジナルのインテリアをデザインしています。</p>
               <p class="view-more">VIEW MORE</p>
             </div>
@@ -68,7 +68,7 @@ $cssFile = 'profile';
             </div>
           </a>
 
-          <a class="item store" href="works.html">
+          <a class="item store" href="achievements.php">
             <div class="text">
               <p class="title-ja">住空間・商業空間のデザイン</p>
               <p class="title-en">Store Design</p>
@@ -87,7 +87,7 @@ $cssFile = 'profile';
 
         <dl class="overview-list wrapper">
           <dt>会社名</dt>
-          <dd>Interior Design株式会社</dd>
+          <dd>株式会社</dd>
           <dt>代表取締役</dt>
           <dd>○○ ○○</dd>
           <dt>設立</dt>

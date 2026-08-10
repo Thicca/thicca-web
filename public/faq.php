@@ -2,8 +2,8 @@
 <html lang="ja">
   <head>  
     <meta charset="utf-8">
-    <title>Faq | Interior Design</title>
-    <meta name="description" content="Interior Designのよくある質問ページです。お客様からよくいただく質問についてまとめています。">
+    <title>Faq | Thicca's HP</title>
+    <meta name="description" content="Thicca's HPのよくある質問ページです。お客様からよくいただく質問についてまとめています。">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/common/favicon.ico">
     <link rel="apple-touch-icon" href="images/common/apple-touch-icon.png">
@@ -21,7 +21,7 @@
     <header id="header">
       <div class="logo">
         <a href="index.html">
-          <img src="images/common/logo.svg" alt="Interior Design">
+          <img src="images/common/logo.svg" alt="Thicca's HP">
         </a>
       </div>
 
@@ -43,7 +43,7 @@
             </ul>
           </li>
           <li><a href="products.html">商品一覧</a></li>
-          <li><a href="works.html">実績紹介</a></li>
+          <li><a href="achievements.php">実績紹介</a></li>
           <li><a href="faq.html">よくある質問</a></li>
           <li class="menu-contact"><a href="contact.html">お問い合わせ</a></li>
         </ul>
@@ -127,13 +127,13 @@
     <footer id="footer">
       <div class="info-area">
         <a class="logo" href="index.html">
-          <img src="images/common/logo-w.svg" alt="Interior Design">
+          <img src="images/common/logo-w.svg" alt="Thicca's HP">
         </a>
         <div class="info">
           <p>〒999-9999<br>東京都○○○○○○○○○○○○○○</p>
           <p>TEL: 03-9999-9999</p>
         </div>
-        <p class="copyright">Copyright © Interior Design. All rights reserved.</p>
+        <p class="copyright">Copyright © Thicca's HP. All rights reserved.</p>
       </div>
 
       <div class="menu-area">
@@ -149,7 +149,7 @@
 
         <div class="menu-col">
           <p class="menu-title"><a href="products.html">商品一覧</a></p>
-          <p class="menu-title"><a href="works.html">実績紹介</a></p>
+          <p class="menu-title"><a href="achievements.php">実績紹介</a></p>
         </div>
         
         <div class="menu-col">

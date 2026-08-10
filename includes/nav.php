@@ -22,7 +22,7 @@
             </ul>
         </li>
         <li><a href="products.php">商品一覧</a></li>
-        <li><a href="works.php">実績紹介</a></li>
+        <li><a href="achievements.php">実績紹介</a></li>
         <li><a href="faq.php">よくある質問</a></li>
         <li class="menu-contact"><a href="contact.php">お問い合わせ</a></li>
     </ul>
