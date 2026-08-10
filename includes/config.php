@@ -46,3 +46,14 @@ define('COPYRIGHT', '&copy; ' . date('Y') . ' ' . CIRCLE_NAME);
 
 // section
 define('PROFILE', 'プロフィール');
+define('GALLERY', 'イラスト一覧');
+define('ACHIEVEMENTS', '実績紹介');
+define('FAQ', '勝手にQ&A');
+define('CONTACT', 'お仕事依頼');
+
+// profile
+define('ABOUTME', '私について');
+define('WORKS', '作品紹介');
+define('ABILITY', 'できること');
+define('CERTIFICATE', '所持資格');
+define('HISTORY', '略歴');
