@@ -29,7 +29,7 @@
         </div>
 
         <div class="menu-col">
-            <p class="menu-title"><a href="faq.php">よくある質問</a></p>
+            <p class="menu-title"><a href="faq.php"><?php echo FAQ; ?></a></p>
             <p class="menu-title"><a href="contact.php">お問い合わせ</a></p>
         </div>
     </div>

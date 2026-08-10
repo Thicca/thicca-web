@@ -1,3 +1,10 @@
+<?php
+require_once __DIR__ . '/../includes/config.php';
+$pageTitle = SITE_NAME;
+$pageUrl = SITE_URL . '/';
+$pageDescription = SITE_DESCRIPTION;
+$cssFile = 'achievements';
+?>
 <!DOCTYPE html>
 <html lang="ja">
   <head>  
@@ -20,7 +27,7 @@
   <body>
     <header id="header">
       <div class="logo">
-        <a href="index.html">
+        <a href="index.php">
           <img src="images/common/logo.svg" alt="Thicca's HP">
         </a>
       </div>
@@ -42,10 +49,10 @@
               <li><a href="profile.php#access">アクセス</a></li>
             </ul>
           </li>
-          <li><a href="products.html">商品一覧</a></li>
+          <li><a href="products.php">商品一覧</a></li>
           <li><a href="achievements.php">実績紹介</a></li>
-          <li><a href="faq.html">よくある質問</a></li>
-          <li class="menu-contact"><a href="contact.html">お問い合わせ</a></li>
+          <li><a href="faq.php"><?php echo FAQ; ?></a></li>
+          <li class="menu-contact"><a href="contact.php">お問い合わせ</a></li>
         </ul>
       </nav>
       
@@ -183,7 +190,7 @@
 
     <footer id="footer">
       <div class="info-area">
-        <a class="logo" href="index.html">
+        <a class="logo" href="index.php">
           <img src="images/common/logo-w.svg" alt="Thicca's HP">
         </a>
         <div class="info">
@@ -205,13 +212,13 @@
         </div>
 
         <div class="menu-col">
-          <p class="menu-title"><a href="products.html">商品一覧</a></p>
+          <p class="menu-title"><a href="products.php">商品一覧</a></p>
           <p class="menu-title"><a href="achievements.php">実績紹介</a></p>
         </div>
         
         <div class="menu-col">
-          <p class="menu-title"><a href="faq.html">よくある質問</a></p>
-          <p class="menu-title"><a href="contact.html">お問い合わせ</a></p>
+          <p class="menu-title"><a href="faq.php"><?php echo FAQ; ?></a></p>
+          <p class="menu-title"><a href="contact.php">お問い合わせ</a></p>
         </div>
       </div>
     </footer>

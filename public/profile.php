@@ -56,7 +56,7 @@ $cssFile = 'profile';
         <h2 class="section-title"><span>事業紹介</span></h2>
 
         <div class="wrapper">
-          <a class="item interior" href="products.html">
+          <a class="item interior" href="products.php">
             <div class="text">
               <p class="title-ja">インテリアデザイン</p>
               <p class="title-en">Thicca's HP</p>

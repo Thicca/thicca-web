@@ -90,7 +90,7 @@ $cssFile = 'top';
                 </div>
                 <p class="title">
                     <span class="en">FAQ</span>
-                    <span class="ja">よくある質問</span>
+                    <span class="ja"><?php echo FAQ; ?></span>
                 </p>
                 <div class="arrow">
                     <img src="images/top/arrow.svg" alt="">
