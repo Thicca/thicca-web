@@ -10,7 +10,6 @@ $cssFile = 'gallery';
   <?php require_once __DIR__ . '/../includes/head.php'; ?>
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
-
     <main>
       <div class="page-header">
         <div class="img">
@@ -18,8 +17,8 @@ $cssFile = 'gallery';
         </div>
         <div class="page-title-area">
           <h1 class="page-title">
-            <span class="en">gallery</span>
-            <span class="ja">商品一覧</span>
+            <span class="en">GALLERY</span>
+            <span class="ja"><?php echo GALLERY; ?></span>
           </h1>
         </div>
       </div>

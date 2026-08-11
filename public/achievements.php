@@ -8,10 +8,8 @@ $cssFile = 'achievements';
 <!DOCTYPE html>
 <html lang="ja">
   <?php require_once __DIR__ . '/../includes/head.php'; ?>
-
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
-
     <main>
       <div class="page-header">
         <div class="img">
@@ -19,8 +17,8 @@ $cssFile = 'achievements';
         </div>
         <div class="page-title-area">
           <h1 class="page-title">
-            <span class="en">achievements</span>
-            <span class="ja">実績紹介</span>
+            <span class="en">ACHIEVEMENTS</span>
+            <span class="ja"><?php echo ACHIEVEMENTS; ?></span>
           </h1>
         </div>
       </div>

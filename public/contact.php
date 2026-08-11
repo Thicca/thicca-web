@@ -8,19 +8,17 @@ $cssFile = 'contact';
 <!DOCTYPE html>
 <html lang="ja">
   <?php require_once __DIR__ . '/../includes/head.php'; ?>
-
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
-
     <main>
       <div class="page-header">
         <div class="img">
-          <img src="images/contact/techika_kfb.png" alt="">
+          <img src="images/contact/tenshikaiwai.png" alt="">
         </div>
         <div class="page-title-area">
           <h1 class="page-title">
             <span class="en">CONTACT</span>
-            <span class="ja">お問い合わせ</span>
+            <span class="ja"><?php echo CONTACT; ?></span>
           </h1>
         </div>
       </div>

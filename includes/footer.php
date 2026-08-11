@@ -24,13 +24,13 @@
         </div>
 
         <div class="menu-col">
-            <p class="menu-title"><a href="gallery.php">商品一覧</a></p>
-            <p class="menu-title"><a href="achievements.php">実績紹介</a></p>
+            <p class="menu-title"><a href="gallery.php"><?php echo GALLERY; ?></a></p>
+            <p class="menu-title"><a href="achievements.php"><?php echo ACHIEVEMENTS; ?></a></p>
         </div>
 
         <div class="menu-col">
             <p class="menu-title"><a href="faq.php"><?php echo FAQ; ?></a></p>
-            <p class="menu-title"><a href="contact.php">お問い合わせ</a></p>
+            <p class="menu-title"><a href="contact.php"><?php echo CONTACT; ?></a></p>
         </div>
     </div>
 </footer>

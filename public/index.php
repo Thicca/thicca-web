@@ -10,7 +10,6 @@ $cssFile = 'top';
 <?php require_once __DIR__ . '/../includes/head.php'; ?>
 <body>
     <?php require_once __DIR__ . '/../includes/header_top.php'; ?>
-
     <main>
         <div class="mainvisual">
             <ul class="fade-images">

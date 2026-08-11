@@ -8,14 +8,12 @@ $cssFile = 'faq';
 <!DOCTYPE html>
 <html lang="ja">
   <?php require_once __DIR__ . '/../includes/head.php'; ?>
-
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
-
     <main>
       <div class="page-header">
         <div class="img">
-          <img src="images/faq/techika_kfb.png" alt="">
+          <img src="images/faq/profilevideo.png" alt="">
         </div>
         <div class="page-title-area">
           <h1 class="page-title">

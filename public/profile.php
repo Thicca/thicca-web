@@ -10,7 +10,6 @@ $cssFile = 'profile';
   <?php require_once __DIR__ . '/../includes/head.php'; ?>
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
-
     <main>
       <div class="page-header">
         <div class="img">
@@ -18,7 +17,7 @@ $cssFile = 'profile';
         </div>
         <div class="page-title-area">
           <h1 class="page-title">
-            <span class="en">ABOUT</span>
+            <span class="en">ABOUT ME</span>
             <span class="ja"><?php echo PROFILE; ?></span>
           </h1>
         </div>
