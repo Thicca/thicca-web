@@ -19,6 +19,16 @@ define('CONTACT_EMAIL', 'thicca.land@gmail.com');
 
 // SNS
 define('X_ID', '@thicca_view');
+define('SNS_X', 'https://x.com/thicca_view');
+define('SNS_YOUTUBE', 'https://www.youtube.com/@TechikaYumari_Thicca');
+define('SNS_TWITCH', 'https://www.twitch.tv/thicca_view');
+define('SNS_PIXIV', 'https://www.pixiv.net/users/76840280');
+define('SNS_BOOTH', 'https://thicca.booth.pm/');
+define('SNS_SOUNDCLOUD', 'https://soundcloud.com/thicca');
+define('SNS_RAIDORI', 'https://raidori.com/@thicca_view');
+define('SNS_WICK', 'https://wick-sns.com/sns/profile/2e8ded13-806e-4d6c-afdf-b229b3eb171c');
+define('SNS_TSUNAGU', 'https://tsunagu.cloud/users/thicca_view');
+define('SNS_WISHLIST', 'https://www.amazon.co.jp/hz/wishlist/ls/JLR1S8BKQYNZ?ref_=wl_share');
 
 // パス関連
 define('BASE_PATH', dirname(__DIR__));

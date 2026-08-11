@@ -12,6 +12,36 @@
         <p class="copyright"><?php echo COPYRIGHT; ?></p>
     </div>
 
+    <div class="sns-links">
+        <a href="<?php echo SNS_X; ?>" target="_blank" rel="noopener noreferrer" aria-label="X">
+            <img src="images/icons/x.svg" alt="X">
+        </a>
+        <a href="<?php echo SNS_YOUTUBE; ?>" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+            <img src="images/icons/youtube.svg" alt="YouTube">
+        </a>
+        <a href="<?php echo SNS_TWITCH; ?>" target="_blank" rel="noopener noreferrer" aria-label="Twitch">
+            <img src="images/icons/twitch.svg" alt="Twitch">
+        </a>
+        <a href="<?php echo SNS_WICK; ?>" target="_blank" rel="noopener noreferrer" aria-label="Wick">
+            <img src="images/icons/Wick_logo-BG-01.png" alt="Wick">
+        </a>
+        <a href="<?php echo SNS_PIXIV; ?>" target="_blank" rel="noopener noreferrer" aria-label="pixiv">
+            <img src="images/icons/pixiv.svg" alt="pixiv">
+        </a>
+        <a href="<?php echo SNS_BOOTH; ?>" target="_blank" rel="noopener noreferrer" aria-label="BOOTH">
+            <img src="images/icons/booth_logo.svg" alt="BOOTH">
+        </a>
+        <a href="<?php echo SNS_RAIDORI; ?>" target="_blank" rel="noopener noreferrer" aria-label="raidori">
+            <img src="images/icons/thicca_emote3.png" alt="raidori">
+        </a>
+        <a href="<?php echo SNS_WISHLIST; ?>" target="_blank" rel="noopener noreferrer" aria-label="Wishlist">
+            <img src="images/icons/amazon-icon.svg" alt="Wishlist">
+        </a>
+        <a href="<?php echo SNS_SOUNDCLOUD; ?>" target="_blank" rel="noopener noreferrer" aria-label="SoundCloud">
+            <img src="images/icons/soundcloud-icon-logo-by-Vexels.png" alt="SoundCloud">
+        </a>
+    </div>
+
     <div class="menu-area">
         <div class="menu-col">
             <p class="menu-title"><a href="profile"><?php echo PROFILE; ?></a></p>

@@ -208,6 +208,31 @@ Footer
   content: "-";
   margin-right: 10px;
 }
+#footer .sns-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px 0;
+}
+#footer .sns-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+#footer .sns-links a:hover {
+  background-color: #6b8e9e;
+  transform: translateY(-3px);
+}
+#footer .sns-links img {
+  width: 18px;
+  height: 18px;
+}
 
 /*-------------------------------------------
 タブレット
@@ -361,31 +386,31 @@ main {
 @media screen and (max-width: 767px) {
   .pc {
     display: none;
-}
+  }
 
-/* 下層ページのページヘッダー部 */
-.page-header {
-    margin-bottom: 40px;
-}
-.page-header .img img {
-    height: 240px;
-}
-.page-header .page-title-area {
-    height: 70px;
-    top: auto;
-    bottom: 0;
-}
-.page-header .page-title-area .page-title .en {
-    font-size: 24px;
-}
-.page-header .page-title-area .page-title .ja {
-    font-size: 12px;
-}
+  /* 下層ページのページヘッダー部 */
+  .page-header {
+      margin-bottom: 40px;
+  }
+  .page-header .img img {
+      height: 240px;
+  }
+  .page-header .page-title-area {
+      height: 70px;
+      top: auto;
+      bottom: 0;
+  }
+  .page-header .page-title-area .page-title .en {
+      font-size: 24px;
+  }
+  .page-header .page-title-area .page-title .ja {
+      font-size: 12px;
+  }
 
-/* 下層ページのページヘッダー下テキスト */
-.head-text {
-    margin-bottom: 40px;
-}
+  /* 下層ページのページヘッダー下テキスト */
+  .head-text {
+      margin-bottom: 40px;
+  }
 
   /*-------------------------------------------
   Footer
@@ -393,19 +418,19 @@ main {
   #footer {
     flex-direction: column-reverse;
     padding: 60px 20px;
-}
-#footer .info-area {
-    width: 100%;
-}
-#footer .menu-area {
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-#footer .info-area {
-    text-align: center;
-}
-#footer .info-area .logo {
-    margin: 0 auto 30px;
-}
+  }
+  #footer .info-area {
+      width: 100%;
+  }
+  #footer .menu-area {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 40px;
+  }
+  #footer .info-area {
+      text-align: center;
+  }
+  #footer .info-area .logo {
+      margin: 0 auto 30px;
+  }
 }
