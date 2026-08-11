@@ -39,27 +39,26 @@ $cssFile = 'top';
 
         <section class="gallery fadein">
             <div class="text">
-                <h2 class="section-title">gallery</h2>
-                <p class="description">私たちがデザインするインテリアをご紹介します。<br>
-                ソファやデスク、チェア、ダイニングまわりを中心にオリジナルのインテリアをご提案いたします。</p>
+                <h2 class="section-title">GALLERY</h2>
+                <p class="description"><?php echo GALLERY_DESCRIPTION; ?></p>
             </div>
 
             <div class="gallery-list-area">
                 <ul class="gallery-list">
-                    <li><img src="images/top/products1.jpg" alt=""></li>
-                    <li><img src="images/top/products2.jpg" alt=""></li>
-                    <li><img src="images/top/products3.jpg" alt=""></li>
-                    <li><img src="images/top/products4.jpg" alt=""></li>
-                    <li><img src="images/top/products5.jpg" alt=""></li>
-                    <li><img src="images/top/products6.jpg" alt=""></li>
+                    <li><img src="images/top/gallery1.png" alt=""></li>
+                    <li><img src="images/top/gallery2.png" alt=""></li>
+                    <li><img src="images/top/gallery3.png" alt=""></li>
+                    <li><img src="images/top/gallery4.png" alt=""></li>
+                    <li><img src="images/top/gallery5.png" alt=""></li>
+                    <li><img src="images/top/gallery6.png" alt=""></li>
                 </ul>
                 <ul class="gallery-list">
-                    <li><img src="images/top/products1.jpg" alt=""></li>
-                    <li><img src="images/top/products2.jpg" alt=""></li>
-                    <li><img src="images/top/products3.jpg" alt=""></li>
-                    <li><img src="images/top/products4.jpg" alt=""></li>
-                    <li><img src="images/top/products5.jpg" alt=""></li>
-                    <li><img src="images/top/products6.jpg" alt=""></li>
+                    <li><img src="images/top/gallery1.png" alt=""></li>
+                    <li><img src="images/top/gallery2.png" alt=""></li>
+                    <li><img src="images/top/gallery3.png" alt=""></li>
+                    <li><img src="images/top/gallery4.png" alt=""></li>
+                    <li><img src="images/top/gallery5.png" alt=""></li>
+                    <li><img src="images/top/gallery6.png" alt=""></li>
                 </ul>
             </div>
 
@@ -68,10 +67,9 @@ $cssFile = 'top';
 
         <section class="achievements fadein">
             <div class="text">
-                <h2 class="section-title">achievements</h2>
-                <p class="description">住空間及び商業空間のデザインを行なっています。<br>
-                住む人やその空間を利用されるお客様が笑顔になるような空間創りを心掛けています。</p>
-                <p class="description">私たちがこれまでに手がけてきた住居と店舗デザインの一部をご紹介いたします。</p>
+                <h2 class="section-title">ACHIEVEMENTS</h2>
+                <p class="description"><?php echo ACHIEVEMENTS_DESCRIPTION; ?></p>
+                <p class="description"><?php echo ACHIEVEMENTS_DESCRIPTION2; ?></p>
                 <a class="btn" href="achievements.php">VIEW MORE</a>
             </div>
 
@@ -86,7 +84,7 @@ $cssFile = 'top';
         <div class="faq-contact fadein">
             <a class="item" href="faq.php">
                 <div class="img">
-                    <img src="images/top/faq.jpg" alt="">
+                    <img src="images/top/faq.png" alt="">
                 </div>
                 <p class="title">
                     <span class="en">FAQ</span>
@@ -99,7 +97,7 @@ $cssFile = 'top';
 
             <a class="item" href="contact.php">
                 <div class="img">
-                    <img src="images/top/contact.jpg" alt="">
+                    <img src="images/top/contact.png" alt="">
                 </div>
                 <p class="title">
                     <span class="en">CONTACT</span>

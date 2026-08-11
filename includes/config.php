@@ -38,11 +38,16 @@ define('TECHIKA_TITLE', 'VTuber「' . TECHIKA_NAME . '」');
 // 肩書き(並記)
 define('FULL_TITLE', THICCA_TITLE . ' / ' . TECHIKA_TITLE);
 
-// フレーズ
+// description
 define('CATCHPHRASE', '自分の手で、<br>全て創る。<br>');
 define('ABOUT_TITLE', '全て"自作"のマルチクリエイター');
 define('ABOUT_DESCRIPTION', '「てぃっか」の名前でインターネットにイラストを投稿する形で活動を開始。後にTwitchにて配信活動を開始。その活動の最中でイラストとLive2Dモデリングでバーチャルアバターを自作し、いわゆるVライバーになる。後にYouTubeでも配信活動を開始し、VTuber「夢毬てちか」を名乗って活動することになる。<br>興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。');
 define('COPYRIGHT', '&copy; ' . date('Y') . ' ' . CIRCLE_NAME);
+define('GALLERY_DESCRIPTION', '私たちがデザインするインテリアをご紹介します。<br>
+                ソファやデスク、チェア、ダイニングまわりを中心にオリジナルのインテリアをご提案いたします。');
+define('ACHIEVEMENTS_DESCRIPTION', '住空間及び商業空間のデザインを行なっています。<br>
+                住む人やその空間を利用されるお客様が笑顔になるような空間創りを心掛けています。');
+define('ACHIEVEMENTS_DESCRIPTION2', '私たちがこれまでに手がけてきた住居と店舗デザインの一部をご紹介いたします。');
 
 // section
 define('PROFILE', 'プロフィール');

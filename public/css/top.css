@@ -230,13 +230,18 @@ Gallery
 }
 .gallery .gallery-list-area .gallery-list {
   display: flex;
-  animation: slide-left 60s infinite linear both;
+  flex-shrink: 0;        /* 圧縮させない */
+  width: max-content;    /* 中身(liの合計)の実際の幅をそのまま採用する */
+  animation: slide-left 20s infinite linear both;
 }
 .gallery .gallery-list-area .gallery-list li {
-  width: calc(100vw / 3);
+  width: auto;
+  height: 300px;
+  flex-shrink: 0;
 }
 .gallery .gallery-list-area .gallery-list li img {
-  width: 100%;
+  width: auto;
+  height: 100%;
 }
 @keyframes slide-left {
   0% {
