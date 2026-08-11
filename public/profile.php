@@ -100,13 +100,15 @@ $cssFile = 'profile';
       <section id="certificate">
         <h2 class="section-title"><span><?php echo CERTIFICATE; ?></span></h2>
 
-        <div class="info wrapper">
-          <p>〒999-9999 東京都○○○○○○○○○○○○○○<br>TEL 03-999-9999 / FAX 03-999-9999</p>
-          <a href="https://www.google.com/maps/place/%E3%80%92162-0846+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E5%B8%82%E8%B0%B7%E5%B7%A6%E5%86%85%E7%94%BA%EF%BC%92%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%93/@35.693451,139.7330551,17z/data=!3m1!4b1!4m6!3m5!1s0x60188c5e40fd8ca9:0xe4e83101398f38cf!8m2!3d35.693451!4d139.73563!16s%2Fg%2F11ddy_my1l?entry=ttu" target="_blank">Google Map</a>
-        </div>
-
-        <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.3318328808073!2d139.73305507623294!3d35.693450972583314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c5e40fd8ca9%3A0xe4e83101398f38cf!2z44CSMTYyLTA4NDYg5p2x5Lqs6YO95paw5a6_5Yy65biC6LC35bem5YaF55S677yS77yR4oiS77yR77yT!5e0!3m2!1sja!2sjp!4v1712552676765!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="wrapper">
+          <div class="text-area">
+            <div class="inner">
+              <p class="text">基本情報技術者試験　合格</p>
+              <p class="text">TOEIC L&R 710点　取得</p>
+              <p class="text">3級ファイナンシャル・プランニング技能士　合格</p>
+              <p class="text">G検定　合格</p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
