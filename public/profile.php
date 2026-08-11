@@ -24,41 +24,41 @@ $cssFile = 'profile';
       </div>
 
       <ul class="pagelink-list wrapper">
-        <li><a href="#philosophy">企業理念</a></li>
-        <li><a href="#service">事業紹介</a></li>
-        <li><a href="#overview">会社概要</a></li>
-        <li><a href="#access">アクセス</a></li>
+        <li><a href="#aboutme"><?php echo ABOUTME; ?></a></li>
+        <li><a href="#works"><?php echo WORKS; ?></a></li>
+        <li><a href="#ability"><?php echo ABILITY; ?></a></li>
+        <li><a href="#certificate"><?php echo CERTIFICATE; ?></a></li>
       </ul>
 
-      <section id="philosophy">
-        <h2 class="section-title"><span>企業理念</span></h2>
+      <section id="aboutme">
+        <h2 class="section-title"><span><?php echo ABOUTME; ?></span></h2>
 
         <div class="wrapper">
           <div class="text-area">
             <div class="inner">
-              <p class="title">空間デザインで<br>新たな価値を創造する</p>
-              <p class="text">私たちはインテリアをデザインするだけでなく、空間全体をデザインすることでその空間に新たな価値を創造します。</p>
-              <p class="text">人が喜び感動し、そして心を通い合わせるようなそんな空間創りのお手伝いをいたします。</p>
+              <p class="title"><?php echo ABOUTME_TITLE; ?></p>
+              <p class="text"><?php echo ABOUTME_TEXT1; ?></p>
+              <p class="text"><?php echo ABOUTME_TEXT2; ?></p>
             </div>
           </div>
           <div class="img-top">
-            <img src="images/profile/philosophy1.jpg" alt="">
+            <img src="images/profile/aboutme1.png" alt="">
           </div>
           <div class="img-bottom">
-            <img src="images/profile/philosophy2.jpg" alt="">
+            <img src="images/profile/aboutme2.png" alt="">
           </div>
         </div>
       </section>
 
-      <section id="service">
-        <h2 class="section-title"><span>事業紹介</span></h2>
+      <section id="works">
+        <h2 class="section-title"><span><?php echo WORKS; ?></span></h2>
 
         <div class="wrapper">
           <a class="item interior" href="gallery.php">
             <div class="text">
-              <p class="title-ja">インテリアデザイン</p>
-              <p class="title-en">Thicca's HP</p>
-              <p class="description">ソファ、デスク、チェア、ダイニングを中心に、オリジナルのインテリアをデザインしています。</p>
+              <p class="title-ja">イラスト一覧</p>
+              <p class="title-en">GALLERY</p>
+              <p class="description"><?php echo ABOUTME_GALLERY; ?></p>
               <p class="view-more">VIEW MORE</p>
             </div>
             <div class="img">
@@ -68,9 +68,9 @@ $cssFile = 'profile';
 
           <a class="item store" href="achievements.php">
             <div class="text">
-              <p class="title-ja">住空間・商業空間のデザイン</p>
-              <p class="title-en">Store Design</p>
-              <p class="description">住む人やその空間を利用されるお客様が笑顔になるような空間のデザインを行なっています。</p>
+              <p class="title-ja">実績紹介</p>
+              <p class="title-en">ACHIEVEMENTS</p>
+              <p class="description"><?php echo ABOUTME_ACHIEVEMENTS; ?></p>
               <p class="view-more">VIEW MORE</p>
             </div>
             <div class="img">
@@ -80,10 +80,10 @@ $cssFile = 'profile';
         </div>
       </section>
 
-      <section id="overview">
-        <h2 class="section-title"><span>会社概要</span></h2>
+      <section id="ability">
+        <h2 class="section-title"><span><?php echo ABILITY; ?></span></h2>
 
-        <dl class="overview-list wrapper">
+        <dl class="ability-list wrapper">
           <dt>会社名</dt>
           <dd>株式会社</dd>
           <dt>代表取締役</dt>
@@ -97,8 +97,8 @@ $cssFile = 'profile';
         </dl>
       </section>
 
-      <section id="access">
-        <h2 class="section-title"><span>アクセス</span></h2>
+      <section id="certificate">
+        <h2 class="section-title"><span><?php echo CERTIFICATE; ?></span></h2>
 
         <div class="info wrapper">
           <p>〒999-9999 東京都○○○○○○○○○○○○○○<br>TEL 03-999-9999 / FAX 03-999-9999</p>
