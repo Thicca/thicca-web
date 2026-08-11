@@ -198,6 +198,10 @@ $cssFile = 'profile';
                       <span class="date">8/29</span>
                       <span class="event">YouTube初配信</span>
                     </li>
+                    <li>
+                      <span class="date">10/1</span>
+                      <span class="event">VTuber/Vライバーとしての名前を「夢毬てちか」に改名</span>
+                    </li>
                   </ul>
                 </div>
 

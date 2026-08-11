@@ -39,7 +39,7 @@ $cssFile = 'top';
         <section class="gallery fadein">
             <div class="text">
                 <h2 class="section-title">GALLERY</h2>
-                <p class="description"><?php echo GALLERY_DESCRIPTION; ?></p>
+                <p class="description"><?php echo ABOUT_GALLERY; ?></p>
             </div>
 
             <div class="gallery-list-area">
@@ -67,16 +67,16 @@ $cssFile = 'top';
         <section class="achievements fadein">
             <div class="text">
                 <h2 class="section-title">ACHIEVEMENTS</h2>
-                <p class="description"><?php echo ACHIEVEMENTS_DESCRIPTION; ?></p>
-                <p class="description"><?php echo ACHIEVEMENTS_DESCRIPTION2; ?></p>
+                <p class="description"><?php echo ABOUT_ACHIEVEMENTS; ?></p>
+                <p class="description"><?php echo ABOUT_ACHIEVEMENTS2; ?></p>
                 <a class="btn" href="achievements.php">VIEW MORE</a>
             </div>
 
             <ul class="achievements-list">
-                <li><img src="images/top/works1.jpg" alt=""></li>
-                <li><img src="images/top/works2.jpg" alt=""></li>
-                <li><img src="images/top/works3.jpg" alt=""></li>
-                <li><img src="images/top/works4.jpg" alt=""></li>
+                <li><img src="images/top/works1.png" alt=""></li>
+                <li><img src="images/top/works2.png" alt=""></li>
+                <li><img src="images/top/works3.png" alt=""></li>
+                <li><img src="images/top/works4.png" alt=""></li>
             </ul>
         </section>
 
