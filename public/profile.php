@@ -62,7 +62,7 @@ $cssFile = 'profile';
               <p class="view-more">VIEW MORE</p>
             </div>
             <div class="img">
-              <img src="images/profile/products-interior.jpg" alt="">
+              <img src="images/profile/playmat_kanon.png" alt="">
             </div>
           </a>
 
@@ -74,7 +74,7 @@ $cssFile = 'profile';
               <p class="view-more">VIEW MORE</p>
             </div>
             <div class="img">
-              <img src="images/profile/products-store.jpg" alt="">
+              <img src="images/profile/toalice_3rd_contest_thicca_view.png" alt="">
             </div>
           </a>
         </div>
