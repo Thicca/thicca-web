@@ -84,16 +84,24 @@ $cssFile = 'profile';
         <h2 class="section-title"><span><?php echo ABILITY; ?></span></h2>
 
         <dl class="ability-list wrapper">
-          <dt>会社名</dt>
-          <dd>株式会社</dd>
-          <dt>代表取締役</dt>
-          <dd>○○ ○○</dd>
-          <dt>設立</dt>
-          <dd>2000年4月</dd>
-          <dt>所在地</dt>
-          <dd>東京都○○○○○○○○○○○○○</dd>
-          <dt>事業内容</dt>
-          <dd>インテリアデザイン<br>住空間及び商業空間のデザイン</dd>
+          <dt>趣味</dt>
+          <dd>お絵描き / カードゲーム / 可愛い服を着ること(地雷系多め)</dd>
+          <dt>できること・特技？</dt>
+          <dd>お絵描き / Live2Dモデリング / 作曲(DTM) / プログラミング / 暗記 / 英語</dd>
+          <dt>遊ぶゲーム</dt>
+          <dd>デジタルカードゲーム / ポケモン / 原神 / ブルーアーカイブ / パルワールド / 魔法少女ノ魔女裁判</dd>
+          <dt>カードゲーム(紙)</dt>
+          <dd>デュエル・マスターズ / ヴァイスシュヴァルツ / 遊戯王OCG / 遊戯王ラッシュデュエル / ヴァンガード</dd>
+          <dt>デジタルカードゲーム</dt>
+          <dd>デュエル・マスターズ プレイス / Shadowverse: Worlds Beyond / 遊戯王マスターデュエル</dd>
+          <dt>プログラミング</dt>
+          <dd>
+            ・言語: C/C++/Java/Python/PHP/CSS/HTML/JavaScript等 基本的なコーディング、既存コードの修正<br>
+            ・Python: 進化計算、機械学習、深層学習等の人工知能ライブラリ使用経験有<br>
+            ・PHP: CodeIgniterを用いたMVCモデルの既存コード修正経験有<br>
+            ・OS: Linux(CentOS,Ubuntu) 基本的なコマンド操作<br>
+            ・DB: MySQL 基本的なSQL記述やクエリ実行
+          </dd>
         </dl>
       </section>
 
