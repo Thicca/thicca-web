@@ -184,7 +184,7 @@ Footer
   margin-bottom: 30px;
 }
 #footer .info-area .copyright {
-  font-size: 10px;
+  font-size: 14px;
 }
 #footer .menu-area {
   width: 65%;
@@ -232,6 +232,11 @@ Footer
 #footer .sns-links img {
   width: 18px;
   height: 18px;
+}
+#footer .credit {
+  font-size: 11px;
+  color: #aaa;
+  margin-bottom: 8px;
 }
 
 /*-------------------------------------------

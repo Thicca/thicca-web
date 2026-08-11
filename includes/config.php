@@ -87,3 +87,6 @@ define('ACHIEVEMENTS_DESCRIPTION', '私たちがデザインするインテリ�
 // faq
 
 // contact
+
+// reefrence
+define('REFERENCE_BOOK', '「HTML&CSS Webデザイン 現場レベルのコーディング・スキルが身につく実践入門」(小豆沢健 / 技術評論社)');
