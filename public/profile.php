@@ -85,14 +85,14 @@ $cssFile = 'profile';
 
         <dl class="ability-list wrapper">
           <dt>趣味</dt>
-          <dd>お絵描き / カードゲーム / 可愛い服を着ること(地雷系多め)</dd>
+          <dd>お絵描き / カードゲーム / 可愛い服を着ること(地雷系多め) / 配信</dd>
           <dt>できること・特技？</dt>
           <dd>お絵描き / Live2Dモデリング / 作曲(DTM) / プログラミング / 暗記 / 英語</dd>
           <dt>遊ぶゲーム</dt>
-          <dd>デジタルカードゲーム / ポケモン / 原神 / ブルーアーカイブ / パルワールド / 魔法少女ノ魔女裁判</dd>
-          <dt>カードゲーム(紙)</dt>
+          <dd>デジタルカードゲーム / ポケモン / 原神 / ブルーアーカイブ / パルワールド / 魔法少女ノ魔女裁判 等</dd>
+          <dt>遊ぶカードゲーム(紙)</dt>
           <dd>デュエル・マスターズ / ヴァイスシュヴァルツ / 遊戯王OCG / 遊戯王ラッシュデュエル / ヴァンガード</dd>
-          <dt>デジタルカードゲーム</dt>
+          <dt>遊ぶデジタルカードゲーム</dt>
           <dd>デュエル・マスターズ プレイス / Shadowverse: Worlds Beyond / 遊戯王マスターデュエル</dd>
           <dt>プログラミング</dt>
           <dd>
@@ -111,10 +111,24 @@ $cssFile = 'profile';
         <div class="wrapper">
           <div class="text-area">
             <div class="inner">
-              <p class="text">基本情報技術者試験　合格</p>
-              <p class="text">TOEIC L&R 710点　取得</p>
-              <p class="text">3級ファイナンシャル・プランニング技能士　合格</p>
-              <p class="text">G検定　合格</p>
+              <ul class="qualifications">
+                <li>
+                  <span class="q-name">基本情報技術者試験</span>
+                  <span class="q-status">合格</span>
+                </li>
+                <li>
+                  <span class="q-name">TOEIC L&amp;R 710点</span>
+                  <span class="q-status">取得</span>
+                </li>
+                <li>
+                  <span class="q-name">3級ファイナンシャル・プランニング技能士</span>
+                  <span class="q-status">合格</span>
+                </li>
+                <li>
+                  <span class="q-name">G検定</span>
+                  <span class="q-status">合格</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
