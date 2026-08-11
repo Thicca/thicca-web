@@ -15,17 +15,17 @@
         <li class="menu-first">
             <span><?php echo PROFILE; ?></span>
             <ul class="menu-second">
-                <li><a href="profile.php#aboutme"><?php echo ABOUTME; ?></a></li>
-                <li><a href="profile.php#works"><?php echo WORKS; ?></a></li>
-                <li><a href="profile.php#ability"><?php echo ABILITY; ?></a></li>
-                <li><a href="profile.php#certificate"><?php echo CERTIFICATE; ?></a></li>
-                <li><a href="profile.php#history"><?php echo HISTORY; ?></a></li>
+                <li><a href="profile#aboutme"><?php echo ABOUTME; ?></a></li>
+                <li><a href="profile#works"><?php echo WORKS; ?></a></li>
+                <li><a href="profile#ability"><?php echo ABILITY; ?></a></li>
+                <li><a href="profile#certificate"><?php echo CERTIFICATE; ?></a></li>
+                <li><a href="profile#history"><?php echo HISTORY; ?></a></li>
             </ul>
         </li>
-        <li><a href="gallery.php"><?php echo GALLERY; ?></a></li>
-        <li><a href="achievements.php"><?php echo ACHIEVEMENTS; ?></a></li>
-        <li><a href="faq.php"><?php echo FAQ; ?></a></li>
-        <li class="menu-contact"><a href="contact.php"><?php echo CONTACT; ?></a></li>
+        <li><a href="gallery"><?php echo GALLERY; ?></a></li>
+        <li><a href="achievements"><?php echo ACHIEVEMENTS; ?></a></li>
+        <li><a href="faq"><?php echo FAQ; ?></a></li>
+        <li class="menu-contact"><a href="contact"><?php echo CONTACT; ?></a></li>
     </ul>
 </nav>
 

@@ -6,7 +6,7 @@
 ?>
 <header id="header">
     <h1 class="logo">
-        <a href="index.php">
+        <a href="index">
             <img src="images/common/logo.svg" alt="<?php echo SITE_NAME; ?>">
         </a>
     </h1>

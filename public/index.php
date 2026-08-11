@@ -31,7 +31,7 @@ $cssFile = 'top';
                 <div class="text">
                     <p class="title"><?php echo ABOUT_TITLE; ?></p>
                     <p class="description"><?php echo ABOUT_DESCRIPTION; ?></p>
-                    <a class="btn" href="profile.php">VIEW MORE</a>
+                    <a class="btn" href="profile">VIEW MORE</a>
                 </div>
             </div>
         </section>
@@ -61,7 +61,7 @@ $cssFile = 'top';
                 </ul>
             </div>
 
-            <a class="btn" href="gallery.php">VIEW MORE</a>
+            <a class="btn" href="gallery">VIEW MORE</a>
         </section>
 
         <section class="achievements fadein">
@@ -69,7 +69,7 @@ $cssFile = 'top';
                 <h2 class="section-title">ACHIEVEMENTS</h2>
                 <p class="description"><?php echo ABOUT_ACHIEVEMENTS; ?></p>
                 <p class="description"><?php echo ABOUT_ACHIEVEMENTS2; ?></p>
-                <a class="btn" href="achievements.php">VIEW MORE</a>
+                <a class="btn" href="achievements">VIEW MORE</a>
             </div>
 
             <ul class="achievements-list">
@@ -81,7 +81,7 @@ $cssFile = 'top';
         </section>
 
         <div class="faq-contact fadein">
-            <a class="item" href="faq.php">
+            <a class="item" href="faq">
                 <div class="img">
                     <img src="images/top/faq.png" alt="">
                 </div>
@@ -94,7 +94,7 @@ $cssFile = 'top';
                 </div>
             </a>
 
-            <a class="item" href="contact.php">
+            <a class="item" href="contact">
                 <div class="img">
                     <img src="images/top/contact.png" alt="">
                 </div>

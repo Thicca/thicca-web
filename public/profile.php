@@ -55,7 +55,7 @@ $cssFile = 'profile';
         <h2 class="section-title"><span><?php echo WORKS; ?></span></h2>
 
         <div class="wrapper">
-          <a class="item interior" href="gallery.php">
+          <a class="item interior" href="gallery">
             <div class="text">
               <p class="title-ja">イラスト一覧</p>
               <p class="title-en">GALLERY</p>
@@ -67,7 +67,7 @@ $cssFile = 'profile';
             </div>
           </a>
 
-          <a class="item store" href="achievements.php">
+          <a class="item store" href="achievements">
             <div class="text">
               <p class="title-ja">実績紹介</p>
               <p class="title-en">ACHIEVEMENTS</p>

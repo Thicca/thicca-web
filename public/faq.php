@@ -35,7 +35,7 @@ $cssFile = 'faq';
           <dd>
             <span class="answer">A</span>
             <span>インテリアのことならなんでもご相談ください。<br>
-              お電話または<a href="contact.php">お問い合わせフォーム</a>にてご相談を承っております。</span>
+              お電話または<a href="contact">お問い合わせフォーム</a>にてご相談を承っております。</span>
           </dd>
         </div>
         <div class="item">
