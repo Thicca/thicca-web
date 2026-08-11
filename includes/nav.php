@@ -19,6 +19,7 @@
                 <li><a href="profile.php#works"><?php echo WORKS; ?></a></li>
                 <li><a href="profile.php#ability"><?php echo ABILITY; ?></a></li>
                 <li><a href="profile.php#certificate"><?php echo CERTIFICATE; ?></a></li>
+                <li><a href="profile.php#history"><?php echo HISTORY; ?></a></li>
             </ul>
         </li>
         <li><a href="gallery.php"><?php echo GALLERY; ?></a></li>
