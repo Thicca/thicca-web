@@ -133,6 +133,96 @@ $cssFile = 'profile';
           </div>
         </div>
       </section>
+
+      <section id="history">
+        <h2 class="section-title"><span><?php echo HISTORY; ?></span></h2>
+
+        <div class="wrapper">
+          <div class="text-area">
+            <div class="inner">
+              <div class="history-timeline">
+                <div class="history-timeline-year">
+                  <h3 class="year">2021</h3>
+                  <ul class="history-timeline-list">
+                    <li>
+                      <span class="date">12/3</span>
+                      <span class="event">Twitter(現X)アカウント「てぃっか」開設</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="history-timeline-year">
+                  <h3 class="year">2022</h3>
+                  <ul class="history-timeline-list">
+                    <li>
+                      <span class="date">12/30</span>
+                      <span class="event">「コミックマーケット101」サークル参加</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="history-timeline-year">
+                  <h3 class="year">2023</h3>
+                  <ul class="history-timeline-list">
+                    <li>
+                      <span class="date">8/12</span>
+                      <span class="event">「コミックマーケット102」サークル参加</span>
+                    </li>
+                    <li>
+                      <span class="date">11/13</span>
+                      <span class="event">Twitch初配信</span>
+                    </li>
+                    <li>
+                      <span class="date">12/8</span>
+                      <span class="event">Twitchアフィリエイト</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="history-timeline-year">
+                  <h3 class="year">2024</h3>
+                  <ul class="history-timeline-list">
+                    <li>
+                      <span class="date">1/28</span>
+                      <span class="event">
+                        <a href="https://x.com/thicca_view/status/1751555774218998202" target="_blank" rel="noopener noreferrer">
+                          「第3回ToAliceデザインコンテスト」特別賞受賞
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="date">1/28</span>
+                      <span class="event">Live2Dアバター完成&amp;お披露目</span>
+                    </li>
+                    <li>
+                      <span class="date">8/29</span>
+                      <span class="event">YouTube初配信</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="history-timeline-year">
+                  <h3 class="year">2025</h3>
+                  <ul class="history-timeline-list">
+                    <li>
+                      <span class="date">3/15</span>
+                      <span class="event">YouTube収益化</span>
+                    </li>
+                    <li>
+                      <span class="date">9/6</span>
+                      <span class="event">
+                        <a href="https://dmps-tournament.takaratomy.co.jp/resulthost.asp?Route=UserResult&HostID=0&EventID=240&Seq=1" target="_blank" rel="noopener noreferrer">
+                          「デュエプレグランプリ2025」TOP32(17位タイ)入賞
+                        </a>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <?php require_once __DIR__ . '/../includes/footer.php'; ?>
