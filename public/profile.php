@@ -187,7 +187,7 @@ $cssFile = 'profile';
                       <span class="date">1/28</span>
                       <span class="event">
                         <a href="https://x.com/thicca_view/status/1751555774218998202" target="_blank" rel="noopener noreferrer">
-                          「第3回ToAliceデザインコンテスト」特別賞受賞
+                          「第3回ToAliceデザインコンテスト」特別賞受賞&amp;商品化
                         </a>
                       </span>
                     </li>

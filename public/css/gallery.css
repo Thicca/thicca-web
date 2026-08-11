@@ -36,7 +36,7 @@
 .gallery-list {
   grid-template-columns: repeat(4, 1fr);
   gap: 12px;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
   display: none;
 }
 .gallery-list.active {
@@ -67,8 +67,33 @@
   font-size: 18px;
   margin-bottom: 5px;
 }
-.gallery-list li .info .price {
+.gallery-list li .info .date {
   font-size: 14px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.pagination button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+.pagination button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.tab-list .tab {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 4px;
+  font-size: 14px;
+  color: #999;
+  border-bottom: 2px solid transparent;
 }
 
 /*-------------------------------------------

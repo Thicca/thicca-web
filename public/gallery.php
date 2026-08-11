@@ -4,10 +4,14 @@ $pageTitle = GALLERY;
 $pageUrl = SITE_URL . '/';
 $pageDescription = SITE_DESCRIPTION;
 $cssFile = 'gallery';
+
+// データ読み込み
+$allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), true);
 ?>
 <!DOCTYPE html>
 <html lang="ja">
   <?php require_once __DIR__ . '/../includes/head.php'; ?>
+  <script src="js/gallery.js"></script>
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
     <main>
@@ -24,237 +28,30 @@ $cssFile = 'gallery';
       </div>
 
       <ul class="tab-list">
-        <li class="tab-all">全て</li>
-        <li class="tab-sofa">ソファ</li>
-        <li class="tab-desk">デスク</li>
-        <li class="tab-chair">チェア</li>
-        <li class="tab-dining">ダイニング</li>
+        <li class="tab active" data-category="all">全て</li>
+        <li class="tab" data-category="original">オリジナル</li>
+        <li class="tab" data-category="fanart">二次創作</li>
+        <li class="tab" data-category="commission">ご依頼作品</li>
+        <li class="tab" data-category="dining">ダイニング</li>
       </ul>
 
-      <ul class="gallery-list all">
-        <li>
-          <img src="images/gallery/products1.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 01</p>
-            <p class="price">¥99,999</p>
-          </div>
+      <ul class="gallery-list all" id="galleryList">
+        <?php foreach ($allItems as $item): ?>
+        <li class="gallery-item" data-category="<?php echo htmlspecialchars($item['category']); ?>">
+            <img src="images/gallery/<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>">
+            <div class="info">
+                <p class="name"><?php echo htmlspecialchars($item['name']); ?></p>
+                <p class="date">¥<?php echo number_format($item['date']); ?></p>
+            </div>
         </li>
-        <li>
-          <img src="images/gallery/products2.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 02</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products3.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 03</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products4.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 04</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products5.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 05</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products6.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 06</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products7.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 07</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products8.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 08</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products9.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 09</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products10.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 10</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products11.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 11</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products12.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 12</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products13.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 13</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products14.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 14</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products15.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 15</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
+        <?php endforeach; ?>
       </ul>
 
-      <ul class="gallery-list sofa">
-        <li>
-          <img src="images/gallery/products1.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 01</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products4.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 04</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products7.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 07</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products10.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 10</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products15.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 15</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-      </ul>
-
-      <ul class="gallery-list desk">
-        <li>
-          <img src="images/gallery/products2.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 02</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products5.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 05</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products8.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 08</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products11.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 11</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-      </ul>
-
-      <ul class="gallery-list chair">
-        <li>
-          <img src="images/gallery/products3.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 03</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products6.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 06</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products9.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 09</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products12.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 12</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-      </ul>
-
-      <ul class="gallery-list dining">
-        <li>
-          <img src="images/gallery/products13.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 13</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-        <li>
-          <img src="images/gallery/products14.jpg" alt="">
-          <div class="info">
-            <p class="name">Product Name 14</p>
-            <p class="price">¥99,999</p>
-          </div>
-        </li>
-      </ul>
+      <nav class="pagination">
+          <button class="prev" id="prevBtn">← 前へ</button>
+          <span class="page-info" id="pageInfo">1 / 1</span>
+          <button class="next" id="nextBtn">次へ →</button>
+      </nav>
     </main>
 
     <?php require_once __DIR__ . '/../includes/footer.php'; ?>

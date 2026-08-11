@@ -53,25 +53,25 @@ Inview
     $(".gallery-list.all").addClass("active");
   });
 
-  $(".tab-sofa").click(function () {
+  $(".tab-original").click(function () {
     $(".tab-list li").removeClass("active");
     $(".gallery-list").removeClass("active");
     $(this).addClass("active");
-    $(".gallery-list.sofa").addClass("active");
+    $(".gallery-list.original").addClass("active");
   });
 
-  $(".tab-desk").click(function () {
+  $(".tab-fanart").click(function () {
     $(".tab-list li").removeClass("active");
     $(".gallery-list").removeClass("active");
     $(this).addClass("active");
-    $(".gallery-list.desk").addClass("active");
+    $(".gallery-list.fanart").addClass("active");
   });
 
-  $(".tab-chair").click(function () {
+  $(".tab-commission").click(function () {
     $(".tab-list li").removeClass("active");
     $(".gallery-list").removeClass("active");
     $(this).addClass("active");
-    $(".gallery-list.chair").addClass("active");
+    $(".gallery-list.commission").addClass("active");
   });
 
   $(".tab-dining").click(function () {
