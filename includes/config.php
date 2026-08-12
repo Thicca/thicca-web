@@ -78,6 +78,20 @@ define('ABOUTME_TEXT3', '興味を持ったものは自分で作ったり、勉�
 define('ABOUTME_GALLERY', '私がこれまで描いたイラストを掲載しています。');
 define('ABOUTME_ACHIEVEMENTS', 'アパレルブランドのデザインコンテストやデジタルカードゲームの大会など、私の実績を紹介しています。');
 
+define('BIRTHDAY', '6月28日');
+define('HOMETOWN', '鹿児島県');
+define('ILLUSTRATION', '[イラスト] CLIP STUDIO PAINT EX Version 1.12.3');
+define('DAW', '[DAW] Cubase Pro 13');
+define('FACE_TRACKING', '[フェイストラッキング] VTube Studio / nizima LIVE');
+define('SOFTWARE', ILLUSTRATION . '<br>' . DAW . '<br>' . FACE_TRACKING);
+define('PC_OS', '- OS: Windows11');
+define('PC_CPU', '- CPU: Intel Core i7-11700F');
+define('PC_RAM', '- RAM: 32GB');
+define('PC_GPU', '- GPU: NVIDIA GeForce RTX 3060');
+define('PENTABLET', '[ペンタブ] Wacom Cintiq 16');
+define('MIDI', '[MIDIキーボード] NEKTAR IMPACT LX88+');
+define('DEVICES', '[PC]<br>' . PC_OS . '<br>' . PC_CPU . '<br>' . PC_RAM . '<br>' . PC_GPU . '<br>' . PENTABLET . '<br>' . MIDI);
+
 // gallery
 define('GALLERY_DESCRIPTION', '私たちがデザインするインテリアをご紹介します。<br>ソファやデスク、チェア、ダイニングまわりを中心にオリジナルのインテリアをご提案いたします。');
 

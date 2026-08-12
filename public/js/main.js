@@ -107,13 +107,30 @@ Inview
   });
 
 /*-------------------------------
-アコーディオン
+アコーディオン(FAQ)
 ---------------------------------*/
   $(".faq-list dd").hide();
   $(".faq-list dt").click(function () {
     $(this).next().slideToggle();
     $(this).toggleClass("active");
   });
+});
+
+/*-------------------------------
+アコーディオン(aboutme)
+---------------------------------*/
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleBtn = document.getElementById('moreToggle');
+  const details = document.getElementById('moreDetails');
+
+  if (toggleBtn && details) {
+      toggleBtn.addEventListener('click', () => {
+          const isOpen = details.classList.toggle('is-open');
+          toggleBtn.classList.toggle('is-open');
+          toggleBtn.setAttribute('aria-expanded', isOpen);
+          toggleBtn.childNodes[0].textContent = isOpen ? '閉じる ' : 'もっと見る ';
+      });
+  }
 });
 
 /*-------------------------------

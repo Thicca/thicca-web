@@ -48,6 +48,31 @@ $cssFile = 'profile';
           <div class="img-bottom">
             <img src="images/profile/aboutme2.png" alt="">
           </div>
+          <button class="more-toggle" id="moreToggle" aria-expanded="false" aria-controls="moreDetails">
+          もっと見る
+          <span class="arrow">▼</span>
+          </button>
+
+          <div class="more-details" id="moreDetails">
+              <dl class="detail-list">
+                  <div class="detail-item">
+                      <dt>誕生日</dt>
+                      <dd><?php echo BIRTHDAY; ?></dd>
+                  </div>
+                  <div class="detail-item">
+                      <dt>出身地</dt>
+                      <dd><?php echo HOMETOWN; ?></dd>
+                  </div>
+                  <div class="detail-item">
+                      <dt>使用ソフト</dt>
+                      <dd><?php echo SOFTWARE; ?></dd>
+                  </div>
+                  <div class="detail-item">
+                      <dt>使用デバイス</dt>
+                      <dd><?php echo DEVICES; ?></dd>
+                  </div>
+              </dl>
+          </div>
         </div>
       </section>
 
