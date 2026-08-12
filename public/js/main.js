@@ -170,3 +170,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     targets.forEach((target) => observer.observe(target));
 });
+/*-------------------------------
+右クリック保存の抑止
+---------------------------------*/
+document.addEventListener('contextmenu', (e) => {
+    if (e.target.tagName === 'IMG') {
+        e.preventDefault();
+    }
+});
+// 特定のキー操作をブロック
+document.addEventListener('keydown', function(e) {
+  // Ctrl + C、Ctrl + U、Ctrl + S など
+  if (e.ctrlKey && ['c', 'u', 's'].includes(e.key.toLowerCase())) {
+    e.preventDefault();
+  }
+});
+// コピー時にアラートを表示
+document.addEventListener('copy', function(e) {
+  alert('このページの内容はコピーできません。');
+  e.preventDefault();
+});

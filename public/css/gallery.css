@@ -96,8 +96,15 @@
   color: #999;
   border-bottom: 2px solid transparent;
 }
+/* 通常の画像は保存しにくくする */
+/* モーダルを開くための画像以外は、クリック・ドラッグを防ぐ */
+img:not(.modal-open) {
+  user-select: none;
+  -webkit-user-drag: none;
+}
 .gallery-item img.modal-open {
-  cursor: pointer;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 .modal-container {
   display: block;
