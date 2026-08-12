@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const itemsPerPage = 4;
+    const galleryList = document.getElementById('galleryList');
+    const itemsPerPage = parseInt(galleryList.dataset.itemsPerPage, 10) || 16; // 取得できなければ16をデフォルトに
     let currentCategory = 'all';
     let currentPage = 1;
 

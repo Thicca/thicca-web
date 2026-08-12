@@ -37,13 +37,18 @@ $allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), tr
         <li class="tab" data-category="music">曲</li>
       </ul>
 
-      <ul class="gallery-list all" id="galleryList">
+      <ul class="gallery-list all" id="galleryList" data-items-per-page="<?php echo GALLERY_ITEMS_PER_PAGE; ?>">
           <?php foreach ($allItems as $item): ?>
+          <?php
+              $images = $item['image']; // 配列
+              $thumbnail = $images[0];  // 一覧表示は1枚目
+              $imagesJson = htmlspecialchars(json_encode($images), ENT_QUOTES, 'UTF-8'); // data属性用にJSON化
+          ?>
           <li class="gallery-item" data-category="<?php echo htmlspecialchars($item['category']); ?>">
-              <img src="images/gallery/<?php echo htmlspecialchars($item['image']); ?>"
+              <img src="images/gallery/<?php echo htmlspecialchars($thumbnail); ?>"
                    alt="<?php echo htmlspecialchars($item['name']); ?>"
                    class="modal-open"
-                   data-full="images/gallery/<?php echo htmlspecialchars($item['image']); ?>"
+                   data-images="<?php echo $imagesJson; ?>"
                    data-name="<?php echo htmlspecialchars($item['name']); ?>">
               <div class="info">
                   <p class="name"><?php echo htmlspecialchars($item['name']); ?></p>
@@ -58,7 +63,7 @@ $allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), tr
           <div class="modal-overlay"></div>
           <div class="modal-content">
               <button class="modal-close" aria-label="閉じる">&times;</button>
-              <img src="" alt="" id="modalImage">
+              <div class="modal-images" id="modalImages"></div>
               <p class="modal-caption" id="modalCaption"></p>
           </div>
       </div>

@@ -135,18 +135,19 @@ document.addEventListener('DOMContentLoaded', () => {
   ギャラリー画像モーダル
   ---------------------------------*/
   $(document).on("click", ".gallery-item img.modal-open", function () {
-      const fullSrc = $(this).data("full");
+      const images = $(this).data("images"); // 配列として自動パースされる
       const name = $(this).data("name");
 
-      $("#modalImage").attr("src", fullSrc).attr("alt", name);
+      const $modalImages = $("#modalImages");
+      $modalImages.empty(); // 前回分をクリア
+
+      images.forEach((imgPath) => {
+          $modalImages.append(`<img src="images/gallery/${imgPath}" alt="${name}">`);
+      });
+
       $("#modalCaption").text(name);
       $("body").css("overflow-y", "hidden");
       $("#imageModal").addClass("active");
-  });
-
-  $(document).on("click", "#imageModal .modal-close, #imageModal .modal-overlay", function () {
-      $("body").css("overflow-y", "auto");
-      $("#imageModal").removeClass("active");
   });
 });
 
