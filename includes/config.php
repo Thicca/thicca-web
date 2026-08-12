@@ -100,6 +100,7 @@ define('ACHIEVEMENTS_DESCRIPTION', '私の雑多すぎる実績を紹介して�
 define('ACHIEVEMENTS_DESCRIPTION2', 'Skebでご依頼頂いたイラスト、アパレルブランドのデザインコンテストで入賞＆商品化したもの、デジタルカードゲーム大会の上位入賞など。');
 
 // faq
+define('FAQ_DESCRIPTION', '自分に関するQ&Aを勝手に作りました。<br>何か思いついたら追加していきます。');
 
 // contact
 

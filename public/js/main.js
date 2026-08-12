@@ -74,11 +74,11 @@ Inview
     $(".gallery-list.commission").addClass("active");
   });
 
-  $(".tab-dining").click(function () {
+  $(".tab-music").click(function () {
     $(".tab-list li").removeClass("active");
     $(".gallery-list").removeClass("active");
     $(this).addClass("active");
-    $(".gallery-list.dining").addClass("active");
+    $(".gallery-list.music").addClass("active");
   });
 
 /*-------------------------------

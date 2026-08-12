@@ -34,7 +34,7 @@ $allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), tr
         <li class="tab" data-category="original">オリジナル</li>
         <li class="tab" data-category="fanart">二次創作</li>
         <li class="tab" data-category="commission">ご依頼作品</li>
-        <li class="tab" data-category="dining">曲</li>
+        <li class="tab" data-category="music">曲</li>
       </ul>
 
       <ul class="gallery-list all" id="galleryList">

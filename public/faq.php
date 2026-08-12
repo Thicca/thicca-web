@@ -23,8 +23,7 @@ $cssFile = 'faq';
         </div>
       </div>
 
-      <p class="head-text">お客様からよくいただく質問をまとめました。<br>
-        その他、ご質問やご不明点がございましたらお気軽にお問い合わせください。</p>
+      <p class="head-text"><?php echo FAQ_DESCRIPTION; ?></p>
 
       <dl class="faq-list">
         <div class="item">
