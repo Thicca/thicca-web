@@ -43,7 +43,7 @@ $allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), tr
             <img src="images/gallery/<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>">
             <div class="info">
                 <p class="name"><?php echo htmlspecialchars($item['name']); ?></p>
-                <p class="date">¥<?php echo number_format($item['date']); ?></p>
+                <p class="date"><?php echo htmlspecialchars($item['date']); ?></p>
             </div>
         </li>
         <?php endforeach; ?>
