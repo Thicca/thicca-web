@@ -131,6 +131,23 @@ document.addEventListener('DOMContentLoaded', () => {
           toggleBtn.childNodes[0].textContent = isOpen ? '閉じる ' : 'もっと見る ';
       });
   }
+  /*-------------------------------
+  ギャラリー画像モーダル
+  ---------------------------------*/
+  $(document).on("click", ".gallery-item img.modal-open", function () {
+      const fullSrc = $(this).data("full");
+      const name = $(this).data("name");
+
+      $("#modalImage").attr("src", fullSrc).attr("alt", name);
+      $("#modalCaption").text(name);
+      $("body").css("overflow-y", "hidden");
+      $("#imageModal").addClass("active");
+  });
+
+  $(document).on("click", "#imageModal .modal-close, #imageModal .modal-overlay", function () {
+      $("body").css("overflow-y", "auto");
+      $("#imageModal").removeClass("active");
+  });
 });
 
 /*-------------------------------

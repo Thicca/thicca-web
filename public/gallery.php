@@ -38,16 +38,30 @@ $allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), tr
       </ul>
 
       <ul class="gallery-list all" id="galleryList">
-        <?php foreach ($allItems as $item): ?>
-        <li class="gallery-item" data-category="<?php echo htmlspecialchars($item['category']); ?>">
-            <img src="images/gallery/<?php echo htmlspecialchars($item['image']); ?>" alt="<?php echo htmlspecialchars($item['name']); ?>">
-            <div class="info">
-                <p class="name"><?php echo htmlspecialchars($item['name']); ?></p>
-                <p class="date"><?php echo htmlspecialchars($item['date']); ?></p>
-            </div>
-        </li>
-        <?php endforeach; ?>
+          <?php foreach ($allItems as $item): ?>
+          <li class="gallery-item" data-category="<?php echo htmlspecialchars($item['category']); ?>">
+              <img src="images/gallery/<?php echo htmlspecialchars($item['image']); ?>"
+                   alt="<?php echo htmlspecialchars($item['name']); ?>"
+                   class="modal-open"
+                   data-full="images/gallery/<?php echo htmlspecialchars($item['image']); ?>"
+                   data-name="<?php echo htmlspecialchars($item['name']); ?>">
+              <div class="info">
+                  <p class="name"><?php echo htmlspecialchars($item['name']); ?></p>
+                  <p class="date"><?php echo htmlspecialchars($item['date']); ?></p>
+              </div>
+          </li>
+          <?php endforeach; ?>
       </ul>
+
+      <!-- モーダルウィンドウ本体(ページに1つだけ用意) -->
+      <div class="modal-container" id="imageModal">
+          <div class="modal-overlay"></div>
+          <div class="modal-content">
+              <button class="modal-close" aria-label="閉じる">&times;</button>
+              <img src="" alt="" id="modalImage">
+              <p class="modal-caption" id="modalCaption"></p>
+          </div>
+      </div>
 
       <nav class="pagination">
           <button class="prev" id="prevBtn">← 前へ</button>
