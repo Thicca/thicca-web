@@ -23,7 +23,7 @@ $cssFile = 'achievements';
         </div>
       </div>
 
-      <p class="head-text">住む人やその空間を利用されるお客様が笑顔になるような<br class="pc">空間創りをお手伝いさせていただきます。</p>
+      <p class="head-text"><?php echo ACHIEVEMENTS_DESCRIPTION; ?><br class="pc"><?php echo ACHIEVEMENTS_DESCRIPTION2; ?></p>
       
       <ul class="achievements-list">
         <li class="work1">

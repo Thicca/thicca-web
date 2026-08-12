@@ -52,14 +52,14 @@ define('FULL_TITLE', THICCA_TITLE . ' / ' . TECHIKA_TITLE);
 define('CATCHPHRASE', '自分の手で、<br>全て創る。<br>');
 define('ABOUT_TITLE', '全て"自作"のマルチクリエイター');
 define('ABOUT_DESCRIPTION', '「てぃっか」の名前でインターネットにイラストを投稿する形で活動を開始。<br>後に配信活動も開始し、イラストとLive2Dモデリングでバーチャルアバターを自作してVTuber「夢毬てちか」としても活動することになる。<br>興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。');
-define('ABOUT_GALLERY', '私がこれまで描いたイラストを掲載します。<br>一次創作、二次創作、自分自身など。');
+define('ABOUT_GALLERY', '私がこれまで作った作品を掲載します。<br>オリジナルイラスト、二次創作イラスト、作った曲など。');
 define('ABOUT_ACHIEVEMENTS', '私の実績を紹介します。');
 define('ABOUT_ACHIEVEMENTS2', '依頼のイラストやアパレルブランドのデザインコンテスト受賞歴、デジタルカードゲームの大会の入賞歴など。');
 define('COPYRIGHT', '&copy; ' . date('Y') . ' ' . CIRCLE_NAME);
 
 // section
 define('PROFILE', 'プロフィール');
-define('GALLERY', 'イラスト一覧');
+define('GALLERY', '作品一覧');
 define('ACHIEVEMENTS', '実績紹介');
 define('FAQ', '勝手にQ&A');
 define('CONTACT', 'お仕事依頼');
@@ -75,7 +75,7 @@ define('ABOUTME_TITLE', '自分の手で全て創る。<br>やりたいこと全
 define('ABOUTME_TEXT1', '「てぃっか」の名前でインターネットにイラストを投稿する形で活動を開始。好きなVTuberや原神、遊戯王、デュエマといった二次創作イラスト及びオリジナルイラストを描いては投稿している。');
 define('ABOUTME_TEXT2', '後にTwitchにて配信活動を開始。その活動の最中でイラストとLive2Dモデリングでバーチャルアバターを自作し、いわゆるVライバーになる。後にYouTubeでも配信活動を開始し、VTuber「夢毬てちか」を名乗って活動することにもなる。');
 define('ABOUTME_TEXT3', '興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。<br>普段はデュエマやデュエプレ、シャドバWB(少し前までは遊戯王も)といったカードゲームをよく遊んでいる。');
-define('ABOUTME_GALLERY', '私がこれまで描いたイラストを掲載しています。');
+define('ABOUTME_GALLERY', '私がこれまで描いたイラストや作った曲を掲載しています。');
 define('ABOUTME_ACHIEVEMENTS', 'アパレルブランドのデザインコンテストやデジタルカードゲームの大会など、私の実績を紹介しています。');
 
 define('BIRTHDAY', '6月28日');
@@ -93,10 +93,11 @@ define('MIDI', '[MIDIキーボード] NEKTAR IMPACT LX88+');
 define('DEVICES', '[PC]<br>' . PC_OS . '<br>' . PC_CPU . '<br>' . PC_RAM . '<br>' . PC_GPU . '<br>' . PENTABLET . '<br>' . MIDI);
 
 // gallery
-define('GALLERY_DESCRIPTION', '私たちがデザインするインテリアをご紹介します。<br>ソファやデスク、チェア、ダイニングまわりを中心にオリジナルのインテリアをご提案いたします。');
+define('GALLERY_DESCRIPTION', '私がこれまで描いたイラストや作った曲を掲載しています。');
 
 // achievements
-define('ACHIEVEMENTS_DESCRIPTION', '私たちがデザインするインテリアをご紹介します。<br>ソファやデスク、チェア、ダイニングまわりを中心にオリジナルのインテリアをご提案いたします。');
+define('ACHIEVEMENTS_DESCRIPTION', '私の雑多すぎる実績を紹介しています。');
+define('ACHIEVEMENTS_DESCRIPTION2', 'Skebでご依頼頂いたイラスト、アパレルブランドのデザインコンテストで入賞＆商品化したもの、デジタルカードゲーム大会の上位入賞など。');
 
 // faq
 
