@@ -33,10 +33,13 @@ $allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), tr
         <li class="tab active" data-category="all">全て</li>
         <li class="tab" data-category="original">オリジナル</li>
         <li class="tab" data-category="fanart">二次創作</li>
+        <li class="tab" data-category="comic">漫画</li>
         <li class="tab" data-category="commission">ご依頼作品</li>
-        <li class="tab" data-category="music">曲</li>
       </ul>
 
+      <div class="sort-control">
+          <button id="sortToggle" data-order="desc">日付順: 新しい順 ▼</button>
+      </div>
       <ul class="gallery-list all" id="galleryList" data-items-per-page="<?php echo GALLERY_ITEMS_PER_PAGE; ?>">
           <?php foreach ($allItems as $item): ?>
           <?php
@@ -44,7 +47,7 @@ $allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), tr
               $thumbnail = $images[0];  // 一覧表示は1枚目
               $imagesJson = htmlspecialchars(json_encode($images), ENT_QUOTES, 'UTF-8'); // data属性用にJSON化
           ?>
-          <li class="gallery-item" data-category="<?php echo htmlspecialchars($item['category']); ?>">
+          <li class="gallery-item" data-category="<?php echo htmlspecialchars(implode(' ', $item['category'])); ?>">
               <img src="images/gallery/<?php echo htmlspecialchars($thumbnail); ?>"
                    alt="<?php echo htmlspecialchars($item['name']); ?>"
                    class="modal-open"

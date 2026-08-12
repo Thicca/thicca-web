@@ -1,39 +1,51 @@
 document.addEventListener('DOMContentLoaded', () => {
     const galleryList = document.getElementById('galleryList');
-    const itemsPerPage = parseInt(galleryList.dataset.itemsPerPage, 10) || 16; // 取得できなければ16をデフォルトに
+    const itemsPerPage = parseInt(galleryList.dataset.itemsPerPage, 10) || 4;
+
     let currentCategory = 'all';
     let currentPage = 1;
+    let sortOrder = 'desc'; // 初期値:新しい順
 
     const allItems = Array.from(document.querySelectorAll('.gallery-item'));
     const tabs = document.querySelectorAll('.tab');
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
     const pageInfo = document.getElementById('pageInfo');
+    const sortToggle = document.getElementById('sortToggle');
 
     function getFilteredItems() {
-        if (currentCategory === 'all') {
-            return allItems;
-        }
-        return allItems.filter(item => item.dataset.category === currentCategory);
+        let items = currentCategory === 'all'
+            ? allItems
+            : allItems.filter(item => item.dataset.category.split(' ').includes(currentCategory));
+
+        // 日付でソート(既存のコードはそのまま)
+        items = items.slice().sort((a, b) => {
+            const dateA = new Date(a.querySelector('.date').textContent.replace(/\./g, '-'));
+            const dateB = new Date(b.querySelector('.date').textContent.replace(/\./g, '-'));
+            return sortOrder === 'desc' ? dateB - dateA : dateA - dateB;
+        });
+
+        return items;
     }
 
     function render() {
         const filtered = getFilteredItems();
         const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerPage));
 
-        // ページ番号が範囲外にならないよう調整
         if (currentPage > totalPages) currentPage = totalPages;
         if (currentPage < 1) currentPage = 1;
 
         const start = (currentPage - 1) * itemsPerPage;
         const end = start + itemsPerPage;
 
-        // 全アイテムを一旦非表示にし、該当ページ分だけ表示
         allItems.forEach(item => {
             item.style.display = 'none';
         });
-        filtered.slice(start, end).forEach(item => {
+
+        const pageItems = filtered.slice(start, end);
+        pageItems.forEach(item => {
             item.style.display = '';
+            galleryList.appendChild(item); // 表示順を並び替えるため、DOM上の順序も更新
         });
 
         pageInfo.textContent = `${currentPage} / ${totalPages}`;
@@ -47,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tabs.forEach(t => t.classList.remove('active'));
             tab.classList.add('active');
             currentCategory = tab.dataset.category;
-            currentPage = 1; // タブを変えたら1ページ目に戻す
+            currentPage = 1;
             render();
         });
     });
@@ -62,6 +74,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     nextBtn.addEventListener('click', () => {
         currentPage++;
+        render();
+    });
+
+    // 並び替えボタン
+    sortToggle.addEventListener('click', () => {
+        sortOrder = sortOrder === 'desc' ? 'asc' : 'desc';
+        sortToggle.textContent = sortOrder === 'desc' ? '日付順: 新しい順 ▼' : '日付順: 古い順 ▲';
+        currentPage = 1; // 並び替えたら1ページ目に戻す
         render();
     });
 

@@ -5,7 +5,7 @@
         ],
         "name": "るしあ",
         "date": "2022.01.05",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -13,7 +13,7 @@
         ],
         "name": "GawrGura",
         "date": "2022.01.11",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -21,7 +21,7 @@
         ],
         "name": "Lumine_up_from_under_looks",
         "date": "2022.01.16",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -29,7 +29,7 @@
         ],
         "name": "Barbara_ef",
         "date": "2022.01.19",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -37,7 +37,7 @@
         ],
         "name": "汚部屋みたるしあ",
         "date": "2022.01.20",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -45,7 +45,7 @@
         ],
         "name": "まな板ではありません",
         "date": "2022.01.20",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -53,7 +53,7 @@
         ],
         "name": "るしにゃ",
         "date": "2022.01.26",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -61,7 +61,7 @@
         ],
         "name": "うららバレンタイン",
         "date": "2022.02.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -69,7 +69,7 @@
         ],
         "name": "バレンタインほたちゃ",
         "date": "2022.02.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -77,7 +77,7 @@
         ],
         "name": "ほたにゃ",
         "date": "2022.02.22",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -85,7 +85,7 @@
         ],
         "name": "うららが勝手に",
         "date": "2022.03.03",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -93,7 +93,7 @@
         ],
         "name": "閃刀姫ロゼ",
         "date": "2022.03.04",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -101,7 +101,7 @@
         ],
         "name": "HuTao",
         "date": "2022.03.08",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -109,7 +109,7 @@
         ],
         "name": "キューティア",
         "date": "2022.03.12",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -117,7 +117,7 @@
         ],
         "name": "らびゅ",
         "date": "2022.04.01",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -125,7 +125,7 @@
         ],
         "name": "sakura",
         "date": "2022.04.04",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -133,7 +133,7 @@
         ],
         "name": "sakuraの子のカラーラフざっと",
         "date": "2022.04.04",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -141,7 +141,7 @@
         ],
         "name": "cup_break",
         "date": "2022.04.05",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -149,7 +149,7 @@
         ],
         "name": "たお",
         "date": "2022.04.05",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -157,7 +157,7 @@
         ],
         "name": "ぐらおけ",
         "date": "2022.04.05",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -165,7 +165,7 @@
         ],
         "name": "てぃっかｓｄ",
         "date": "2022.04.05",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -173,7 +173,7 @@
         ],
         "name": "professional_poyo",
         "date": "2022.04.07",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -181,7 +181,7 @@
         ],
         "name": "平和な世界の閃刀姫",
         "date": "2022.04.08",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -189,7 +189,7 @@
         ],
         "name": "鍾離は目の前だぞ",
         "date": "2022.04.09",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -197,7 +197,7 @@
         ],
         "name": "昨日の服",
         "date": "2022.04.11",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -205,7 +205,7 @@
         ],
         "name": "寝起きリィラ",
         "date": "2022.04.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -213,7 +213,7 @@
         ],
         "name": "submission_skeb_NovaAokami_sign",
         "date": "2022.04.21",
-        "category": "original"
+        "category": ["fanart", "commission"]
     },
     {
         "image": [
@@ -221,7 +221,7 @@
         ],
         "name": "学パロイビルツイン",
         "date": "2022.04.24",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -229,7 +229,7 @@
         ],
         "name": "倶利伽羅天童",
         "date": "2022.04.24",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -237,7 +237,7 @@
         ],
         "name": "eviltwinmaid",
         "date": "2022.05.11",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -245,31 +245,17 @@
         ],
         "name": "トラブルサニーを実装しろ高校",
         "date": "2022.05.12",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
-            "2022\/JKイビルツインがわちゃわちゃしとるだけ.png"
+            "2022\/JKイビルツインがわちゃわちゃしとるだけ.png",
+            "2022\/JKイビルツインがわちゃわちゃしとるだけ2.png",
+            "2022\/JKイビルツインがわちゃわちゃしとるだけ3.png"
         ],
         "name": "JKイビルツインがわちゃわちゃしとるだけ",
         "date": "2022.05.23",
-        "category": "original"
-    },
-    {
-        "image": [
-            "2022\/JKイビルツインがわちゃわちゃしとるだけ2.png"
-        ],
-        "name": "JKイビルツインがわちゃわちゃしとるだけ2",
-        "date": "2022.05.23",
-        "category": "original"
-    },
-    {
-        "image": [
-            "2022\/JKイビルツインがわちゃわちゃしとるだけ3.png"
-        ],
-        "name": "JKイビルツインがわちゃわちゃしとるだけ3",
-        "date": "2022.05.23",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -277,7 +263,7 @@
         ],
         "name": "skeb_RayeRoze2",
         "date": "2022.05.27",
-        "category": "original"
+        "category": ["fanart", "commission"]
     },
     {
         "image": [
@@ -285,7 +271,7 @@
         ],
         "name": "ChostEvil",
         "date": "2022.06.11",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -293,7 +279,7 @@
         ],
         "name": "GhostVsEvil",
         "date": "2022.06.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -301,7 +287,7 @@
         ],
         "name": "yae",
         "date": "2022.06.24",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -309,7 +295,7 @@
         ],
         "name": "followers600",
         "date": "2022.06.25",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -317,7 +303,7 @@
         ],
         "name": "skeb_NovaAokami_mascot_signature",
         "date": "2022.07.06",
-        "category": "original"
+        "category": ["fanart", "commission"]
     },
     {
         "image": [
@@ -325,7 +311,7 @@
         ],
         "name": "トラブルサニー実装ありがとう高校校歌",
         "date": "2022.07.11",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -333,7 +319,7 @@
         ],
         "name": "胡桃生誕祭2022",
         "date": "2022.07.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -341,7 +327,7 @@
         ],
         "name": "ハイネ",
         "date": "2022.07.18",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -349,7 +335,7 @@
         ],
         "name": "ラドリーメイト",
         "date": "2022.07.22",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -357,7 +343,7 @@
         ],
         "name": "キスリラエクシーズ",
         "date": "2022.07.26",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -365,7 +351,7 @@
         ],
         "name": "トラブルサニー実装しろ高校廃校",
         "date": "2022.08.01",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -373,39 +359,18 @@
         ],
         "name": "Skeb_LeahAsimov_Shenshen",
         "date": "2022.08.23",
-        "category": "original"
+        "category": ["fanart", "commission"]
     },
     {
         "image": [
-            "2022\/JKイビルツインと夏休み最終日1.png"
+            "2022\/JKイビルツインと夏休み最終日1.png",
+            "2022\/JKイビルツインと夏休み最終日2.png",
+            "2022\/JKイビルツインと夏休み最終日3.png",
+            "2022\/JKイビルツインと夏休み最終日4.png"
         ],
         "name": "JKイビルツインと夏休み最終日1",
         "date": "2022.08.31",
-        "category": "original"
-    },
-    {
-        "image": [
-            "2022\/JKイビルツインと夏休み最終日2.png"
-        ],
-        "name": "JKイビルツインと夏休み最終日2",
-        "date": "2022.08.31",
-        "category": "original"
-    },
-    {
-        "image": [
-            "2022\/JKイビルツインと夏休み最終日3.png"
-        ],
-        "name": "JKイビルツインと夏休み最終日3",
-        "date": "2022.08.31",
-        "category": "original"
-    },
-    {
-        "image": [
-            "2022\/JKイビルツインと夏休み最終日4.png"
-        ],
-        "name": "JKイビルツインと夏休み最終日4",
-        "date": "2022.08.31",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -413,7 +378,7 @@
         ],
         "name": "ラドリー先輩とキューティア後輩",
         "date": "2022.09.07",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -421,7 +386,7 @@
         ],
         "name": "万能地雷グレイモヤ擬人化",
         "date": "2022.09.11",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -429,7 +394,7 @@
         ],
         "name": "第1回ラナンカップ",
         "date": "2022.09.25",
-        "category": "original"
+        "category": ["original", "fanart"]
     },
     {
         "image": [
@@ -437,39 +402,18 @@
         ],
         "name": "月宮と星野らくがき",
         "date": "2022.09.29",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
-            "2022\/隠れ地雷ちゃん百合1.png"
-        ],
-        "name": "隠れ地雷ちゃん百合1",
-        "date": "2022.10.06",
-        "category": "original"
-    },
-    {
-        "image": [
-            "2022\/隠れ地雷ちゃん百合2.png"
-        ],
-        "name": "隠れ地雷ちゃん百合2",
-        "date": "2022.10.06",
-        "category": "original"
-    },
-    {
-        "image": [
-            "2022\/隠れ地雷ちゃん百合3.png"
-        ],
-        "name": "隠れ地雷ちゃん百合3",
-        "date": "2022.10.06",
-        "category": "original"
-    },
-    {
-        "image": [
+            "2022\/隠れ地雷ちゃん百合1.png",
+            "2022\/隠れ地雷ちゃん百合2.png",
+            "2022\/隠れ地雷ちゃん百合3.png",
             "2022\/隠れ地雷ちゃん百合4.png"
         ],
-        "name": "隠れ地雷ちゃん百合4",
+        "name": "隠れ地雷ちゃん百合",
         "date": "2022.10.06",
-        "category": "original"
+        "category": ["original", "comic"]
     },
     {
         "image": [
@@ -477,7 +421,7 @@
         ],
         "name": "制服月宮星野",
         "date": "2022.10.09",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -485,7 +429,7 @@
         ],
         "name": "オフ月宮星野",
         "date": "2022.10.09",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -493,7 +437,7 @@
         ],
         "name": "リィラ新イラスト",
         "date": "2022.10.10",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -501,7 +445,7 @@
         ],
         "name": "ハロウィンリィラトリート",
         "date": "2022.10.30",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -509,7 +453,7 @@
         ],
         "name": "ユウカ",
         "date": "2022.11.04",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -517,7 +461,7 @@
         ],
         "name": "一滴ライブツイン",
         "date": "2022.11.13",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -525,7 +469,7 @@
         ],
         "name": "acrylickey_60mm",
         "date": "2022.12.09",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -533,7 +477,7 @@
         ],
         "name": "C101新刊表紙",
         "date": "2022.12.10",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -541,7 +485,7 @@
         ],
         "name": "お品書き",
         "date": "2022.12.28",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -549,7 +493,7 @@
         ],
         "name": "circle_cut_web",
         "date": "2022.12.28",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -557,7 +501,7 @@
         ],
         "name": "描き初めスノア",
         "date": "2023.01.13",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -565,7 +509,7 @@
         ],
         "name": "cut6598952_1",
         "date": "2023.03.07",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -573,7 +517,7 @@
         ],
         "name": "circle_cut",
         "date": "2023.03.08",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -581,7 +525,7 @@
         ],
         "name": "強欲で謙虚なイベントTURN13_menu",
         "date": "2023.04.20",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -589,7 +533,7 @@
         ],
         "name": "簡易融合禁止クーベル",
         "date": "2023.04.30",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -597,7 +541,7 @@
         ],
         "name": "ラビュリンス",
         "date": "2023.05.08",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -605,7 +549,7 @@
         ],
         "name": "メイドの日イビルツイン",
         "date": "2023.05.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -613,7 +557,7 @@
         ],
         "name": "toalice_3rd_contest_thicca_view",
         "date": "2023.05.21",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -621,23 +565,16 @@
         ],
         "name": "天使界隈2",
         "date": "2023.06.20",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
-            "2023\/ki-sikil.png"
+            "2023\/ki-sikil.png",
+            "2023\/ki-sikil_sunglasses_off.png"
         ],
         "name": "ki-sikil",
         "date": "2023.06.24",
-        "category": "original"
-    },
-    {
-        "image": [
-            "2023\/ki-sikil_sunglasses_off.png"
-        ],
-        "name": "ki-sikil_sunglasses_off",
-        "date": "2023.06.24",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -645,7 +582,7 @@
         ],
         "name": "C102_menu",
         "date": "2023.08.10",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -653,7 +590,7 @@
         ],
         "name": "強謙14プレイマット用イビルツイン",
         "date": "2023.10.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -661,7 +598,7 @@
         ],
         "name": "強欲で謙虚なイベントTURN14_menu_mk2",
         "date": "2023.10.19",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -669,7 +606,7 @@
         ],
         "name": "promote_emotes",
         "date": "2023.12.17",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -677,7 +614,7 @@
         ],
         "name": "カノン夏",
         "date": "2024.07.10",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -685,7 +622,7 @@
         ],
         "name": "カノン夏2",
         "date": "2024.07.10",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -693,7 +630,7 @@
         ],
         "name": "kanon",
         "date": "2024.07.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -701,7 +638,7 @@
         ],
         "name": "korinsan",
         "date": "2024.07.15",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -709,7 +646,7 @@
         ],
         "name": "hutao",
         "date": "2024.07.15",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -717,7 +654,7 @@
         ],
         "name": "kanonwedding",
         "date": "2024.07.17",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -725,7 +662,7 @@
         ],
         "name": "アポロてぃっか",
         "date": "2024.08.31",
-        "category": "original"
+        "category": ["original", "fanart"]
     },
     {
         "image": [
@@ -733,7 +670,7 @@
         ],
         "name": "てぃっかkfb",
         "date": "2024.09.19",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -741,7 +678,7 @@
         ],
         "name": "techika_kfb",
         "date": "2024.09.28",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -749,7 +686,7 @@
         ],
         "name": "レディオローゼス",
         "date": "2024.10.04",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -757,7 +694,7 @@
         ],
         "name": "ダピコ",
         "date": "2024.10.06",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -765,7 +702,7 @@
         ],
         "name": "おみくじ一覧",
         "date": "2024.10.11",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -773,7 +710,7 @@
         ],
         "name": "てちかゾーン_トリミング",
         "date": "2024.11.03",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -781,7 +718,7 @@
         ],
         "name": "twitch1stanv",
         "date": "2024.11.12",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -789,7 +726,7 @@
         ],
         "name": "てちかゾーン",
         "date": "2024.12.14",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -797,7 +734,7 @@
         ],
         "name": "カノンニヤリーゲット",
         "date": "2024.12.17",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -805,7 +742,7 @@
         ],
         "name": "ウェカノ",
         "date": "2024.12.19",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -813,7 +750,7 @@
         ],
         "name": "モデレーターダピコ",
         "date": "2024.12.21",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -821,7 +758,7 @@
         ],
         "name": "サンタてちか",
         "date": "2024.12.23",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -829,7 +766,7 @@
         ],
         "name": "クリスマスカノン",
         "date": "2024.12.24",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -837,7 +774,7 @@
         ],
         "name": "らくがきスノア",
         "date": "2024.12.26",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -845,7 +782,7 @@
         ],
         "name": "通報ソフィア",
         "date": "2024.12.30",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -853,7 +790,7 @@
         ],
         "name": "ソフィアアソート",
         "date": "2024.12.31",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -861,7 +798,7 @@
         ],
         "name": "元旦てちか",
         "date": "2025.01.01",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -869,7 +806,7 @@
         ],
         "name": "天使界隈の子",
         "date": "2025.01.02",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -877,7 +814,7 @@
         ],
         "name": "新衣装たお",
         "date": "2025.01.04",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -885,7 +822,7 @@
         ],
         "name": "コロンビアソフィア",
         "date": "2025.01.04",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -893,7 +830,7 @@
         ],
         "name": "格付けソフィア",
         "date": "2025.01.09",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -901,7 +838,7 @@
         ],
         "name": "ソフィラップ",
         "date": "2025.01.10",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -909,7 +846,7 @@
         ],
         "name": "漢字でgoソフィア",
         "date": "2025.01.12",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -917,7 +854,7 @@
         ],
         "name": "playmat_kanon",
         "date": "2025.01.13",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -925,7 +862,7 @@
         ],
         "name": "カメラソフィア",
         "date": "2025.01.14",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -933,7 +870,7 @@
         ],
         "name": "マリオソフィア",
         "date": "2025.01.15",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -941,7 +878,7 @@
         ],
         "name": "ガッツポーズソフィア",
         "date": "2025.01.16",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -949,7 +886,7 @@
         ],
         "name": "お前のカードで天を突け",
         "date": "2025.01.27",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -957,7 +894,7 @@
         ],
         "name": "釣りソフィア",
         "date": "2025.01.27",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -965,7 +902,7 @@
         ],
         "name": "ペケなぎパワウォ",
         "date": "2025.01.30",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -973,7 +910,7 @@
         ],
         "name": "MEITU_20250131_131450649",
         "date": "2025.01.31",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -981,7 +918,7 @@
         ],
         "name": "ツインテールの日2",
         "date": "2025.02.03",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -989,7 +926,7 @@
         ],
         "name": "覚醒なぎ",
         "date": "2025.02.04",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -997,7 +934,7 @@
         ],
         "name": "謝罪ペケ",
         "date": "2025.02.05",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1005,7 +942,7 @@
         ],
         "name": "ファンフェス",
         "date": "2025.02.06",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1013,7 +950,7 @@
         ],
         "name": "メイドペケちゃ",
         "date": "2025.02.08",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1021,7 +958,7 @@
         ],
         "name": "部屋着なぎ",
         "date": "2025.02.11",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1029,7 +966,7 @@
         ],
         "name": "初見ヘスティア",
         "date": "2025.02.13",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1037,7 +974,7 @@
         ],
         "name": "地雷ペケ",
         "date": "2025.02.18",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1045,7 +982,7 @@
         ],
         "name": "三つ編みペケ",
         "date": "2025.02.24",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1053,7 +990,7 @@
         ],
         "name": "A0400",
         "date": "2025.02.27",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1061,7 +998,7 @@
         ],
         "name": "織ちゃ一周年",
         "date": "2025.03.30",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1069,7 +1006,7 @@
         ],
         "name": "めち一周年",
         "date": "2025.04.07",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1077,7 +1014,7 @@
         ],
         "name": "なぎ誕",
         "date": "2025.04.24",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1085,7 +1022,7 @@
         ],
         "name": "うかちゃ一周年",
         "date": "2025.04.26",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1093,7 +1030,7 @@
         ],
         "name": "playmat_techika1staniv_ver2",
         "date": "2025.09.08",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -1101,7 +1038,7 @@
         ],
         "name": "avatar_for_live2d_integrated_for_acryl_png",
         "date": "2025.09.10",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -1109,7 +1046,7 @@
         ],
         "name": "skeb_orchis_jpjirai",
         "date": "2025.09.13",
-        "category": "original"
+        "category": ["fanart", "commission"]
     },
     {
         "image": [
@@ -1117,7 +1054,7 @@
         ],
         "name": "skeb_yakanchan",
         "date": "2025.09.17",
-        "category": "original"
+        "category": ["original", "commission"]
     },
     {
         "image": [
@@ -1125,7 +1062,7 @@
         ],
         "name": "カイトに逃げられる神引",
         "date": "2025.09.25",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -1133,7 +1070,7 @@
         ],
         "name": "miwaちゃんと遊んだ",
         "date": "2025.09.30",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1141,7 +1078,7 @@
         ],
         "name": "nova100k",
         "date": "2025.10.01",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1149,7 +1086,7 @@
         ],
         "name": "てちかニャスパー",
         "date": "2025.10.22",
-        "category": "original"
+        "category": ["original", "fanart"]
     },
     {
         "image": [
@@ -1157,7 +1094,7 @@
         ],
         "name": "はろうぃん",
         "date": "2025.10.31",
-        "category": "original"
+        "category": ["original"]
     },
     {
         "image": [
@@ -1165,7 +1102,7 @@
         ],
         "name": "pocky_aoi_sign",
         "date": "2025.11.11",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1173,7 +1110,7 @@
         ],
         "name": "めつしき",
         "date": "2025.12.01",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1181,7 +1118,7 @@
         ],
         "name": "sumirin_maid",
         "date": "2026.03.01",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1189,7 +1126,7 @@
         ],
         "name": "sumirin_maid2",
         "date": "2026.03.01",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1197,7 +1134,7 @@
         ],
         "name": "ちよこ覇道",
         "date": "2026.03.26",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1205,7 +1142,7 @@
         ],
         "name": "アンセム",
         "date": "2026.07.15",
-        "category": "original"
+        "category": ["fanart"]
     },
     {
         "image": [
@@ -1213,7 +1150,7 @@
         ],
         "name": "ぱるなぎ",
         "date": "2026.07.17",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -1221,7 +1158,7 @@
         ],
         "name": "アイドルだぴ",
         "date": "2026.07.21",
-        "category": "original"
+        "category": ["fanart", "comic"]
     },
     {
         "image": [
@@ -1229,6 +1166,6 @@
         ],
         "name": "アイドルかすみ",
         "date": "2026.07.23",
-        "category": "original"
+        "category": ["fanart", "comic"]
     }
 ]
