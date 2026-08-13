@@ -338,15 +338,6 @@ Faq & Contact
   display: block;
   font-size: 14px;
 }
-.faq-contact .item .arrow {
-  width: clamp(85px, 10vw, 140px);
-  position: absolute;
-  right: 25px;
-  bottom: 20px;
-}
-.faq-contact .item .arrow img {
-  width: 100%;
-}
 
 /*-------------------------------------------
 スマートフォン

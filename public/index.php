@@ -89,9 +89,6 @@ $cssFile = 'top';
                     <span class="en">FAQ</span>
                     <span class="ja"><?php echo FAQ; ?></span>
                 </p>
-                <div class="arrow">
-                    <img src="images/top/arrow.svg" alt="">
-                </div>
             </a>
 
             <a class="item" href="contact">
@@ -102,9 +99,6 @@ $cssFile = 'top';
                     <span class="en">CONTACT</span>
                     <span class="ja"><?php echo CONTACT; ?></span>
                 </p>
-                <div class="arrow">
-                    <img src="images/top/arrow.svg" alt="">
-                </div>
             </a>
         </div>
     </main>
