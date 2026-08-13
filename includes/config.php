@@ -87,7 +87,7 @@ define('ABOUTME_TEXT5', '普段はデュエマやデュエプレ、シャドバW
 define('ABOUTME_GALLERY', '私がこれまで描いたイラストを掲載しています。');
 define('ABOUTME_ACHIEVEMENTS', 'アパレルブランドのデザインコンテストやデジタルカードゲームの大会など、私の実績を紹介しています。');
 
-define('TITLENAME', 'イラストレーター「てぃっか」<br>VTuber/Vライバー「夢毬てちか(ゆまりてちか)」');
+define('TITLENAME', 'イラストレーター「てぃっか」<br>個人勢VTuber/Vライバー「夢毬てちか(ゆまりてちか)」<br>(※普段はフルタイムで働いている在宅勤務の正社員です。休みは暦通り)');
 define('STREAM_CONTENTS', '[YouTube] デュエプレ、デュエマ開封、ヴァンガードディアデイズ2　等<br>[Twitch] お絵描き、作業雑談、シャドバWB、ポケモンシリーズ、魔法少女ノ魔女裁判、パルワールド、遊戯王マスターデュエル、他単発ゲー（ウクレレ休止中）　等');
 define('ANNIVERSARY', '2023年<b>11月13日</b>: 配信活動開始日(Twitchにて)<br>2023年<b>12月8日</b>: Twitch収益化(Twitchアフィリエイト)<br>2024年<b>1月28日</b>: Live2Dアバター完成＆お披露目<br>2024年<b>8月29日</b>: YouTube初配信<br>2025年<b>3月15日</b>: YouTube収益化');
 define('BIRTHDAY', '6月28日');
