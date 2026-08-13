@@ -145,6 +145,11 @@ document.addEventListener('DOMContentLoaded', () => {
       $("body").css("overflow-y", "hidden");
       $("#imageModal").addClass("active");
   });
+  // ギャラリーモーダルを閉じる処理
+  $(document).on("click", "#imageModal .modal-close, #imageModal .modal-overlay", function () {
+      $("body").css("overflow-y", "auto");
+      $("#imageModal").removeClass("active");
+  });
 });
 
 /*-------------------------------
