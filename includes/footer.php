@@ -18,10 +18,10 @@
             <img src="images/icons/x.svg" alt="X">
         </a>
         <a href="<?php echo SNS_YOUTUBE; ?>" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-            <img src="images/icons/youtube.svg" alt="YouTube">
+            <img src="images/icons/youtube_logo.png" alt="YouTube">
         </a>
         <a href="<?php echo SNS_TWITCH; ?>" target="_blank" rel="noopener noreferrer" aria-label="Twitch">
-            <img src="images/icons/twitch.svg" alt="Twitch">
+            <img src="images/icons/twitch_logo.png" alt="Twitch">
         </a>
         <a href="<?php echo SNS_WICK; ?>" target="_blank" rel="noopener noreferrer" aria-label="Wick">
             <img src="images/icons/Wick_logo-BG-01.png" alt="Wick">
