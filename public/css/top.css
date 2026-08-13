@@ -232,7 +232,7 @@ Gallery
   display: flex;
   flex-shrink: 0;        /* 圧縮させない */
   width: max-content;    /* 中身(liの合計)の実際の幅をそのまま採用する */
-  animation: slide-left 20s infinite linear both;
+  animation: slide-left 40s infinite linear both;
 }
 .gallery .gallery-list-area .gallery-list li {
   width: auto;
