@@ -96,6 +96,28 @@
 .achievements-list li .modal-content .modal-close img {
   max-width: 25px;
 }
+.achievements-list li .modal-content .modal-img .modal-item {
+  margin-bottom: 30px;
+  text-align: left;
+}
+.achievements-list li .modal-content .modal-img .modal-item img,
+.achievements-list li .modal-content .modal-img .modal-item video {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.achievements-list li .modal-content .modal-img .modal-item-name {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.achievements-list li .modal-content .modal-img .modal-item-date {
+  font-size: 12px;
+  color: #999;
+}
+.achievements-list li .img video {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
 
 /*-------------------------------------------
 スマートフォン

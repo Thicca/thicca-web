@@ -81,29 +81,25 @@ Inview
     $(".gallery-list.comic").addClass("active");
   });
 
-/*-------------------------------
-モーダルウィンドウ
----------------------------------*/
-// オープン
-  $(".work1 .modal-open").click(function () {
-    $("body").css("overflow-y", "hidden");
-    $(".work1 .modal-container").addClass("active");
+  /*-------------------------------
+  実績ページ:モーダルウィンドウ
+  ---------------------------------*/
+  $(document).on("click", ".achievements-list .modal-open", function () {
+      $("body").css("overflow-y", "hidden");
+      $(this).closest("li").find(".modal-container").addClass("active");
   });
 
-  $(".work2 .modal-open").click(function () {
-    $("body").css("overflow-y", "hidden");
-    $(".work2 .modal-container").addClass("active");
+  $(document).on("click", ".achievements-list .modal-close", function () {
+      $("body").css("overflow-y", "auto");
+      $(this).closest(".modal-container").removeClass("active");
   });
 
-  $(".work3 .modal-open").click(function () {
-    $("body").css("overflow-y", "hidden");
-    $(".work3 .modal-container").addClass("active");
-  });
-
-// クローズ
-  $(".modal-close").click(function () {
-    $("body").css("overflow-y", "auto");
-    $(".modal-container").removeClass("active");
+  // モーダル背景(modal-content以外の部分)をクリックしたら閉じる
+  $(document).on("click", ".achievements-list .modal-container", function (e) {
+      if (!$(e.target).closest(".modal-content").length) {
+          $("body").css("overflow-y", "auto");
+          $(this).removeClass("active");
+      }
   });
 
 /*-------------------------------
