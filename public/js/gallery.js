@@ -31,19 +31,54 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderPageNumbers(totalPages) {
         pageNumbers.innerHTML = '';
 
+        const delta = 2; // 現在のページの前後、何ページ分表示するか
+        const range = [];
+        const rangeWithDots = [];
+
         for (let i = 1; i <= totalPages; i++) {
-            const btn = document.createElement('button');
-            btn.textContent = i;
-            btn.classList.add('page-number');
-            if (i === currentPage) {
-                btn.classList.add('active');
+            // 1ページ目、最終ページ、現在ページの前後deltaページは必ず表示
+            if (i === 1 || i === totalPages || (i >= currentPage - delta && i <= currentPage + delta)) {
+                range.push(i);
             }
-            btn.addEventListener('click', () => {
-                currentPage = i;
-                render();
-            });
-            pageNumbers.appendChild(btn);
         }
+
+        // 省略記号(...)を挿入する位置を判定
+        let prev = null;
+        range.forEach((i) => {
+            if (prev !== null) {
+                if (i - prev === 2) {
+                    // 1つだけ飛んでいる場合は、省略せずその番号を挟む
+                    rangeWithDots.push(prev + 1);
+                } else if (i - prev > 2) {
+                    // 2つ以上飛んでいる場合は "..." を挿入
+                    rangeWithDots.push('...');
+                }
+            }
+            rangeWithDots.push(i);
+            prev = i;
+        });
+
+        // ボタン(または...のテキスト)を生成
+        rangeWithDots.forEach((item) => {
+            if (item === '...') {
+                const dots = document.createElement('span');
+                dots.textContent = '...';
+                dots.classList.add('page-dots');
+                pageNumbers.appendChild(dots);
+            } else {
+                const btn = document.createElement('button');
+                btn.textContent = item;
+                btn.classList.add('page-number');
+                if (item === currentPage) {
+                    btn.classList.add('active');
+                }
+                btn.addEventListener('click', () => {
+                    currentPage = item;
+                    render();
+                });
+                pageNumbers.appendChild(btn);
+            }
+        });
     }
 
     function render() {
