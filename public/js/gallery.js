@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const tabs = document.querySelectorAll('.tab');
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
-    const pageInfo = document.getElementById('pageInfo');
+    const pageNumbers = document.getElementById('pageNumbers');
     const sortToggle = document.getElementById('sortToggle');
 
     function getFilteredItems() {
@@ -26,6 +26,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         return items;
+    }
+
+    function renderPageNumbers(totalPages) {
+        pageNumbers.innerHTML = '';
+
+        for (let i = 1; i <= totalPages; i++) {
+            const btn = document.createElement('button');
+            btn.textContent = i;
+            btn.classList.add('page-number');
+            if (i === currentPage) {
+                btn.classList.add('active');
+            }
+            btn.addEventListener('click', () => {
+                currentPage = i;
+                render();
+            });
+            pageNumbers.appendChild(btn);
+        }
     }
 
     function render() {
@@ -48,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             galleryList.appendChild(item); // 表示順を並び替えるため、DOM上の順序も更新
         });
 
-        pageInfo.textContent = `${currentPage} / ${totalPages}`;
+        renderPageNumbers(totalPages);
         prevBtn.disabled = currentPage === 1;
         nextBtn.disabled = currentPage === totalPages;
     }

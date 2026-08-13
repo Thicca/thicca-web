@@ -96,7 +96,7 @@ define('DEVICES', '[PC]<br>' . PC_OS . '<br>' . PC_CPU . '<br>' . PC_RAM . '<br>
 
 // gallery
 define('GALLERY_DESCRIPTION', '私がこれまで描いたイラスト（落書きからご依頼のものまで）を掲載しています。<br>漫画など複数枚あるやつはクリックして出てくるウィンドウをスクロールすることで見れます。');
-define('GALLERY_ITEMS_PER_PAGE', 8);
+define('GALLERY_ITEMS_PER_PAGE', 4);
 
 // achievements
 define('ACHIEVEMENTS_DESCRIPTION', '私の雑多すぎる実績を紹介しています。');

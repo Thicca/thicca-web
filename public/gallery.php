@@ -73,7 +73,7 @@ $allItems = json_decode(file_get_contents(__DIR__ . '/../data/gallery.json'), tr
 
       <nav class="pagination">
           <button class="prev" id="prevBtn">← 前へ</button>
-          <span class="page-info" id="pageInfo">1 / 1</span>
+          <div class="page-numbers" id="pageNumbers"></div>
           <button class="next" id="nextBtn">次へ →</button>
       </nav>
     </main>
