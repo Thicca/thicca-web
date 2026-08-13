@@ -5,7 +5,7 @@
   { "question": "好きなVTuberは？", "answer": "一伊那尓栖、古石ビジュー、ネリッサ・レイヴンクロフト、オーロ・クロニー、ラオーラ・パンテーラ、他（敬称略）" },
   { "question": "好きなデュエマのカードは？", "answer": "超神星アポロヌス・ドラゲリオン" },
   { "question": "好きなデュエプレのキャラは？", "answer": "カノン" },
-  { "question": "イラストの依頼は受け付けていますか？", "answer": "現在は<a href='https://skeb.jp/@thicca_view' target='_blank'>Skeb</a>にて受け付けています。" },
-  { "question": "配信のお仕事は受け付けていますか？", "answer": "受け付けております。<a href='contact' target='_blank'>お仕事依頼ページ</a>か、Xで相互フォローの方はXのDMにてお問い合わせください。" },
-  { "question": "イラスト、配信以外(Live2Dモデリング、作曲、コーディング等)の依頼は受け付けていますか？", "answer": "現在は受け付けておりません。" }
+  { "question": "イラストの依頼は受け付けていますか？", "answer": "現在は<a href='https://skeb.jp/@thicca_view' target='_blank' rel='noopener noreferrer'>Skeb</a>にて受け付けています。" },
+  { "question": "配信のお仕事は受け付けていますか？", "answer": "受け付けております。<a href='contact' target='_blank' rel='noopener noreferrer'>お仕事依頼ページ</a>か、Xで相互フォローの方はXのDMにてお問い合わせください。" },
+  { "question": "イラスト、配信以外（Live2Dモデリング、作曲、コーディング等）の依頼は受け付けていますか？", "answer": "現在は受け付けておりません。が、関係性とか時と場合によっては要相談という感じです。" }
 ]
