@@ -28,16 +28,16 @@ $pageCss = $page . '.css';
     <!-- 表示系設定 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/common/thicca_emote9.ico">
-    <link rel="apple-touch-icon" href="images/common/thicca_emote9.png">
+    <link rel="apple-touch-icon" href="/images/common/thicca_emote9.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <?php if (isset($pageCss)): ?>
-	<link rel="stylesheet" href="css/<?php echo $pageCss; ?>">
+	<link rel="stylesheet" href="/css/<?php echo $pageCss; ?>">
 	<?php endif; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/jquery.inview.min.js"></script>
+    <script src="/js/main.js"></script>
 </head>
