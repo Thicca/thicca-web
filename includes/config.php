@@ -15,7 +15,13 @@ define('SITE_URL', 'https://thicca-web.com');
 define('SITE_DESCRIPTION', 'イラストレーター「てぃっか」/VTuber「夢毬てちか」の公式サイト');
 
 // 連絡先
-define('CONTACT_EMAIL', 'thicca.land@gmail.com');
+define('CONTACT_EMAIL', 'thicca.work@gmail.com');
+
+// SMTP (アプリ名: thicca-web)
+define('SMTP_HOST', 'smtp.gmail.com');
+define('SMTP_PORT', 587);
+define('SMTP_USERNAME', 'thicca.work@gmail.com');
+define('SMTP_PASSWORD', 'cgqljyxnfhkfjsnz');
 
 // SNS
 define('X_ID', '@thicca_view');
@@ -110,6 +116,7 @@ define('ACHIEVEMENTS_DESCRIPTION2', 'Skebでご依頼頂いたイラスト、ア
 define('FAQ_DESCRIPTION', '自分に関するQ&Aを勝手に作りました。<br>何か思いついたら追加していきます。');
 
 // contact
+define('PRIVACY_POLICY_TEXT', '本フォームでお預かりした個人情報は、ご依頼・お問い合わせへの回答および必要なやり取りの目的にのみ使用し、ご本人の同意なく第三者に開示・提供することはありません。');
 
-// reefrence
+// reference
 define('REFERENCE_BOOK', '「HTML&CSS Webデザイン 現場レベルのコーディング・スキルが身につく実践入門」(小豆沢健 / 技術評論社)');

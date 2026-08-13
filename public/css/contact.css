@@ -101,6 +101,31 @@
   font-size: 14px;
   margin: 0 auto;
 }
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+}
+.form-errors {
+  max-width: 640px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  background-color: #fdecea;
+  border: solid 1px #df4440;
+  color: #df4440;
+  font-size: 14px;
+}
+.form-success {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #f0f8f0;
+  border: solid 1px #4caf50;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8; /* 2行になった際の行間を少し広げる */
+}
 
 /*-------------------------------------------
 スマートフォン
