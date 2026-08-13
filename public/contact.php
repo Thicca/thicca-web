@@ -191,7 +191,7 @@ if (isset($_SESSION['contact_success'])) {
               </div>
               <div class="item">
                 <dt><label for="name">お名前</label><span class="require">必須</span></dt>
-                <dd><input id="name" type="text" name="name" placeholder="インテリア　太郎" value="<?php echo htmlspecialchars($_POST['name'] ?? ''); ?>"></dd>
+                <dd><input id="name" type="text" name="name" placeholder="田中　太郎" value="<?php echo htmlspecialchars($_POST['name'] ?? ''); ?>"></dd>
               </div>
               <div class="item">
                 <dt><label for="mail">メールアドレス</label><span class="require">必須</span></dt>
