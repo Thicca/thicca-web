@@ -282,6 +282,16 @@ $cssFile = 'profile';
                     </li>
                   </ul>
                 </div>
+
+                <div class="history-timeline-year">
+                  <h3 class="year">2026</h3>
+                  <ul class="history-timeline-list">
+                    <li>
+                      <span class="date">8/13</span>
+                      <span class="event">本Webサイト「てぃっかのHP」完成&amp;公開</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
