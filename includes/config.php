@@ -51,15 +51,15 @@ define('FULL_TITLE', THICCA_TITLE . ' / ' . TECHIKA_TITLE);
 // top
 define('CATCHPHRASE', '自分の手で、<br>全て創る。<br>');
 define('ABOUT_TITLE', '全て"自作"のマルチクリエイター');
-define('ABOUT_DESCRIPTION', '「てぃっか」の名前でインターネットにイラストを投稿する形で活動を開始。<br>後に配信活動も開始し、イラストとLive2Dモデリングでバーチャルアバターを自作してVTuber「夢毬てちか」としても活動することになる。<br>興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。');
-define('ABOUT_GALLERY', '私がこれまで作った作品を掲載します。<br>オリジナルイラスト、二次創作イラスト、作った曲など。');
+define('ABOUT_DESCRIPTION', '「てぃっか」の名前でインターネットにイラストを投稿する形で活動を開始。<br><br>後に配信活動も開始し、イラストとLive2Dモデリングでバーチャルアバターを自作してVTuber「夢毬てちか」としても活動することになる。<br><br>興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。<br><br>このWEBサイトも自作。ドメインとVPSを購入・取得してコーディングして作成。初のWEBページ開発だったが、参考文献一冊(フッターに記載)とClaudeとこれまでのコーディング経験を活かしてなんとか完成できた。');
+define('ABOUT_GALLERY', '私がこれまで作ったイラストを掲載します。<br>オリジナルイラスト、二次創作イラスト、漫画など。');
 define('ABOUT_ACHIEVEMENTS', '私の実績を紹介します。');
 define('ABOUT_ACHIEVEMENTS2', '依頼のイラストやアパレルブランドのデザインコンテスト受賞歴、デジタルカードゲームの大会の入賞歴など。');
 define('COPYRIGHT', '&copy; ' . date('Y') . ' ' . CIRCLE_NAME);
 
 // section
 define('PROFILE', 'プロフィール');
-define('GALLERY', '作品一覧');
+define('GALLERY', 'イラスト一覧');
 define('ACHIEVEMENTS', '実績紹介');
 define('FAQ', '勝手にQ&A');
 define('CONTACT', 'お仕事依頼');
@@ -71,11 +71,13 @@ define('ABILITY', 'できること');
 define('CERTIFICATE', '所持資格');
 define('HISTORY', '略歴');
 
-define('ABOUTME_TITLE', '自分の手で全て創る。<br>やりたいこと全部やる。<br>インターネットお絵描きカードゲーマー地雷系セルフ受肉マルチクリエイティブVTuber。');
+define('ABOUTME_TITLE', '自分の手で全て創る。<br>やりたいこと全部やる。<br>インターネットお絵描きカードゲーマー地雷系セルフ受肉マルチクリエイティブ個人勢VTuber。');
 define('ABOUTME_TEXT1', '「てぃっか」の名前でインターネットにイラストを投稿する形で活動を開始。好きなVTuberや原神、遊戯王、デュエマといった二次創作イラスト及びオリジナルイラストを描いては投稿している。');
 define('ABOUTME_TEXT2', '後にTwitchにて配信活動を開始。その活動の最中でイラストとLive2Dモデリングでバーチャルアバターを自作し、いわゆるVライバーになる。後にYouTubeでも配信活動を開始し、VTuber「夢毬てちか」を名乗って活動することにもなる。');
-define('ABOUTME_TEXT3', '興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。<br>普段はデュエマやデュエプレ、シャドバWB(少し前までは遊戯王も)といったカードゲームをよく遊んでいる。');
-define('ABOUTME_GALLERY', '私がこれまで描いたイラストや作った曲を掲載しています。');
+define('ABOUTME_TEXT3', '興味を持ったものは自分で作ったり、勉強して身に付けたりしないと気が済まないタイプ。');
+define('ABOUTME_TEXT4', 'このWEBサイトも自作。ドメインとVPSを購入・取得してコーディングして作成。初のWEBページ開発だったが、参考文献一冊(フッターに記載)とClaudeとこれまでのコーディング経験を活かしてなんとか完成できた。');
+define('ABOUTME_TEXT5', '普段はデュエマやデュエプレ、シャドバWB(少し前までは遊戯王も)といったカードゲームをよく遊んでいたり、絵を描いたりしている。');
+define('ABOUTME_GALLERY', '私がこれまで描いたイラストを掲載しています。');
 define('ABOUTME_ACHIEVEMENTS', 'アパレルブランドのデザインコンテストやデジタルカードゲームの大会など、私の実績を紹介しています。');
 
 define('BIRTHDAY', '6月28日');
@@ -93,7 +95,7 @@ define('MIDI', '[MIDIキーボード] NEKTAR IMPACT LX88+');
 define('DEVICES', '[PC]<br>' . PC_OS . '<br>' . PC_CPU . '<br>' . PC_RAM . '<br>' . PC_GPU . '<br>' . PENTABLET . '<br>' . MIDI);
 
 // gallery
-define('GALLERY_DESCRIPTION', '私がこれまで描いたイラストや作った曲を掲載しています。');
+define('GALLERY_DESCRIPTION', '私がこれまで描いたイラスト（落書きからご依頼のものまで）を掲載しています。<br>漫画など複数枚あるやつはクリックして出てくるウィンドウをスクロールすることで見れます。');
 define('GALLERY_ITEMS_PER_PAGE', 8);
 
 // achievements

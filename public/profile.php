@@ -41,6 +41,8 @@ $cssFile = 'profile';
               <p class="text"><?php echo ABOUTME_TEXT1; ?></p>
               <p class="text"><?php echo ABOUTME_TEXT2; ?></p>
               <p class="text"><?php echo ABOUTME_TEXT3; ?></p>
+              <p class="text"><?php echo ABOUTME_TEXT4; ?></p>
+              <p class="text"><?php echo ABOUTME_TEXT5; ?></p>
             </div>
           </div>
           <div class="img-top">
