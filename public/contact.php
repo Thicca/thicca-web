@@ -23,7 +23,7 @@ $cssFile = 'contact';
         </div>
       </div>
 
-      <p class="head-text">ご不明点やご質問などございましたら、<br class="pc">下記のフォームからお気軽にお問い合わせください。</p>
+      <p class="head-text">イラストのご依頼(法人様のみ。個人様は要相談)や配信のお仕事のご相談などございましたら、<br class="pc">下記のフォームからお気軽にお問い合わせください。<br class="pc">※イラストは、個人の方は<a href='https://skeb.jp/@thicca_view' target='_blank' rel='noopener noreferrer'>Skeb</a>からご依頼ください。</p>
 
       <div class="form-area">
         <p class="form-title">お問い合わせフォーム</p>
@@ -54,16 +54,16 @@ $cssFile = 'contact';
               <dt>どこでお知りになりましたか？</dt>
               <dd class="checkbox-group">
                 <div class="checkbox-item">
-                  <input type="checkbox" name="know[]" id="know-1" value="SNS">
-                  <label for="know-1">SNS</label>
+                  <input type="checkbox" name="know[]" id="know-1" value="X">
+                  <label for="know-1">X</label>
                 </div>
                 <div class="checkbox-item">
-                  <input type="checkbox" name="know[]" id="know-2" value="Google検索">
-                  <label for="know-2">Google検索</label>
+                  <input type="checkbox" name="know[]" id="know-2" value="YouTube">
+                  <label for="know-2">YouTube</label>
                 </div>
                 <div class="checkbox-item">
-                  <input type="checkbox" name="know[]" id="know-3" value="紹介・口コミ">
-                  <label for="know-3">紹介・口コミ</label>
+                  <input type="checkbox" name="know[]" id="know-3" value="Twitch">
+                  <label for="know-3">Twitch</label>
                 </div>
                 <div class="checkbox-item">
                   <input type="checkbox" name="know[]" id="know-4" value="その他">

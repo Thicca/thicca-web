@@ -63,13 +63,24 @@
         ]
     },
     {
-        "name": "ゲーム",
+        "name": "ゲーム大会入賞",
         "category": "game",
         "contents": [
             {
                 "media": "dmps\/dmpgp2025.png",
                 "name": "「デュエプレグランプリ2025」TOP32(17位タイ)入賞",
                 "date": "2025.09.06"
+            }
+        ]
+    },
+    {
+        "name": "Webサイト",
+        "category": "website",
+        "contents": [
+            {
+                "media": "website\/thicca_webpage.png",
+                "name": "てぃっかのHP(このWebサイト)",
+                "date": "2026.08.13"
             }
         ]
     }
