@@ -59,6 +59,29 @@ $cssFile = 'profile';
           <div class="more-details" id="moreDetails">
               <dl class="detail-list">
                   <div class="detail-item">
+                      <dt>肩書・名前</dt>
+                      <dd><?php echo TITLENAME; ?></dd>
+                  </div>
+                  <div class="detail-item">
+                      <dt>同人サークル名</dt>
+                      <dd><?php echo CIRCLE_NAME; ?>(ゆめのてまりあと)</dd>
+                  </div>
+                  <div class="detail-item">
+                      <dt>SNS</dt>
+                      <dd>
+                        <a href="<?php echo SNS_X; ?>" target='_blank' rel="noopener noreferrer">X</a> / 
+                        <a href="<?php echo SNS_X_SUB; ?>" target='_blank' rel="noopener noreferrer">X(お洋服専用サブ垢)</a> / 
+                        <a href="<?php echo SNS_WICK; ?>" target='_blank' rel="noopener noreferrer">Wick</a>
+                      </dd>
+                  </div>
+                  <div class="detail-item">
+                      <dt>配信拠点</dt>
+                      <dd>
+                        <a href="<?php echo SNS_YOUTUBE; ?>" target='_blank' rel="noopener noreferrer">YouTube</a> / 
+                        <a href="<?php echo SNS_TWITCH; ?>" target='_blank' rel="noopener noreferrer">Twitch</a>
+                      </dd>
+                  </div>
+                  <div class="detail-item">
                       <dt>誕生日</dt>
                       <dd><?php echo BIRTHDAY; ?></dd>
                   </div>

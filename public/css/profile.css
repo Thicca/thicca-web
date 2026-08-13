@@ -163,6 +163,16 @@ About Me
   font-size: 14px;
   color: #333;
 }
+#aboutme .detail-item dd a {
+  color: #6b8e9e; /* リンクがある出来事だけ色を変える */
+  text-decoration: none;
+  border-bottom: 1px dashed #eee;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+#aboutme .detail-item dd a:hover {
+  color: #4d6e7d; /* ホバー時、さらに濃い色に */
+  border-color: #4d6e7d;
+}
 
 /*-------------------------------------------
 Works

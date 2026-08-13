@@ -20,6 +20,7 @@ define('CONTACT_EMAIL', 'thicca.land@gmail.com');
 // SNS
 define('X_ID', '@thicca_view');
 define('SNS_X', 'https://x.com/thicca_view');
+define('SNS_X_SUB', 'https://x.com/thicca_model');
 define('SNS_YOUTUBE', 'https://www.youtube.com/@TechikaYumari_Thicca');
 define('SNS_TWITCH', 'https://www.twitch.tv/thicca_view');
 define('SNS_PIXIV', 'https://www.pixiv.net/users/76840280');
@@ -80,6 +81,7 @@ define('ABOUTME_TEXT5', '普段はデュエマやデュエプレ、シャドバW
 define('ABOUTME_GALLERY', '私がこれまで描いたイラストを掲載しています。');
 define('ABOUTME_ACHIEVEMENTS', 'アパレルブランドのデザインコンテストやデジタルカードゲームの大会など、私の実績を紹介しています。');
 
+define('TITLENAME', 'イラストレーター「てぃっか」<br>VTuber/Vライバー「夢毬てちか(ゆまりてちか)」');
 define('BIRTHDAY', '6月28日');
 define('HOMETOWN', '鹿児島県');
 define('ILLUSTRATION', '[イラスト] CLIP STUDIO PAINT EX Version 1.12.3');
