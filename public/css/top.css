@@ -367,6 +367,9 @@ Faq & Contact
     top: 300px;
     left: 6%;
   }
+  .img-3 {
+    object-fit: contain;
+}
 
   /*-------------------------------------------
   Profile
