@@ -82,6 +82,14 @@ $cssFile = 'profile';
                       </dd>
                   </div>
                   <div class="detail-item">
+                      <dt>配信内容</dt>
+                      <dd><?php echo STREAM_CONTENTS; ?></dd>
+                  </div>
+                  <div class="detail-item">
+                      <dt>記念日</dt>
+                      <dd><?php echo ANNIVERSARY; ?></dd>
+                  </div>
+                  <div class="detail-item">
                       <dt>誕生日</dt>
                       <dd><?php echo BIRTHDAY; ?></dd>
                   </div>

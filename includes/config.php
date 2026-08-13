@@ -82,6 +82,8 @@ define('ABOUTME_GALLERY', '私がこれまで描いたイラストを掲載し�
 define('ABOUTME_ACHIEVEMENTS', 'アパレルブランドのデザインコンテストやデジタルカードゲームの大会など、私の実績を紹介しています。');
 
 define('TITLENAME', 'イラストレーター「てぃっか」<br>VTuber/Vライバー「夢毬てちか(ゆまりてちか)」');
+define('STREAM_CONTENTS', '[YouTube] デュエプレ、デュエマ開封、ヴァンガードディアデイズ2　等<br>[Twitch] お絵描き、作業雑談、シャドバWB、ポケモンシリーズ、魔法少女ノ魔女裁判、パルワールド、遊戯王マスターデュエル、他単発ゲー（ウクレレ休止中）　等');
+define('ANNIVERSARY', '2023年<b>11月13日</b>: 配信活動開始日(Twitchにて)<br>2023年<b>12月8日</b>: Twitch収益化(Twitchアフィリエイト)<br>2024年<b>1月28日</b>: Live2Dアバター完成＆お披露目<br>2024年<b>8月29日</b>: YouTube初配信<br>2025年<b>3月15日</b>: YouTube収益化');
 define('BIRTHDAY', '6月28日');
 define('HOMETOWN', '鹿児島県');
 define('ILLUSTRATION', '[イラスト] CLIP STUDIO PAINT EX Version 1.12.3');
@@ -102,7 +104,7 @@ define('GALLERY_ITEMS_PER_PAGE', 4);
 
 // achievements
 define('ACHIEVEMENTS_DESCRIPTION', '私の雑多すぎる実績を紹介しています。');
-define('ACHIEVEMENTS_DESCRIPTION2', 'Skebでご依頼頂いたイラスト、アパレルブランドのデザインコンテストで入賞＆商品化したもの、デジタルカードゲーム大会の上位入賞など。');
+define('ACHIEVEMENTS_DESCRIPTION2', 'Skebでご依頼頂いたイラスト、アパレルブランドのデザインコンテストで入賞＆商品化したもの、デジタルカードゲーム大会の上位入賞など。<br>実績というほどでもないですが、自分用に作った曲もイラスト一覧ページとは分けてこちらのページに掲載します。');
 
 // faq
 define('FAQ_DESCRIPTION', '自分に関するQ&Aを勝手に作りました。<br>何か思いついたら追加していきます。');
