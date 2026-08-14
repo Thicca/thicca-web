@@ -63,6 +63,17 @@
         ]
     },
     {
+        "name": "Live2Dモデリング",
+        "category": "live2d",
+        "contents": [
+            {
+                "media": "live2d\/avatar_for_live2d_integrated_for_acryl_png.png",
+                "name": "VTuber/Vライバー「夢毬てちか」アバター作成",
+                "date": "2024.01.28"
+            }
+        ]
+    },
+    {
         "name": "ゲーム大会入賞",
         "category": "game",
         "contents": [
