@@ -27,13 +27,13 @@
             <img src="images/icons/Wick_logo-BG-01.png" alt="Wick">
         </a>
         <a href="<?php echo SNS_PIXIV; ?>" target="_blank" rel="noopener noreferrer" aria-label="pixiv">
-            <img src="images/icons/pixiv.svg" alt="pixiv">
+            <img src="images/icons/pixiv_logo_icon_r.png" alt="pixiv">
         </a>
         <a href="<?php echo SNS_BOOTH; ?>" target="_blank" rel="noopener noreferrer" aria-label="BOOTH">
             <img src="images/icons/booth_logo.svg" alt="BOOTH">
         </a>
         <a href="<?php echo SNS_RAIDORI; ?>" target="_blank" rel="noopener noreferrer" aria-label="raidori">
-            <img src="images/icons/thicca_emote3.png" alt="raidori">
+            <img src="images/icons/raidori_selfmade.svg" alt="raidori">
         </a>
         <a href="<?php echo SNS_WISHLIST; ?>" target="_blank" rel="noopener noreferrer" aria-label="Wishlist">
             <img src="images/icons/amazon-icon.svg" alt="Wishlist">
