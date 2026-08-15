@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../includes/config.php';
 $pageTitle = GALLERY;
-$pageUrl = SITE_URL . '/';
+$pageUrl = SITE_URL . '/gallery';
 $pageDescription = SITE_DESCRIPTION;
 $cssFile = 'gallery';
 

@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 session_start(); // 追加:成功メッセージをリダイレクト後も保持するため
 
 $pageTitle = CONTACT;
-$pageUrl = SITE_URL . '/';
+$pageUrl = SITE_URL . '/contact';
 $pageDescription = SITE_DESCRIPTION;
 $cssFile = 'contact';
 

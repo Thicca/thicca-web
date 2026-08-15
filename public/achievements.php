@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../includes/config.php';
 $pageTitle = ACHIEVEMENTS;
-$pageUrl = SITE_URL . '/';
+$pageUrl = SITE_URL . '/achievements';
 $pageDescription = SITE_DESCRIPTION;
 $cssFile = 'achievements';
 
