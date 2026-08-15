@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../includes/config.php';
 $pageTitle = ACHIEVEMENTS;
 $pageUrl = SITE_URL . '/achievements';
-$pageDescription = SITE_DESCRIPTION;
+$pageDescription = ACHIEVEMENTS_PAGE_DESCRIPTION;
 $cssFile = 'achievements';
 
 // データ読み込み

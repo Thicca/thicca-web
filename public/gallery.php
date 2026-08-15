@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../includes/config.php';
 $pageTitle = GALLERY;
 $pageUrl = SITE_URL . '/gallery';
-$pageDescription = SITE_DESCRIPTION;
+$pageDescription = GALLERY_PAGE_DESCRIPTION;
 $cssFile = 'gallery';
 
 // データ読み込み

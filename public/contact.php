@@ -9,7 +9,7 @@ session_start(); // 追加:成功メッセージをリダイレクト後も保�
 
 $pageTitle = CONTACT;
 $pageUrl = SITE_URL . '/contact';
-$pageDescription = SITE_DESCRIPTION;
+$pageDescription = CONTACT_PAGE_DESCRIPTION;
 $cssFile = 'contact';
 
 $errors = [];

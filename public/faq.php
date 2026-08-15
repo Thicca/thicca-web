@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../includes/config.php';
 $pageTitle = FAQ;
 $pageUrl = SITE_URL . '/faq';
-$pageDescription = SITE_DESCRIPTION;
+$pageDescription = FAQ_PAGE_DESCRIPTION;
 $cssFile = 'faq';
 
 // データ読み込み

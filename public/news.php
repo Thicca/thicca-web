@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../includes/config.php';
 $pageTitle = 'News';
 $pageUrl = SITE_URL . '/news';
-$pageDescription = SITE_DESCRIPTION;
+$pageDescription = NEWS_PAGE_DESCRIPTION;
 $cssFile = 'news';
 
 $newsItems = json_decode(file_get_contents(__DIR__ . '/../data/news.json'), true);

@@ -74,6 +74,7 @@ define('CONTACT', 'お仕事依頼');
 
 // news
 define('NEWS_ITEMS_PER_PAGE', 10);
+define('NEWS_PAGE_DESCRIPTION', 'このWEBサイトの更新情報についてまとめています。');
 
 // profile
 define('ABOUTME', '私について');
@@ -82,6 +83,7 @@ define('ABILITY', 'できること');
 define('CERTIFICATE', '所持資格');
 define('HISTORY', '略歴');
 
+define('PROFILE_PAGE_DESCRIPTION', 'イラストレーター「てぃっか」/ VTuber「夢毬てちか」のプロフィール。経歴、資格、使用ソフトなどを紹介しています。');
 define('ABOUTME_TITLE', '自分の手で全て創る。<br>やりたいこと全部やる。<br>インターネットお絵描きカードゲーマー地雷系セルフ受肉マルチクリエイティブ個人勢VTuber。');
 define('ABOUTME_TEXT1', '「てぃっか」の名前でインターネットにイラストを投稿する形で活動を開始。好きなVTuberや原神、遊戯王、デュエマといった二次創作イラスト及びオリジナルイラストを描いては投稿している。');
 define('ABOUTME_TEXT2', '後にTwitchにて配信活動を開始。その活動の最中でイラストとLive2Dモデリングでバーチャルアバターを自作し、いわゆるVライバーになる。後にYouTubeでも配信活動を開始し、VTuber「夢毬てちか」を名乗って活動することにもなる。');
@@ -109,17 +111,21 @@ define('MIDI', '[MIDIキーボード] NEKTAR IMPACT LX88+');
 define('DEVICES', '[PC]<br>' . PC_OS . '<br>' . PC_CPU . '<br>' . PC_RAM . '<br>' . PC_GPU . '<br>' . PENTABLET . '<br>' . MIDI);
 
 // gallery
+define('GALLERY_PAGE_DESCRIPTION', 'オリジナル、二次創作、ご依頼作品など、てぃっかが描いたイラスト作品をまとめたギャラリーページです。');
 define('GALLERY_DESCRIPTION', '私がこれまで描いたイラスト（落書きからご依頼のものまで）を掲載しています。<br>漫画など複数枚あるやつはクリックして出てくるウィンドウをスクロールすることで見れます。');
 define('GALLERY_ITEMS_PER_PAGE', 4);
 
 // achievements
+define('ACHIEVEMENTS_PAGE_DESCRIPTION', 'デザインコンテスト受賞歴やゲーム大会での実績など、これまでの活動実績をまとめています。');
 define('ACHIEVEMENTS_DESCRIPTION', '私の雑多すぎる実績を紹介しています。');
 define('ACHIEVEMENTS_DESCRIPTION2', 'Skebでご依頼頂いたイラスト、アパレルブランドのデザインコンテストで入賞＆商品化したもの、デジタルカードゲーム大会の上位入賞など。<br>実績というほどでもないですが、自分用に作った曲もイラスト一覧ページとは分けてこちらのページに掲載します。');
 
 // faq
+define('FAQ_PAGE_DESCRIPTION', '自分の好きな○○について答えています。お仕事の依頼の仕方についての内容も答えています。');
 define('FAQ_DESCRIPTION', '自分に関するQ&Aを勝手に作りました。<br>何か思いついたら追加していきます。');
 
 // contact
+define('CONTACT_PAGE_DESCRIPTION', 'イラストのご依頼や配信のお仕事のご相談はこちらから。お気軽にお問い合わせください。');
 define('PRIVACY_POLICY_TEXT', '本フォームでお預かりした個人情報は、ご依頼・お問い合わせへの回答および必要なやり取りの目的にのみ使用し、ご本人の同意なく第三者に開示・提供することはありません。');
 
 // reference
