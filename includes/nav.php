@@ -12,6 +12,7 @@
 
 <nav class="navi">
     <ul class="menu">
+        <li><a href="news"><?php echo NEWS; ?></a></li>
         <li class="menu-first">
             <span><?php echo PROFILE; ?></span>
             <ul class="menu-second">

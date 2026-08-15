@@ -81,6 +81,54 @@ main {
   text-align: center;
 }
 
+/* ページネーション */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.pagination button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+}
+.pagination button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+.page-numbers {
+  display: flex;
+  gap: 8px;
+}
+.page-number {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  font-size: 13px;
+  color: #666;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.page-number:hover {
+  background-color: #f5f5f5;
+}
+.page-number.active {
+  background-color: #6b8e9e;
+  color: #fff;
+  border-color: #6b8e9e;
+}
+.page-dots {
+  color: #999;
+  font-size: 13px;
+  padding: 0 4px;
+}
+
 /*-------------------------------------------
 Header
 -------------------------------------------*/

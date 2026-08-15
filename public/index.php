@@ -24,8 +24,8 @@ usort($newsItems, function ($a, $b) {
     return $b['_index'] - $a['_index'];
 });
 
-// 表示件数を制限したい場合(例:最新5件だけ)
-$latestNews = array_slice($newsItems, 0, 5);
+// 表示件数を制限
+$latestNews = array_slice($newsItems, 0, 10);
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -45,7 +45,6 @@ $latestNews = array_slice($newsItems, 0, 5);
         <section class="news-section">
             <h2 class="section-title">
                 <span class="en">NEWS</span>
-                <span class="ja">更新情報</span>
             </h2>
             <ul class="news-list">
                 <?php foreach ($latestNews as $news): ?>
@@ -55,6 +54,7 @@ $latestNews = array_slice($newsItems, 0, 5);
                 </li>
                 <?php endforeach; ?>
             </ul>
+            <a href="/news" class="news-more">もっと見る</a>
         </section>
 
         <section class="profile fadein">

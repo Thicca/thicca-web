@@ -56,6 +56,7 @@
         </div>
 
         <div class="menu-col">
+            <p class="menu-title"><a href="news"><?php echo NEWS; ?></a></p>
             <p class="menu-title"><a href="gallery"><?php echo GALLERY; ?></a></p>
             <p class="menu-title"><a href="achievements"><?php echo ACHIEVEMENTS; ?></a></p>
         </div>

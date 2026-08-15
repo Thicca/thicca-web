@@ -65,11 +65,15 @@ define('ABOUT_ACHIEVEMENTS2', '依頼のイラストやアパレルブランド�
 define('COPYRIGHT', '&copy; ' . date('Y') . ' ' . CIRCLE_NAME);
 
 // section
+define('NEWS', '更新情報');
 define('PROFILE', 'プロフィール');
 define('GALLERY', 'イラスト一覧');
 define('ACHIEVEMENTS', '実績紹介');
 define('FAQ', '勝手にQ&A');
 define('CONTACT', 'お仕事依頼');
+
+// news
+define('NEWS_ITEMS_PER_PAGE', 10);
 
 // profile
 define('ABOUTME', '私について');
