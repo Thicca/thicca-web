@@ -153,6 +153,47 @@ Mainvisual
 }
 
 /*-------------------------------------------
+News
+-------------------------------------------*/
+.news-section {
+  max-width: 800px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+}
+.news-section .section-title {
+  font-size: 20px; /* お好みのサイズに調整。元のサイズより一回り小さく */
+}
+
+.news-section .news-list {
+  border-top: solid 1px #ddd;
+  max-height: 200px; /* お好みの高さに調整 */
+  overflow-y: auto;
+}
+.news-section .news-list li {
+  display: flex;
+  gap: 24px;
+  padding: 16px 0;
+  border-bottom: solid 1px #ddd;
+  font-size: 14px;
+}
+.news-section .news-date {
+  flex-shrink: 0;
+  width: 100px;
+  color: #999;
+}
+.news-section .news-text {
+  color: #333;
+}
+.news-section .news-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.news-section .news-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+/*-------------------------------------------
 Profile
 -------------------------------------------*/
 .profile {
@@ -369,7 +410,18 @@ Faq & Contact
   }
   .img-3 {
     object-fit: contain;
-}
+  }
+
+  /*-------------------------------------------
+  News
+  -------------------------------------------*/
+  .news-section .news-list li {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .news-section .news-date {
+    width: auto;
+  }
 
   /*-------------------------------------------
   Profile

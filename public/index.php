@@ -4,6 +4,28 @@ $pageTitle = SITE_NAME;
 $pageUrl = SITE_URL . '/';
 $pageDescription = SITE_DESCRIPTION;
 $cssFile = 'top';
+
+// ニュースデータ読み込み
+$newsItems = json_decode(file_get_contents(__DIR__ . '/../data/news.json'), true);
+
+// 元の並び順(JSON内でのインデックス)を保持しておく
+foreach ($newsItems as $index => &$item) {
+    $item['_index'] = $index;
+}
+unset($item); // 参照を解除
+
+// 日付の新しい順、同じ日付ならJSON内で後ろにある方を上に
+usort($newsItems, function ($a, $b) {
+    $dateCompare = strtotime(str_replace('.', '-', $b['date'])) - strtotime(str_replace('.', '-', $a['date']));
+    if ($dateCompare !== 0) {
+        return $dateCompare;
+    }
+    // 日付が同じ場合、_index(元の並び順)が大きい方(後ろにある方)を上に
+    return $b['_index'] - $a['_index'];
+});
+
+// 表示件数を制限したい場合(例:最新5件だけ)
+$latestNews = array_slice($newsItems, 0, 5);
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -19,6 +41,21 @@ $cssFile = 'top';
             </ul>
             <p class="catchphrase"><?php echo CATCHPHRASE; ?></p>
         </div>
+
+        <section class="news-section">
+            <h2 class="section-title">
+                <span class="en">NEWS</span>
+                <span class="ja">更新情報</span>
+            </h2>
+            <ul class="news-list">
+                <?php foreach ($latestNews as $news): ?>
+                <li>
+                    <span class="news-date"><?php echo htmlspecialchars($news['date']); ?></span>
+                    <span class="news-text"><?php echo htmlspecialchars($news['text']); ?></span>
+                </li>
+                <?php endforeach; ?>
+            </ul>
+        </section>
 
         <section class="profile fadein">
             <h2 class="section-title">ABOUT ME</h2>
