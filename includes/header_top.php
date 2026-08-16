@@ -5,10 +5,13 @@
  */
 ?>
 <header id="header">
-    <h1 class="logo">
-        <a href="index">
-            <img src="images/common/logo.svg" alt="<?php echo SITE_NAME; ?>">
-        </a>
-    </h1>
+    <div class="logo-area">
+        <h1 class="logo">
+            <a href="index">
+                <img src="images/common/logo.svg" alt="<?php echo SITE_NAME; ?>">
+            </a>
+        </h1>
+        <?php require_once __DIR__ . '/header_sns.php'; ?>
+    </div>
     <?php require_once __DIR__ . '/nav.php'; ?>
 </header>

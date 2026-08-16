@@ -204,6 +204,21 @@ Header
 #header .mask {
   display: none;
 }
+#header .logo-area {
+  display: flex;
+  align-items: center;
+}
+#header .header-sns {
+  margin-left: 20px;
+}
+#header .header-sns img {
+  width: 18px;
+  height: 18px;
+  transition: opacity 0.2s ease;
+}
+#header .header-sns a:hover img {
+  opacity: 0.6;
+}
 
 /*-------------------------------------------
 Footer
@@ -432,6 +447,17 @@ Footer
       position: fixed;
       top: 0;
       left: 0;
+  }
+  #header .header-sns {
+    position: fixed;
+    top: 5px;
+    right: 70px; /* ハンバーガー(幅50px+右10px)の左に来るよう調整 */
+    height: 50px; /* ハンバーガーと高さを揃えて中央寄せしやすくする */
+    z-index: 30; /* ハンバーガーと同じ階層に */
+  }
+  #header .header-sns img {
+    width: 20px;
+    height: 20px;
   }
 }
 
