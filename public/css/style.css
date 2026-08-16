@@ -295,144 +295,144 @@ Footer
 @media screen and (max-width: 1024px) {
   html {
     scroll-padding-top: 60px;
-}
-main {
+  }
+  main {
     padding-top: 60px;
-}
+  }
 
   /*-------------------------------------------
   Header
   -------------------------------------------*/
   #header {
     height: 60px;
-}
-#header .logo {
-    max-width: 180px;
-}
-#header .navi {
-    width: 80%;
-    height: 100vh;
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    left: -120%;
-    z-index: 20;
-    transition: all 0.6s;
-}
-#header .navi.active {
-    left: 0;
-}
-#header .navi .menu {
-    width: 100%;
-    height: 100vh;
-    flex-direction: column;
-    padding: 60px 0;
-    overflow: auto;
-}
-#header .navi .menu > li {
-    width: 100%;
-    border-top: solid 1px #1f1f1f;
-    margin-left: 0;
-}
-#header .navi .menu > li a {
-    width: 100%;
-    display: block;
-    padding: 20px;
-}
-#header .navi .menu .menu-first span {
-    display: block;
-    padding: 20px;
-}
-#header .navi .menu .menu-first span::before {
-    content: "";
-    width: 15px;
-    height: 1px;
-    background-color: #1f1f1f;
-    position: absolute;
-    top: 30px;
-    right: 20px;
-}
-#header .navi .menu .menu-first span::after {
-    width: 1px;
-    height: 15px;
-    background-color: #1f1f1f;
-    border: none;
-    transform: none;
-    position: absolute;
-    top: 23px;
-    right: 26px;
-    left: auto;
-}
-#header .navi .menu .menu-first span.active::after {
-    content: none;
-}
-#header .navi .menu .menu-first .menu-second {
-    width: 100%;
-    position: static;
-    padding: 0 0 0 40px;
-}
-#header .navi .menu .menu-first .menu-second li {
-    border-top: solid 1px #eee;
-    margin-bottom: 0;
-}
-#header .navi .menu .menu-contact {
-    padding: 30px 0;
-}
-#header .navi .menu .menu-contact a {
-    max-width: 160px;
-    margin: 0 auto;
-}
-#header .hamburger {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    position: fixed;
-    top: 5px;
-    right: 10px;
-    z-index: 30;
-}
-#header .hamburger span {
-    width: 30px;
-    height: 1px;
-    background-color: #1f1f1f;
-    display: inline-block;
-    position: absolute;
-    left: 10px;
-    transition: all 0.4s;
-}
-#header .hamburger.active span {
-    background-color: #fff;
-}
-#header .hamburger span:nth-of-type(1) {
-    top: 16px; 
-}
-#header .hamburger span:nth-of-type(2) {
-    top: 25px;
-}
-#header .hamburger span:nth-of-type(3) {
-    top: 34px;
-}
-#header .hamburger.active span:nth-of-type(1) {
-    top: 24px;
-    transform: rotate(-45deg);
-}
-#header .hamburger.active span:nth-of-type(2) {
-    opacity: 0;
-}
-#header .hamburger.active span:nth-of-type(3) {
-    top: 24px;
-    transform: rotate(45deg);
-}
-#header .mask.active {
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: block;
-    opacity: 0.8;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
+  }
+  #header .logo {
+      max-width: 180px;
+  }
+  #header .navi {
+      width: 80%;
+      height: 100vh;
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      left: -120%;
+      z-index: 20;
+      transition: all 0.6s;
+  }
+  #header .navi.active {
+      left: 0;
+  }
+  #header .navi .menu {
+      width: 100%;
+      height: 100vh;
+      flex-direction: column;
+      padding: 60px 0;
+      overflow: auto;
+  }
+  #header .navi .menu > li {
+      width: 100%;
+      border-top: solid 1px #1f1f1f;
+      margin-left: 0;
+  }
+  #header .navi .menu > li a {
+      width: 100%;
+      display: block;
+      padding: 20px;
+  }
+  #header .navi .menu .menu-first span {
+      display: block;
+      padding: 20px;
+  }
+  #header .navi .menu .menu-first span::before {
+      content: "";
+      width: 15px;
+      height: 1px;
+      background-color: #1f1f1f;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+  }
+  #header .navi .menu .menu-first span::after {
+      width: 1px;
+      height: 15px;
+      background-color: #1f1f1f;
+      border: none;
+      transform: none;
+      position: absolute;
+      top: 23px;
+      right: 26px;
+      left: auto;
+  }
+  #header .navi .menu .menu-first span.active::after {
+      content: none;
+  }
+  #header .navi .menu .menu-first .menu-second {
+      width: 100%;
+      position: static;
+      padding: 0 0 0 40px;
+  }
+  #header .navi .menu .menu-first .menu-second li {
+      border-top: solid 1px #eee;
+      margin-bottom: 0;
+  }
+  #header .navi .menu .menu-contact {
+      padding: 30px 0;
+  }
+  #header .navi .menu .menu-contact a {
+      max-width: 160px;
+      margin: 0 auto;
+  }
+  #header .hamburger {
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      position: fixed;
+      top: 5px;
+      right: 10px;
+      z-index: 30;
+  }
+  #header .hamburger span {
+      width: 30px;
+      height: 1px;
+      background-color: #1f1f1f;
+      display: inline-block;
+      position: absolute;
+      left: 10px;
+      transition: all 0.4s;
+  }
+  #header .hamburger.active span {
+      background-color: #fff;
+  }
+  #header .hamburger span:nth-of-type(1) {
+      top: 16px; 
+  }
+  #header .hamburger span:nth-of-type(2) {
+      top: 25px;
+  }
+  #header .hamburger span:nth-of-type(3) {
+      top: 34px;
+  }
+  #header .hamburger.active span:nth-of-type(1) {
+      top: 24px;
+      transform: rotate(-45deg);
+  }
+  #header .hamburger.active span:nth-of-type(2) {
+      opacity: 0;
+  }
+  #header .hamburger.active span:nth-of-type(3) {
+      top: 24px;
+      transform: rotate(45deg);
+  }
+  #header .mask.active {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      display: block;
+      opacity: 0.8;
+      position: fixed;
+      top: 0;
+      left: 0;
+  }
 }
 
 /*-------------------------------------------
