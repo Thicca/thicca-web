@@ -52,13 +52,33 @@
         ]
     },
     {
-        "name": "ファッションデザイン",
-        "category": "fashion",
+        "name": "「第3回ToAliceデザインコンテスト」特別賞受賞＆商品化",
+        "category": "toalice_3rd_contest",
         "contents": [
             {
-                "media": "fashion\/toalice_3rd_contest_thicca_view.png",
-                "name": "「第3回ToAliceデザインコンテスト」特別賞受賞＆商品化",
+                "media": "toalice_3rd_contest\/toalice_3rd_contest_thicca_view.png",
+                "name": "デザイン原案",
                 "date": "2024.01.28"
+            },
+            {
+                "media": "toalice_3rd_contest\/着用写真20250818_1.png",
+                "name": "着用写真20250818_1",
+                "date": "2025.08.18"
+            },
+            {
+                "media": "toalice_3rd_contest\/着用写真20250818_2.png",
+                "name": "着用写真20250818_2",
+                "date": "2025.08.18"
+            },
+            {
+                "media": "toalice_3rd_contest\/着用写真20260215_1.jpg",
+                "name": "着用写真20260215_1",
+                "date": "2026.02.15"
+            },
+            {
+                "media": "toalice_3rd_contest\/着用写真20260215_2.jpg",
+                "name": "着用写真20260215_2",
+                "date": "2026.02.15"
             }
         ]
     },
