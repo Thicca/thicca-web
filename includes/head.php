@@ -11,6 +11,9 @@ $pageCss = $page . '.css';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle . ' | ' . SITE_NAME : SITE_NAME; ?></title>
 
+    <!-- 追加:正規URL -->
+    <link rel="canonical" href="<?php echo isset($pageUrl) ? $pageUrl : SITE_URL . '/'; ?>">
+
     <!-- OGP設定 -->
     <meta property="og:title" content="<?php echo CIRCLE_NAME; ?>">
     <meta property="og:type" content="website">
