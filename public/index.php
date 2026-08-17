@@ -25,7 +25,7 @@ usort($newsItems, function ($a, $b) {
 });
 
 // 表示件数を制限
-$latestNews = array_slice($newsItems, 0, 10);
+$latestNews = array_slice($newsItems, 0, 5);
 ?>
 <!DOCTYPE html>
 <html lang="ja">
