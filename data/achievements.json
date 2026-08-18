@@ -94,12 +94,37 @@
         ]
     },
     {
-        "name": "ゲーム大会入賞",
-        "category": "game",
+        "name": "「デュエプレグランプリ2025」TOP32(17位タイ)入賞",
+        "category": "dmpgp2025",
         "contents": [
             {
                 "media": "dmps\/dmpgp2025.png",
-                "name": "「デュエプレグランプリ2025」TOP32(17位タイ)入賞",
+                "name": "最終順位(17位タイ)",
+                "date": "2025.09.06"
+            },
+            {
+                "media": "dmps\/dmpgp2025_qualified.jpg",
+                "name": "予選最終順位(サブマリンで6-1)",
+                "date": "2025.09.06"
+            },
+            {
+                "media": "dmps\/dmpgp2025_deck.jpg",
+                "name": "使用デッキ「火光アポロアガペ」",
+                "date": "2025.09.06"
+            },
+            {
+                "media": "dmps\/dmpgp2025_pr1.png",
+                "name": "獲得した上位賞《フェリックス・ミザリィ》特別PRカード4枚",
+                "date": "2025.09.06"
+            },
+            {
+                "media": "dmps\/dmpgp2025_pr2.png",
+                "name": "獲得した上位賞《永遠のリュウセイ・カイザー》WINNER3枚",
+                "date": "2025.09.06"
+            },
+            {
+                "media": "dmps\/dmpgp2025_pr3.png",
+                "name": "獲得した特別PRカード《ヤッタレマン》2枚",
                 "date": "2025.09.06"
             }
         ]
