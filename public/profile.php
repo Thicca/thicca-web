@@ -145,23 +145,17 @@ $cssFile = 'profile';
 
         <dl class="ability-list wrapper">
           <dt>趣味</dt>
-          <dd>お絵描き / カードゲーム / 可愛い服を着ること(地雷系多め) / 配信</dd>
+          <dd><?php echo ABILITY_HOBBY; ?></dd>
           <dt>できること・特技？</dt>
-          <dd>お絵描き / Live2Dモデリング / 作曲(DTM) / プログラミング / 暗記 / 英語 / ウクレレ</dd>
+          <dd><?php echo ABILITY_SKILL; ?></dd>
           <dt>ゲーム</dt>
-          <dd>デジタルカードゲーム / ポケモン / 原神 / ブルーアーカイブ / パルワールド / 魔法少女ノ魔女裁判 等</dd>
+          <dd><?php echo ABILITY_GAME; ?></dd>
           <dt>カードゲーム(紙)</dt>
-          <dd>デュエル・マスターズ / ヴァイスシュヴァルツ / 遊戯王OCG / 遊戯王ラッシュデュエル / ヴァンガード</dd>
+          <dd><?php echo ABILITY_CARDGAME; ?></dd>
           <dt>デジタルカードゲーム</dt>
-          <dd>デュエル・マスターズ プレイス / Shadowverse: Worlds Beyond / 遊戯王マスターデュエル</dd>
+          <dd><?php echo ABILITY_DCG; ?></dd>
           <dt>プログラミング</dt>
-          <dd>
-            ・言語: C/C++/Java/Python/PHP/CSS/HTML/JavaScript等 基本的なコーディング、既存コードの修正<br>
-            ・Python: 進化計算、機械学習、深層学習等の人工知能ライブラリ使用経験有<br>
-            ・PHP: MVCモデル(CodeIgniter)を用いた既存コード修正・追加コーディング経験有<br>
-            ・OS: Linux(CentOS,Ubuntu) 基本的なコマンド操作<br>
-            ・DB: MySQL 基本的なSQL記述やクエリ実行
-          </dd>
+          <dd><?php echo ABILITY_PROGRAMMING; ?></dd>
         </dl>
       </section>
 
