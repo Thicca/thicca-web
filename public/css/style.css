@@ -210,10 +210,11 @@ Header
 }
 #header .header-sns {
   margin-left: 20px;
+  object-fit: contain;
 }
 #header .header-sns img {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   transition: opacity 0.2s ease;
 }
 #header .header-sns a:hover img {
@@ -450,10 +451,10 @@ Footer
   }
   #header .header-sns {
     position: fixed;
-    top: 5px;
+    top: 20px;
     right: 70px; /* ハンバーガー(幅50px+右10px)の左に来るよう調整 */
     height: 50px; /* ハンバーガーと高さを揃えて中央寄せしやすくする */
-    z-index: 30; /* ハンバーガーと同じ階層に */
+    z-index: 20; /* ハンバーガーより下の階層に */
   }
   #header .header-sns img {
     width: 20px;
