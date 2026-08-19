@@ -115,7 +115,7 @@ define('ABILITY_SKILL', 'お絵描き / Live2Dモデリング / 作曲(DTM) / �
 define('ABILITY_GAME', 'デジタルカードゲーム / ポケモン / 原神 / ブルーアーカイブ / パルワールド / 魔法少女ノ魔女裁判 等');
 define('ABILITY_CARDGAME', 'デュエル・マスターズ / ヴァイスシュヴァルツ / 遊戯王OCG / 遊戯王ラッシュデュエル / ヴァンガード');
 define('ABILITY_DCG', 'デュエル・マスターズ プレイス / Shadowverse: Worlds Beyond / 遊戯王マスターデュエル');
-define('ABILITY_PROGRAMMING', '・言語: C/C++/Java/Python/PHP/CSS/HTML/JavaScript等 基本的なコーディング、既存コードの修正<br>・Python: 進化計算、機械学習、深層学習等の人工知能ライブラリ使用経験有<br>・PHP: MVCモデル(CodeIgniter)を用いた既存コード修正・追加コーディング経験有<br>・OS: Linux(CentOS,Ubuntu) 基本的なコマンド操作<br>・DB: MySQL 基本的なSQL記述やクエリ実行');
+define('ABILITY_PROGRAMMING', '・言語: C / C++ / Java / Python / PHP / CSS / HTML / JavaScript 等 基本的なコーディング、既存コードの修正<br>・Python: 進化計算、機械学習、深層学習等の人工知能ライブラリ使用経験有<br>・PHP: MVCモデル(CodeIgniter)を用いた既存コード修正・追加コーディング経験有<br>・OS: Linux(CentOS,Ubuntu) 基本的なコマンド操作<br>・DB: MySQL 基本的なSQL記述やクエリ実行');
 
 // gallery
 define('GALLERY_PAGE_DESCRIPTION', 'オリジナル、二次創作、ご依頼作品など、てぃっかが描いたイラスト作品をまとめたギャラリーページです。');
