@@ -36,10 +36,11 @@ $pageCss = $page . '.css';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <!-- キャッシュバスティング(バージョン番号を付与) -->
+    <link rel="stylesheet" href="/css/style.css?v=<?php echo filemtime(__DIR__ . '/../public/css/style.css'); ?>">
     <?php if (isset($pageCss)): ?>
-	<link rel="stylesheet" href="/css/<?php echo $pageCss; ?>">
-	<?php endif; ?>
+    <link rel="stylesheet" href="/css/<?php echo $pageCss; ?>?v=<?php echo filemtime(__DIR__ . '/../public/css/' . $pageCss); ?>">
+    <?php endif; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="/js/jquery.inview.min.js"></script>
     <script src="/js/main.js"></script>
