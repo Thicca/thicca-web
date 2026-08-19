@@ -76,7 +76,7 @@ About Me
   width: clamp(390px, 50vw, 460px);
   position: absolute;
   top: 70px;
-  right: 40px;
+  right: 140px;
 }
 #aboutme .text-area {
   width: 70%;
