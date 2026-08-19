@@ -281,10 +281,6 @@ Certificate
   border: solid 1px #1f1f1f;
   font-size: 12px;
 }
-#certificate .map iframe {
-  width: 100%;
-  height: 400px;
-}
 .qualifications {
   list-style: none;
   padding: 0;
@@ -489,5 +485,20 @@ History
   -------------------------------------------*/
   #certificate {
     margin-bottom: 60px;
+  }
+
+  /*-------------------------------------------
+  スマホでのはみ出し対策
+  -------------------------------------------*/
+  .qualifications li,
+  #certificate .info,
+  #aboutme .detail-item,
+  .history-timeline-list li {
+    min-width: 0;
+  }
+  .q-name,
+  .event,
+  #aboutme .text-area .inner .text {
+    overflow-wrap: break-word;
   }
 }
