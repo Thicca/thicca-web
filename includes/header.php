@@ -7,7 +7,7 @@
 <header id="header">
     <div class="logo-area">
         <div class="logo">
-            <a href="index">
+            <a href="/">
                 <img src="images/common/logo.svg" alt="<?php echo SITE_NAME; ?>">
             </a>
         </div>

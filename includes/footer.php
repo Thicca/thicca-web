@@ -6,7 +6,7 @@
 ?>
 <footer id="footer">
     <div class="info-area">
-        <a class="logo" href="index">
+        <a class="logo" href="/">
             <img src="images/common/logo-w.svg" alt="<?php echo SITE_NAME; ?>">
         </a>
         <p class="credit">本サイトの制作にあたり、書籍<?php echo REFERENCE_BOOK; ?>を参考にしました。</p>
