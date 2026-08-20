@@ -32,6 +32,7 @@ $deckItems = json_decode(file_get_contents(__DIR__ . '/../data/decks.json'), tru
         <li><a href="#works"><?php echo WORKS; ?></a></li>
         <li><a href="#ability"><?php echo ABILITY; ?></a></li>
         <li><a href="#certificate"><?php echo CERTIFICATE; ?></a></li>
+        <li><a href="#deck"><?php echo DECK; ?></a></li>
         <li><a href="#history"><?php echo HISTORY; ?></a></li>
       </ul>
 
