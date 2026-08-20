@@ -1,0 +1,331 @@
+[
+  {
+    "image": "ygo/イビルツインスプライト.jpg",
+    "name": "イビルツインスプライト",
+    "category": "ygo",
+    "source": "遊戯王ニューロン",
+    "date": "2024.11.02"
+  },
+  {
+    "image": "ygo/エクゾディア.jpg",
+    "name": "エクゾディア",
+    "category": "ygo",
+    "source": "遊戯王ニューロン",
+    "date": "2024.08.27"
+  },
+  {
+    "image": "ygo/ブラマジオシリス.jpg",
+    "name": "ブラマジオシリス",
+    "category": "ygo",
+    "source": "遊戯王ニューロン",
+    "date": "2024.10.12"
+  },
+  {
+    "image": "ygo/軍貫オベリスク.jpg",
+    "name": "軍貫オベリスク",
+    "category": "ygo",
+    "source": "遊戯王ニューロン",
+    "date": "2024.05.30"
+  },
+  {
+    "image": "ygo/光の黄金櫃.jpg",
+    "name": "光の黄金櫃",
+    "category": "ygo",
+    "source": "遊戯王ニューロン",
+    "date": "2024.06.07"
+  },
+  {
+    "image": "ygo/青眼.jpg",
+    "name": "青眼",
+    "category": "ygo",
+    "source": "遊戯王ニューロン",
+    "date": "2024.02.03"
+  },
+  {
+    "image": "rd/ブルーアイズ.jpg",
+    "name": "ブルーアイズ",
+    "category": "rd",
+    "source": "遊戯王ニューロン",
+    "date": "2025.05.18"
+  },
+  {
+    "image": "rd/リチュアルブラマジ.jpg",
+    "name": "リチュアルブラマジ",
+    "category": "rd",
+    "source": "遊戯王ニューロン",
+    "date": "2025.05.18"
+  },
+  {
+    "image": "ws/【8扉】霊夢.jpg",
+    "name": "【8扉】霊夢",
+    "category": "ws",
+    "source": "WSデッキビルダー",
+    "date": "2026.07.16"
+  },
+  {
+    "image": "ws/【8門】3期生るしあ.jpg",
+    "name": "【8門】3期生るしあ",
+    "category": "ws",
+    "source": "WSデッキビルダー",
+    "date": "2024.01.20"
+  },
+  {
+    "image": "ws/【8門】るしあムメイ.jpg",
+    "name": "【8門】るしあムメイ",
+    "category": "ws",
+    "source": "WSデッキビルダー",
+    "date": "2024.02.28"
+  },
+  {
+    "image": "ws/【ストブ扉】ライスシャワー.jpg",
+    "name": "【ストブ扉】ライスシャワー",
+    "category": "ws",
+    "source": "WSデッキビルダー",
+    "date": "2023.10.06"
+  },
+  {
+    "image": "ws/【門電源】ぐら.jpg",
+    "name": "【門電源】ぐら",
+    "category": "ws",
+    "source": "WSデッキビルダー",
+    "date": "2023.11.06"
+  },
+  {
+    "image": "ws/ブルーロック.jpg",
+    "name": "ブルーロック",
+    "category": "ws",
+    "source": "WSBデッキビルダー",
+    "date": "2023.11.03"
+  },
+  {
+    "image": "dm/4cタマシードアポロ.jpg",
+    "name": "4cタマシードアポロ",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.05.24"
+  },
+  {
+    "image": "dm/4cボルメテウス.jpg",
+    "name": "4cボルメテウス",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.06.09"
+  },
+  {
+    "image": "dm/5cザーディクリカ.jpg",
+    "name": "5cザーディクリカ",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.06.09"
+  },
+  {
+    "image": "dm/8軸ガチロボ.jpg",
+    "name": "8軸ガチロボ",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.06.18"
+  },
+  {
+    "image": "dm/クエーサーユニバース.jpg",
+    "name": "クエーサーユニバース",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.04.10"
+  },
+  {
+    "image": "dm/火闇HWM.jpg",
+    "name": "火闇HWM",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.05.14"
+  },
+  {
+    "image": "dm/火闇アポロ.jpg",
+    "name": "火闇アポロ",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.05.24"
+  },
+  {
+    "image": "dm/火闇フェニックス.jpg",
+    "name": "火闇フェニックス",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.05.25"
+  },
+  {
+    "image": "dm/火光ボルシャックアポロ.jpg",
+    "name": "火光ボルシャックアポロ",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.06.09"
+  },
+  {
+    "image": "dm/火光闇バードフェニックス.jpg",
+    "name": "火光闇バードフェニックス",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.04.09"
+  },
+  {
+    "image": "dm/火光水アーマード・ドラゴン.jpg",
+    "name": "火光水アーマード・ドラゴン",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.07.24"
+  },
+  {
+    "image": "dm/火水闇ゴッド.jpg",
+    "name": "火水闇ゴッド",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.08.19"
+  },
+  {
+    "image": "dm/火水自然ソニック・コマンド.jpg",
+    "name": "火水自然ソニック・コマンド",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.07.24"
+  },
+  {
+    "image": "dm/火水自然ボルベルグ.jpg",
+    "name": "火水自然ボルベルグ",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.04.09"
+  },
+  {
+    "image": "dm/光水闇イズモ.jpg",
+    "name": "光水闇イズモ",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.08.17"
+  },
+  {
+    "image": "dm/水闇デスパペット.jpg",
+    "name": "水闇デスパペット",
+    "category": "dm",
+    "source": "デュエル・マスターズ サポートアプリ",
+    "date": "2026.06.12"
+  },
+  {
+    "image": "dm/火闇自然DOOM.jpeg",
+    "name": "火闇自然DOOM",
+    "category": "dm",
+    "source": "DECK MAKER",
+    "date": "2026.05.22"
+  },
+  {
+    "image": "dm/ルドルフボルメテウス.jpeg",
+    "name": "ルドルフボルメテウス",
+    "category": "dm",
+    "source": "DECK MAKER",
+    "date": "2026.05.21"
+  },
+  {
+    "image": "dm/火光サムライ.jpeg",
+    "name": "火光サムライ",
+    "category": "dm",
+    "source": "DECK MAKER",
+    "date": "2026.05.19"
+  },
+  {
+    "image": "dm/水自然ジャイアント.jpeg",
+    "name": "水自然ジャイアント",
+    "category": "dm",
+    "source": "DECK MAKER",
+    "date": "2026.05.21"
+  },
+  {
+    "image": "dm/classic/4cサイン_クラシック08.jpeg",
+    "name": "4cサイン_クラシック08",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.04.01"
+  },
+  {
+    "image": "dm/classic/闇自然バロム_クラシック05.jpeg",
+    "name": "闇自然バロム_クラシック05",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.04.01"
+  },
+  {
+    "image": "dm/classic/火自然連ドラ_クラシック05.jpeg",
+    "name": "火自然連ドラ_クラシック05",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.04.01"
+  },
+  {
+    "image": "dm/classic/光闇水天門_クラシック05.jpeg",
+    "name": "光闇水天門_クラシック05",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.04.01"
+  },
+  {
+    "image": "dm/classic/光自然アルカディアス_クラシック05.jpeg",
+    "name": "光自然アルカディアス_クラシック05",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.04.01"
+  },
+  {
+    "image": "dm/classic/光水自然ガーディアン_クラシック05.jpeg",
+    "name": "光水自然ガーディアン_クラシック05",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.04.01"
+  },
+  {
+    "image": "dm/classic/自然火ペンチカチュア_クラシック05.jpeg",
+    "name": "自然火ペンチカチュア_クラシック05",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.04.01"
+  },
+  {
+    "image": "dm/classic/水光闇リキピ_クラシック05.jpeg",
+    "name": "水光闇リキピ_クラシック05",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.03.21"
+  },
+  {
+    "image": "dm/classic/水光闇リキピ_クラシック08.jpeg",
+    "name": "水光闇リキピ_クラシック08",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.03.21"
+  },
+  {
+    "image": "dm/classic/転生オルテギア_クラシック05.jpeg",
+    "name": "転生オルテギア_クラシック05",
+    "category": "dmc",
+    "source": "DECK MAKER",
+    "date": "2026.04.01"
+  },
+  {
+    "image": "vg/Bel-Fiore.png",
+    "name": "Bel-Fiore",
+    "category": "vg",
+    "source": "知人より",
+    "date": "2026.05.12"
+  },
+  {
+    "image": "vg/LettiaMateS.png",
+    "name": "LettiaMateS",
+    "category": "vg",
+    "source": "知人より",
+    "date": "2026.05.12"
+  },
+  {
+    "image": "vg/リィエル.png",
+    "name": "リィエル",
+    "category": "vg",
+    "source": "知人より",
+    "date": "2026.05.12"
+  }
+]

@@ -4,10 +4,14 @@ $pageTitle = PROFILE;
 $pageUrl = SITE_URL . '/profile';
 $pageDescription = PROFILE_PAGE_DESCRIPTION;
 $cssFile = 'profile';
+
+// デッキリストデータ読み込み
+$deckItems = json_decode(file_get_contents(__DIR__ . '/../data/decks.json'), true);
 ?>
 <!DOCTYPE html>
 <html lang="ja">
   <?php require_once __DIR__ . '/../includes/head.php'; ?>
+  <script src="js/profile.js"></script>
   <body>
     <?php require_once __DIR__ . '/../includes/header.php'; ?>
     <main>
@@ -186,6 +190,56 @@ $cssFile = 'profile';
             </div>
           </div>
         </div>
+      </section>
+
+      <section id="deck">
+        <h2 class="section-title"><span><?php echo DECK; ?></span></h2>
+
+        <div class="wrapper">
+        <p class="head-text"><?php echo DECK_DESCRIPTION; ?></p>
+          <ul class="deck-tab-list">
+            <li class="tab active" data-category="all">全て</li>
+            <li class="tab " data-category="dm">デュエマ</li>
+            <li class="tab " data-category="dmc">デュエマclassic</li>
+            <li class="tab" data-category="ws">ヴァイス</li>
+            <li class="tab" data-category="ygo">遊戯王OCG</li>
+            <li class="tab" data-category="rd">ラッシュデュエル</li>
+            <li class="tab" data-category="vg">ヴァンガード</li>
+          </ul>
+
+          <div class="sort-control">
+              <button id="sortToggle" data-order="desc">日付順: 新しい順 ▼</button>
+          </div>
+
+          <ul class="deck-list all" id="deckList" data-items-per-page="<?php echo GALLERY_ITEMS_PER_PAGE; ?>">
+            <?php foreach ($deckItems as $deck): ?>
+            <li class="deck-item" data-category="<?php echo htmlspecialchars($deck['category']); ?>">
+              <img src="images/deck/<?php echo htmlspecialchars($deck['image']); ?>" alt="<?php echo htmlspecialchars($deck['name']); ?>" class="modal-open" data-image="<?php echo htmlspecialchars($deck['image']); ?>" data-name="<?php echo htmlspecialchars($deck['name']); ?>">
+              <div class="deck-info">
+                <p class="deck-name"><?php echo htmlspecialchars($deck['name']); ?></p>
+                <p class="deck-source">出典: <?php echo htmlspecialchars($deck['source']); ?></p>
+                <p class="deck-date"><?php echo htmlspecialchars($deck['date']); ?></p>
+              </div>
+            </li>
+            <?php endforeach; ?>
+          </ul>
+        </div>
+
+        <!-- モーダルウィンドウ本体 -->
+        <div class="modal-container" id="imageModal">
+            <div class="modal-overlay"></div>
+            <button class="modal-close" aria-label="閉じる">&times;</button>
+            <div class="modal-content">
+                <div class="modal-image" id="modalImage"></div>
+                <p class="modal-caption" id="modalCaption"></p>
+            </div>
+        </div>
+
+        <nav class="pagination">
+            <button class="prev" id="prevBtn">← 前へ</button>
+            <div class="page-numbers" id="pageNumbers"></div>
+            <button class="next" id="nextBtn">次へ →</button>
+        </nav>
       </section>
 
       <section id="history">

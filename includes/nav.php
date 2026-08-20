@@ -20,6 +20,7 @@
                 <li><a href="profile#works"><?php echo WORKS; ?></a></li>
                 <li><a href="profile#ability"><?php echo ABILITY; ?></a></li>
                 <li><a href="profile#certificate"><?php echo CERTIFICATE; ?></a></li>
+                <li><a href="profile#deck"><?php echo DECK; ?></a></li>
                 <li><a href="profile#history"><?php echo HISTORY; ?></a></li>
             </ul>
         </li>

@@ -145,10 +145,57 @@ document.addEventListener('DOMContentLoaded', () => {
       $("body").css("overflow-y", "hidden");
       $("#imageModal").addClass("active");
   });
-  // ギャラリーモーダルを閉じる処理
+  /*-------------------------------
+  デッキ画像モーダル
+  ---------------------------------*/
+  $(document).on("click", ".deck-item img.modal-open", function () {
+      const image = $(this).data("image");
+      const name = $(this).data("name");
+
+      const $modalImage = $("#modalImage");
+      $modalImage.empty(); // 前回分をクリア
+      $modalImage.append(`<img src="images/deck/${image}" alt="${name}">`);
+
+      $("#modalCaption").text(name);
+      $("body").css("overflow-y", "hidden");
+      $("#imageModal").addClass("active");
+  });
+  // ギャラリー・デッキモーダルを閉じる処理
   $(document).on("click", "#imageModal .modal-close, #imageModal .modal-overlay", function () {
       $("body").css("overflow-y", "auto");
       $("#imageModal").removeClass("active");
+  });
+  /*-------------------------------
+  ズーム画像のドラッグ移動
+  ---------------------------------*/
+  let isDragging = false;
+  let startX, startY, scrollLeft, scrollTop;
+
+  $(document).on("mousedown", ".modal-content img.zoomed", function (e) {
+      isDragging = true;
+      const container = $(this).closest(".modal-content");
+      startX = e.pageX;
+      startY = e.pageY;
+      scrollLeft = container.scrollLeft();
+      scrollTop = container.scrollTop();
+      $(this).css("cursor", "grabbing");
+      e.preventDefault();
+  });
+
+  $(document).on("mousemove", function (e) {
+      if (!isDragging) return;
+      const container = $(".modal-content");
+      const dx = e.pageX - startX;
+      const dy = e.pageY - startY;
+      container.scrollLeft(scrollLeft - dx);
+      container.scrollTop(scrollTop - dy);
+  });
+
+  $(document).on("mouseup mouseleave", function () {
+      if (isDragging) {
+          isDragging = false;
+          $(".modal-content img.zoomed").css("cursor", "zoom-out");
+      }
   });
 });
 

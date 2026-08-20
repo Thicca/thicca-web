@@ -81,6 +81,7 @@ define('ABOUTME', '私について');
 define('WORKS', '作品紹介');
 define('ABILITY', 'できること');
 define('CERTIFICATE', '所持資格');
+define('DECK', '所持デッキ');
 define('HISTORY', '略歴');
 
 define('PROFILE_PAGE_DESCRIPTION', 'イラストレーター「てぃっか」/ VTuber「夢毬てちか」のプロフィール。経歴、資格、使用ソフトなどを紹介しています。');
@@ -116,6 +117,7 @@ define('ABILITY_GAME', 'デジタルカードゲーム / ポケモン / 原神 /
 define('ABILITY_CARDGAME', 'デュエル・マスターズ / ヴァイスシュヴァルツ / 遊戯王OCG / 遊戯王ラッシュデュエル / ヴァンガード');
 define('ABILITY_DCG', 'デュエル・マスターズ プレイス / Shadowverse: Worlds Beyond / 遊戯王マスターデュエル');
 define('ABILITY_PROGRAMMING', '・言語: C / C++ / Java / Python / PHP / CSS / HTML / JavaScript 等 基本的なコーディング、既存コードの修正<br>・Python: 進化計算、機械学習、深層学習等の人工知能ライブラリ使用経験有<br>・PHP: MVCモデル(CodeIgniter)を用いた既存コード修正・追加コーディング経験有<br>・OS: Linux(CentOS,Ubuntu) 基本的なコマンド操作<br>・DB: MySQL 基本的なSQL記述やクエリ実行');
+define('DECK_DESCRIPTION', '　私が持っているカードゲームのデッキ一覧です。現在はデュエル・マスターズをメインで遊んでいます。<br>　遊戯王OCGはかつてもっと沢山のデッキを持っていましたが、隠居を機に（かつ金銭的な事情で）多くを手放しました。かつて持っていた『ヴァレット』『ウィッチクラフト』『破械』『氷水ラー』『ドラゴンメイド』『氷水』『ドラグマ粛声』『AtoZオベリスク』『ゲート・ガーディアン』『キマイラ』等のデッキは、遊戯王マスターデュエルの方で生き続けています。<br>　ヴァイスシュヴァルツもかつて『潤羽るしあ』や『がうる・ぐら』、『ライスシャワー』等のサインカードを持っていましたが、金銭的に生活が困窮になった際に断腸の思いで手放しました。<br>　ヴァンガードのデッキリストの写真は、知人が私に作ってくれた画像をそのまま掲載しています。');
 
 // gallery
 define('GALLERY_PAGE_DESCRIPTION', 'オリジナル、二次創作、ご依頼作品など、てぃっかが描いたイラスト作品をまとめたギャラリーページです。');
