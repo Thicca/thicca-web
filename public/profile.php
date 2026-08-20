@@ -198,13 +198,27 @@ $deckItems = json_decode(file_get_contents(__DIR__ . '/../data/decks.json'), tru
         <div class="wrapper">
         <p class="head-text"><?php echo DECK_DESCRIPTION; ?></p>
           <ul class="deck-tab-list">
-            <li class="tab active" data-category="all">全て</li>
-            <li class="tab " data-category="dm">デュエマ</li>
-            <li class="tab " data-category="dmc">デュエマclassic</li>
-            <li class="tab" data-category="ws">ヴァイス</li>
-            <li class="tab" data-category="ygo">遊戯王OCG</li>
-            <li class="tab" data-category="rd">ラッシュデュエル</li>
-            <li class="tab" data-category="vg">ヴァンガード</li>
+            <li class="tab active" data-category="all">
+              <span class="full">全て</span><span class="short">全て</span>
+            </li>
+            <li class="tab " data-category="dm">
+              <span class="full">デュエマ</span><span class="short">DM</span>
+            </li>
+            <li class="tab " data-category="dmc">
+              <span class="full">デュエマclassic</span><span class="short">DMC</span>
+            </li>
+            <li class="tab" data-category="ws">
+              <span class="full">ヴァイス</span><span class="short">WS</span>
+            </li>
+            <li class="tab" data-category="ygo">
+              <span class="full">遊戯王OCG</span><span class="short">YGO</span>
+            </li>
+            <li class="tab" data-category="rd">
+              <span class="full">ラッシュデュエル</span><span class="short">RD</span>
+            </li>
+            <li class="tab" data-category="vg">
+              <span class="full">ヴァンガード</span><span class="short">VG</span>
+            </li>
           </ul>
 
           <div class="sort-control">

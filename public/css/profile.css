@@ -368,6 +368,13 @@ Deck
   background-color: #1f1f1f;
   color: #fff;
 }
+/* 基本(PC):フル表記を表示、短縮表記を隠す */
+.deck-tab-list .short {
+  display: none;
+}
+.deck-tab-list .full {
+  display: inline;
+}
 .deck-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -697,6 +704,13 @@ History
   }
   .deck-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* スマホ:短縮表記を表示、フル表記を隠す */
+  .deck-tab-list .full {
+    display: none;
+  }
+  .deck-tab-list .short {
+    display: inline;
   }
 
   /*-------------------------------------------
