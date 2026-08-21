@@ -69,14 +69,14 @@ $deckItems = json_decode(file_get_contents(__DIR__ . '/../data/decks.json'), tru
                   </div>
                   <div class="detail-item">
                       <dt>同人サークル名</dt>
-                      <dd><?php echo CIRCLE_NAME; ?>(ゆめのてまりあと)</dd>
+                      <dd><?php echo CIRCLE_NAME; ?>(ゆめのてまりあと)<br><a href="<?php echo SNS_BOOTH; ?>" target='_blank' rel="noopener noreferrer">BOOTH</a> / <a href="<?php echo SNS_CIRCLEMS; ?>" target='_blank' rel="noopener noreferrer">Circle.ms</a></dd>
                   </div>
                   <div class="detail-item">
                       <dt>SNS</dt>
                       <dd>
                         <a href="<?php echo SNS_X; ?>" target='_blank' rel="noopener noreferrer">X</a> / 
                         <a href="<?php echo SNS_X_SUB; ?>" target='_blank' rel="noopener noreferrer">X(お洋服専用サブ垢)</a> / 
-                        <a href="<?php echo SNS_WICK; ?>" target='_blank' rel="noopener noreferrer">Wick</a>
+                        <a href="<?php echo SNS_WICK; ?>" target='_blank' rel="noopener noreferrer">Wick</a> / <a href="<?php echo SNS_PIXIV; ?>" target='_blank' rel="noopener noreferrer">pixiv</a>
                       </dd>
                   </div>
                   <div class="detail-item">

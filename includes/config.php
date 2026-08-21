@@ -36,6 +36,7 @@ define('SNS_RAIDORI', 'https://raidori.com/@thicca_view');
 define('SNS_WICK', 'https://wick-sns.com/sns/profile/2e8ded13-806e-4d6c-afdf-b229b3eb171c');
 define('SNS_TSUNAGU', 'https://tsunagu.cloud/users/thicca_view');
 define('SNS_WISHLIST', 'https://www.amazon.co.jp/hz/wishlist/ls/JLR1S8BKQYNZ?ref_=wl_share');
+define('SNS_CIRCLEMS', 'https://portal.circle.ms/Circle/Index/10458072');
 
 // パス関連
 define('BASE_PATH', dirname(__DIR__));
