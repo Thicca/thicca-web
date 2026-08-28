@@ -135,7 +135,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             header('Location: ' . $redirectUrl);
             exit;
         } catch (Exception $e) {
-            $errors[] = '送信に失敗しました。時間をおいて再度お試しください。';
+            $errors[] = '送信に失敗しました。エラー詳細: ' . $mailer->ErrorInfo;
+            // $errors[] = '送信に失敗しました。時間をおいて再度お試しください。';
         }
     }
 }
