@@ -14,6 +14,9 @@ $pageCss = $page . '.css';
     <!-- 追加:正規URL -->
     <link rel="canonical" href="<?php echo isset($pageUrl) ? $pageUrl : SITE_URL . '/'; ?>">
 
+    <!-- Google reCAPTCHA v3 -->
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo RECAPTCHA_SITE_KEY; ?>"></script>
+
     <!-- OGP設定 -->
     <meta property="og:title" content="<?php echo CIRCLE_NAME; ?>">
     <meta property="og:type" content="website">

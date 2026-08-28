@@ -44,6 +44,10 @@ define('BASE_PATH', dirname(__DIR__));
 // OGP関連
 define('OGP_IMAGE', SITE_URL . '/images/ogp.png');
 
+// Google reCAPTCHA v3
+define('RECAPTCHA_SITE_KEY', '6Le0WpwtAAAAAIZGzt-E2H7o90LwWxnVZWHkl4_2');
+define('RECAPTCHA_SECRET_KEY', '6Le0WpwtAAAAAEgzK3cvueFaWE53AGxIf_qgRKzK');
+
 // 名義
 define('THICCA_NAME', 'てぃっか');
 define('TECHIKA_NAME', '夢毬てちか');

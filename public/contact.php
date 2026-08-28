@@ -35,6 +35,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = '不正な送信です。';
     }
 
+    // Google reCAPTCHA v3
+    $recaptchaToken = $_POST['recaptcha_token'] ?? '';
+    $recaptchaSecret = RECAPTCHA_SECRET_KEY;
+
+    $verifyResponse = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaToken}");
+    $responseData = json_decode($verifyResponse);
+
+    if (!$responseData->success || $responseData->score < 0.5) {
+        $errors[] = '不正な送信と判定されました。';
+    }
+
     if (empty($errors)) {
         $kindLabels = [
             'illust' => 'イラストの依頼について',
@@ -172,7 +183,8 @@ if (isset($_SESSION['contact_success'])) {
             </ul>
           <?php endif; ?>
 
-          <form action="" method="post">
+          <form action="" method="post" id="contactForm">
+            <input type="hidden" name="recaptcha_token" id="recaptchaToken">
             <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off">
 
             <dl>
@@ -238,6 +250,18 @@ if (isset($_SESSION['contact_success'])) {
 
             <input class="btn-submit" type="submit" name="send" value="送信">
           </form>
+
+          <script>
+          document.getElementById('contactForm').addEventListener('submit', function(e) {
+              e.preventDefault();
+              grecaptcha.ready(function() {
+                  grecaptcha.execute('<?php echo RECAPTCHA_SITE_KEY; ?>', {action: 'submit'}).then(function(token) {
+                      document.getElementById('recaptchaToken').value = token;
+                      e.target.submit();
+                  });
+              });
+          });
+          </script>
 
         <?php endif; ?>
       </div>
