@@ -165,9 +165,23 @@ if (isset($_SESSION['contact_success'])) {
         </div>
       </div>
 
-      <p class="head-text">イラストのご依頼(法人様のみ。個人様は要相談)や配信のお仕事のご相談などございましたら、<br class="pc">下記のフォームからお気軽にお問い合わせください。<br class="pc">※イラストは、個人の方は<a href='https://skeb.jp/@thicca_view' target='_blank' rel='noopener noreferrer'>Skeb</a>からご依頼ください。</p>
-
       <div class="form-area">
+        <p class="head-text">
+          現在、下記のお仕事を受け付けています。<br class="pc">
+          <br class="pc">
+          <b>・イラスト依頼（漫画 / 一枚絵 / ミニキャラ 他）</b><br class="pc">
+          　※ご依頼イラストのテイストについては<a href='gallery'>『イラスト一覧』ページ</a>をご参考いただき、ご要望をお伝えください（「あのイラストみたいに描いて欲しい！」等）。<br class="pc">
+          　※法人様のみ。個人様は要相談。<br class="pc">
+          　※原則、個人の方は<a href='https://skeb.jp/@thicca_view' target='_blank' rel='noopener noreferrer'>Skeb</a>からご依頼ください。<br class="pc">
+          　※Live2Dモデリングは現在受け付けておりません。<br class="pc">
+          <b>・配信・動画への出演（『デュエル・マスターズ』関連 / 『デュエル・マスターズ プレイス』関連 / 他カードゲーム関連 / ストリーマーサーバー(スト鯖)関連 他）</b><br class="pc">
+          　※原則、VTuber『夢毬てちか』としてお受けしますが、場合によっては活動者『てぃっか』としてお受けすることもできます。<br class="pc">
+          <b>・カードゲームイベントへの参加（『デュエル・マスターズ』関連 / 『デュエル・マスターズ プレイス』関連 他）</b><br class="pc">
+          　※活動者『てぃっか』としても、VTuber『夢毬てちか』としてもお受けできます。<br class="pc">
+          　※私が遊べるカードゲームについては<a href='profile#deck'>『プロフィール』ページの『所持デッキ』</a>をご参考ください。<br class="pc">
+          <br class="pc">
+          上記についてのご依頼やご相談などございましたら、下記のフォームからお気軽にお問い合わせください。
+        </p>
         <p class="form-title">お問い合わせフォーム</p>
 
         <?php if ($success): ?>

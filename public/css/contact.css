@@ -126,6 +126,19 @@
   font-size: 15px;
   line-height: 1.8; /* 2行になった際の行間を少し広げる */
 }
+.form-area .head-text {
+  text-align: left;
+}
+.form-area .head-text a {
+  color: #6b8e9e; /* リンクがある出来事だけ色を変える */
+  text-decoration: none;
+  border-bottom: 1px dashed #6b8e9e;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.form-area .head-text a:hover {
+  color: #4d6e7d; /* ホバー時、さらに濃い色に */
+  border-color: #4d6e7d;
+}
 
 /*-------------------------------------------
 スマートフォン
